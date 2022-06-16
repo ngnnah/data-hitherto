@@ -1,4 +1,0 @@
-,,"Building Permit - Technical Details","Version 4.01"
-No.,"5.0 Field Name","Notes / Reference Links -  NOTE: Not all fields/rows will contain details",Table:
-1,BuildingPermitID,"The unique proprietary identifier assigned to each Building Permit entity.",int
-2,"ATTOM ID","This field represents an ATTOM DATA Unique identifier assigned to the property during it's entire life in our databases. Regardless if the records is a future record, active, or inactive property. For commercial properties or attached residentail properties, it's possible to find several different buildingpermitId's  to one attomid and vice versa.",n/a

@@ -1,7 +1,0 @@
-,,"Building Permit Statuses","Version 4.01"
-No.,"Field Name",Description,"Data Type"
-1,BuildingPermitID,"The unique proprietary identifier assigned to each Building Permit entity.",int
-2,BuildingPermitStatus,"The normalized stage of the permit in the building and approval process. These stages vary by jurisdiction.The list of statuses and the corresponding order is available in a separate file. This is best used for understanding of permitting lifecycle, such as building a time-series for economic analysis.",varchar(100)
-3,EffectiveDate,"The date upon which the status in the building_permit_status field is effective. A status can be considered effective till the next status.",date
-,,,
-"CONFIDENTIAL.  This document is Confidential Information to ATTOM Data Solutions for your internal use only.  Do not distribute.",,,

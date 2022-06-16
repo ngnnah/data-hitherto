@@ -1,6 +1,0 @@
-,,"Building Permit Classifiers","Version 4.01"
-No.,"Field Name",Description,"Data Type"
-1,BuildingPermitID,"The unique proprietary identifier assigned to each Building Permit entity.",int
-2,BuildingPermitClassifiers,"The normalized description of service performed, using a proprietary classification method.",varchar(100)
-,,,
-"CONFIDENTIAL.  This document is Confidential Information to ATTOM Data Solutions for your internal use only.  Do not distribute.",,,
