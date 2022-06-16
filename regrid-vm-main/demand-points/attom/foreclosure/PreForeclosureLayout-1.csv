@@ -1,0 +1,115 @@
+,,"5.0 PRE-FORECLOSURE LAYOUT
+(DEFAULT)","Version
+4",,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+No.,"5.0 Field Name","5.0 Description",DataType,"Max
+Length","Edit Details"
+1,TransactionID,"The unique transaction identifier for the transaction.",int,12,"11/2017 - Description updated"
+2,"ATTOM ID","ATTOM Data's Unique parcel identifier.",int,12,"11/2017 - Description updated"
+3,RecordType,"Type of Default Document",varchar,3,"11/2017 - Description updated"
+4,SitusStateCode,"State where the property is situated.",varchar,2,"11/2017 - Description updated"
+5,SitusCounty,"County where the property is situated.",varchar,50,"11/2017 - Description updated"
+6,PropertyJurisdictionName,"Name of the tax jurisdiction.  This is typically the county with some exceptions.  Exceptions are primarily in the New England area where the townships are the taxing authorities.",varchar,50,.
+7,SitusStateCountyFIPS,"State and county FIPS code where subject property is geographically located.",char,5,"11/2017 - Description updated"
+8,ParcelNumberFormatted,"Primary Parcel Number and unique identifier within the county/jurisdiction",varchar,60,"11/2017 - Description updated"
+9,PropertyAddressFull,"123 1/2 N Main St  - Full site address line.",varchar,150,"11/2017 - Description updated"
+10,PropertyAddressHouseNumber,"123 1/2 N Main St  - Site address house number and fraction.",varchar,25,"11/2017 - Description updated"
+11,PropertyAddressStreetDirection,"123 1/2 N Main St  - Site address pre directional.",varchar,10,"11/2017 - Description updated"
+12,PropertyAddressStreetName,"123 1/2 N Main St  - Site address street name.",varchar,100,"11/2017 - Description updated"
+13,PropertyAddressStreetSuffix,"123 1/2 N Main St  - Site address street name suffix.",varchar,25,"11/2017 - Description updated"
+14,PropertyAddressStreetPostDirection,"100 Center NW Pl., Unit 4a - Site address post-directional.",varchar,10,"11/2017 - Description updated"
+15,PropertyAddressUnitPrefix,"100 Center NW Pl., Unit 4a - Site address unit number Prefix.",varchar,20,"11/2017 - Description updated"
+16,PropertyAddressUnitValue,"100 Center NW Pl., Unit 4a - Site address unit number.",varchar,25,"11/2017 - Description updated"
+17,PropertyAddressCity,"Anytown CA 90001-0001 CR0523 - Site address city name.",varchar,50,"11/2017 - Description updated"
+18,PropertyAddressState,"Anytown CA 90001-0001 CR0523 - Site address state.",varchar,2,"11/2017 - Description updated"
+19,PropertyAddressZIP,"Anytown CA 90001-0001 CR0523 - Site address Zip Code.",varchar,5,"11/2017 - Description updated"
+20,PropertyAddressZIP4,"Anytown CA 90001-0001 CR0523 - Site address Zip  Plus 4 code.",varchar,4,"11/2017 - Description updated"
+21,PropertyAddressCRRT,"Anytown CA 90001-0001 CR0523 - Site address Carrier Route.",varchar,4,"11/2017 - Description updated"
+22,PropertyAddressInfoPrivacy,"Indicator of whether is a legal restriction on the property address being used for marketing.",varchar,1,"11/2017 - Description updated"
+23,PropertyLatitude,"Latitude based on Situs Address.",float,10,"11/2017 - Description updated"
+24,PropertyLongitude,"Longitude based on Situs Address.",float,11,"11/2017 - Description updated"
+25,GeoQuality,"Code to indicate the level of quality of the geocodes as determined by the geocoding process.",varchar,20,.
+26,ZonedCodeLocal,"The jurisdiction-specific zoned use value.  Typically codified by the controlling jurisdiction.",varchar,50,.
+27,PropertyUseMuni,"County-specific use code which is used to map the PropertyUseStandardized field.",varchar,10,.
+28,PropertyUseGroup,"General property type description; residential, commercial, other, etc.",varchar,50,.
+29,PropertyUseStandardized,"Standardized value to describe the property's intended land use.  Derived from specific land use information obtained from the Assessor.",varchar,4,"11/2017 - Description updated"
+30,BathCount,"Sum of bathrooms on the property.",decimal,6,"11/2017 - Description updated"
+31,BedroomsCount,"Sum of bedrooms on the property.",int,2,"11/2017 - Description updated"
+32,AreaBuilding,"Total / Gross building square footage.",int,9,"11/2017 - Description updated"
+33,AreaBuildingDefinitionCode,"Details the area described by the AreaBuilding value.",varchar,2,.
+34,AreaLotSF,"Indicates the lot size, in square feet.","decimal(12, 2)",14,.
+35,AreaLotAcres,"Indicates the lot size, in acres.","decimal(18, 7)",20,.
+36,YearBuilt,"Year built of the primary structure.",smallint,4,"11/2017 - Description updated"
+37,YearBuiltEffective,"Adjusted year built based on condition and / or major structural changes of the structure.",smallint,4,"11/2017 - Description updated"
+38,OriginalLoanRecordingDate,"Contains the official filing date for the original loan transaction that is normally stamped or printed on the document in YYYY-MM-DD format.",date,10,.
+39,OriginalLoanInstrumentNumber,"Recorder's Instrument Number of the original loan document.",varchar,50,.
+40,OriginalLoanBookPage,"Book and page of the original loan document.",varchar,15,.
+41,BorrowerNameOwner,"Mortgagee, concatenated name(s) of borrower in default.",varchar,100,.
+42,OriginalLoanLoanNumber,"Original loan account number of loan in default or HOA. If HOA, indicates an HOA notice.",varchar,25,.
+43,OriginalLoanAmount,"Original amount of loan in default.","numeric(19, 4)",19,.
+44,OriginalLoanInterestRate,"Interest rate of the original loan in default.",numeric,5,.
+45,LoanMaturityDate,"Maturity date of loan in default in YYYY-MM-DD format.",date,10,.
+46,LenderNameFullStandardized,"Full lender name, standardized to manage abbreviations, remove misspelling, etc.  Partner field to Lender code.  Can be used for lender matching.",varchar,250,"02/2018 - Description updated"
+47,LenderAddress,"123 1/2 N Main St  - Lender's Full site address line.",varchar,100,"11/2017 - Description updated"
+48,LenderAddressHouseNumber,"123 1/2 N Main St  - Lender's Site address house number and fraction.",varchar,25,"11/2017 - Description updated"
+49,LenderAddressStreetDirection,"123 1/2 N Main St  - Lender's Site address pre directional.",varchar,10,"11/2017 - Description updated"
+50,LenderAddressStreetName,"123 1/2 N Main St  - Lender's Site address street name.",varchar,100,"11/2017 - Description updated"
+51,LenderAddressStreetSuffix,"123 1/2 N Main St  - Lender's Site address street name suffix.",varchar,10,"11/2017 - Description updated"
+52,LenderAddressStreetPostDirection,"100 Center NW Pl., 4a - Lender's Site address post-directional.",varchar,25,"11/2017 - Description updated"
+53,LenderAddressUnitValue,"100 Center NW Pl., 4a - Lender's Site address unit number.",varchar,25,"11/2017 - Description updated"
+54,LenderAddressCity,"Anytown CA 90001-0001 - Lender's Site address city name.",varchar,50,"11/2017 - Description updated"
+55,LenderAddressState,"Anytown CA 90001-0001 - Lender's Site address state.",varchar,2,"11/2017 - Description updated"
+56,LenderAddressZIP,"Anytown CA 90001-0001 - Lender's Site address Zip Code.",varchar,10,"11/2017 - Description updated"
+57,LenderPhone,"Phone number of the lender.",varchar,15,.
+58,ServicerName,"Name of the entity providing servicing for the loan.",varchar,100,.
+59,ServicerAddress,"Address of the entity providing servicing for the loan.",varchar,100,.
+60,ServicerCity,"City of the entity providing servicing for the loan.",varchar,50,.
+61,ServicerState,"State of the entity providing servicing for the loan.",varchar,2,.
+62,ServicerZip,"Zip code of the entity providing servicing for the loan.",varchar,10,.
+63,ServicerPhone,"Phone number of the entity providing servicing for the loan.",varchar,25,.
+64,TrusteeName,"Trustee or attorney handling the foreclosure event.",varchar,150,.
+65,TrusteeAddress,"123 1/2 N Main St  - Trustee's Full address line.",varchar,100,"11/2017 - Description updated"
+66,TrusteeAddressHouseNumber,"123 1/2 N Main St  - Trustee's address house number and fraction.",varchar,25,"11/2017 - Description updated"
+67,TrusteeAddressStreetDirection,"123 1/2 N Main St  - Trustee's address pre directional.",varchar,10,"11/2017 - Description updated"
+68,TrusteeAddressStreetName,"123 1/2 N Main St  - Trustee's address street name.",varchar,100,"11/2017 - Description updated"
+69,TrusteeAddressStreetSuffix,"123 1/2 N Main St  - Trustee's address street name suffix.",varchar,10,"11/2017 - Description updated"
+70,TrusteeAddressStreetPostDirection,"100 Center NW Pl., 4a - Trustee's address post-directional.",varchar,25,"11/2017 - Description updated"
+71,TrusteeAddressUnitValue,"100 Center NW Pl., 4a - Trustee's address unit number.",varchar,25,"11/2017 - Description updated"
+72,TrusteeAddressCity,"Anytown CA 90001-0001 - Trustee's address city name.",varchar,50,"11/2017 - Description updated"
+73,TrusteeAddressState,"Anytown CA 90001-0001 - Trustee's address state.",varchar,2,"11/2017 - Description updated"
+74,TrusteeAddressZIP,"Anytown CA 90001-0001 - Trustee's address Zip Code.",varchar,10,"11/2017 - Description updated"
+75,TrusteePhone,"Trustee's phone number.",varchar,20,"11/2017 - Description updated"
+76,ForeclosureInstrumentDate,"Creation / Signature date on the instrument. Format YYYY-MM-DD.
+Not to be confused with the recording date.",date,10,"11/2017 - Description updated"
+77,ForeclosureRecordingDate,"Date on which the instrument was officially recorded at the county. Format YYYY-MM-DD.",date,10,"11/2017 - Description updated"
+78,ForeclosureInstrumentNumber,"Document number on the instrument.",varchar,50,"11/2017 - Description updated"
+79,ForeclosureBookPage,"Book and page on the instrument.",varchar,50,"11/2017 - Description updated"
+80,CaseNumber,"A unique identifier established by the court in a judicial foreclosure proceeding. It is important to note that this is not a document level identifier, rather it is case level. A case consists of many documents. Thus, to match future documents regarding a case, for example, associating a release or dismissal of the foreclosure complaint, the case number must be matched.",varchar,25,.
+81,TrusteeReferenceNumber,"Unique number assigned by the trustee to track status of foreclosure and auction proceedings.",varchar,20,.
+82,Payment,"Regular monthly payment from related mortgage document","numeric(15, 2)",15,"11/2017 - Description updated"
+83,DefaultAmount,"Default amount noted on the instrument. ","numeric(15, 2)",15,.
+84,PenaltyInterest,"Amount of penalty interest accrued.","numeric(15, 2)",15,.
+85,LoanBalance,"Remaining balance on defaulted loan.","numeric(15, 2)",15,.
+86,JudgmentDate,"Date of final judgment if a lis pendens case in YYYY-MM-DD format.",date,10,.
+87,JudgmentAmount,"Amount of final judgment, including fees and interest.","numeric(19, 4)",19,.
+88,Courthouse,"Name or description of courthouse hosting the public auction.",varchar,50,.
+89,AuctionAddress,"Full unparsed address where the foreclosure auction is to be held.",varchar,300,.
+90,AuctionHouseNumber,"The house number and fraction of the location of the foreclosure auction.",varchar,10,.
+91,AuctionDirection,"The pre directional of the location of the foreclosure auction.",varchar,2,.
+92,AuctionStreetName,"The street name  of the location of the foreclosure auction.               ",varchar,75,.
+93,AuctionSuffix,"The street name suffix of the location of the foreclosure auction.      ",varchar,10,.
+94,AuctionPostDirection,"The post-directional of the location of the foreclosure auction.",varchar,2,.
+95,AuctionUnit,"The unit number of the location of the foreclosure auction.",varchar,6,.
+96,AuctionCity,"The city name of the location of the foreclosure auction.",varchar,50,.
+97,AuctionDate,"Date of the foreclosure auction in YYYY-MM-DD format.",date,10,.
+98,AuctionTime,"The start time of the foreclosure auction.",varchar,20,.
+99,RecordedAuctionOpeningBid,"Anticipated Opening Bid at the scheduled auction","numeric(15, 2)",15,"11/2017 - Description updated"
+100,EstimatedValue,"Estimated value based on ATTOMData's Valuation Model as of the CreateDate below.","numeric(15, 2)",15,"11/2017 - Description updated"
+101,CreateDate,"Date the record was first created in YYYY-MM-DD format.",date,10,.
+102,RecordLastUpdated,"The last update date for the record in YYYY-MM-DD format.",date,10,.
+103,PublicationDate,"The date on which the client's data file was extracted and delivered.
+Not to be associated with a county's publication,fiilng, or posted date.",date,10,.
+,Total,"Total Record Layout Length",,3360,

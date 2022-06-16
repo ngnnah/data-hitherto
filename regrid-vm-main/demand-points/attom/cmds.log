@@ -1,0 +1,97 @@
+Traceback (most recent call last):
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 37, in <module>
+    process_sf(sf)            
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 33, in process_sf
+    for chunk_order, chunk_df in enumerate(chunks):
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/io/json/_json.py", line 793, in __next__
+    lines = list(islice(self.data, self.chunksize))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 313, in read1
+    return self._buffer.read1(size)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 487, in read
+    if not self._read_gzip_header():
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 430, in _read_gzip_header
+    magic = self._fp.read(2)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 96, in read
+    self.file.read(size-self._length+read)
+OSError: [Errno 125] Operation canceled
+Traceback (most recent call last):
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 37, in <module>
+    process_sf(sf)            
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 33, in process_sf
+    for chunk_order, chunk_df in enumerate(chunks):
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/io/json/_json.py", line 793, in __next__
+    lines = list(islice(self.data, self.chunksize))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 313, in read1
+    return self._buffer.read1(size)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 487, in read
+    if not self._read_gzip_header():
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 430, in _read_gzip_header
+    magic = self._fp.read(2)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 96, in read
+    self.file.read(size-self._length+read)
+OSError: [Errno 125] Operation canceled
+Done processing um state which includes 0 counties
+Traceback (most recent call last):
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 39, in <module>
+    process_sf(sf)            
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 33, in process_sf
+    for chunk_order, chunk_df in enumerate(chunks):
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/io/json/_json.py", line 793, in __next__
+    lines = list(islice(self.data, self.chunksize))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 313, in read1
+    return self._buffer.read1(size)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/_compression.py", line 68, in readinto
+    data = self.read(len(byte_view))
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 487, in read
+    if not self._read_gzip_header():
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 430, in _read_gzip_header
+    magic = self._fp.read(2)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/gzip.py", line 96, in read
+    self.file.read(size-self._length+read)
+OSError: [Errno 125] Operation canceled
+Done processing vi state which includes 3 counties
+Done processing ut state which includes 29 counties
+Done processing vt state which includes 14 counties
+Done processing wv state which includes 55 counties
+Done processing wy state which includes 23 counties
+Done processing wa state which includes 39 counties
+Traceback (most recent call last):
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 37, in <module>
+    
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 34, in process_sf
+    process_regrid_chunk(stem, chunk_order, chunk_df[['properties', 'geometry']])
+  File "/home/nhat/demand-points/attom/parse-regrid-temp.py", line 23, in process_regrid_chunk
+    df.to_feather(f'/home/nhat/demand-points/attom/data/regrid-feather-temp/{name}.ftr')
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/util/_decorators.py", line 207, in wrapper
+    return func(*args, **kwargs)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/core/frame.py", line 2681, in to_feather
+    to_feather(self, path, **kwargs)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pandas/io/feather_format.py", line 93, in to_feather
+    feather.write_feather(df, handles.handle, **kwargs)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pyarrow/feather.py", line 154, in write_feather
+    table = Table.from_pandas(df, preserve_index=False)
+  File "pyarrow/table.pxi", line 1782, in pyarrow.lib.Table.from_pandas
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pyarrow/pandas_compat.py", line 607, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pyarrow/pandas_compat.py", line 581, in convert_column
+    raise e
+  File "/home/nhat/anaconda3/envs/py39/lib/python3.9/site-packages/pyarrow/pandas_compat.py", line 575, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 312, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 83, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 122, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'list' object", 'Conversion failed for column property_name with type object')
+Done processing wi state which includes 72 counties
+Exit status: 4
+ ========= STARTING @ 2022-06-03@07:19  ========= 
+ ========= COMPLETE @ 2022-06-03@09:29  ========= 

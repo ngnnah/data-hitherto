@@ -1,0 +1,411 @@
+,,"Tax Assessor Layout - Technical Details","Version
+16",
+No.,"5.0 Field Name","Notes / Reference Links -  NOTE: Not all fields/rows will contain details",Table:,"SQL Server
+Storage Size"
+1,"ATTOM ID","This field represents an ATTOM DATA Unique identifier assigned to the property during it's entire life in our databases.  
+Regardless if the records is a future record, active, or inactive property.",n/a,4
+2,SitusStateCode,"No further details",n/a,2
+3,SitusCounty,"No further details",n/a,50
+4,PropertyJurisdictionName,"Generally populated with the county name throughout the nation.  However, in many New England Counties (i.e. CT, MA, NH), there is no ""County Government"" or ""County Taxing Authority/Assesor"".  
+Instead, property values and taxes are managed at the local township/municipality level. 
+In such counties, this field will be populated with that ""Towns/Muni"" name instead of the county name.",n/a,50
+5,SitusStateCountyFIPS,"A five digit code where the first two digits represent the state, and the last three digits represent the county within that state.  
+i.e. 06037 where: 
+ - - 06 = CA and 
+ - - 037 = Los Angeles
+County numbers have been assigned in odd sequence - 1,3,5, etc.. this allows for future expansion as new counties are created.  Recent examples include: 
+ - Miami-Dade FL (renamed from Dade County) = 12086
+ - Broomfield CO (previously Boulder, Adams, Jefferson, and Weld Counties) = 08014",n/a,5
+6,CombinedStatisticalArea,https://www.census.gov/geo/reference/gtc/gtc_cbsa.html,,100
+7,CBSAName,,,100
+8,CBSACode,,,5
+9,MSAName,https://www.census.gov/programs-surveys/metro-micro/about.html,,100
+10,MSACode,,,5
+11,MetropolitanDivision,,,100
+12,MinorCivilDivisionName,https://www.census.gov/geo/reference/gtc/gtc_cousub.html,,100
+13,MinorCivilDivisionCode,,,5
+14,NeighborhoodCode,"Field is populated with a county provided code. A cross reference table is not available.  
+When queried, neighboring properties will contain the same code because they are all in the same ""neighborhood"".",,10
+15,CensusFIPSPlaceCode,"https://www.census.gov/geo/reference/gtc/gtc_ct.html
+https://www.census.gov/geo/reference/terms.html",,5
+16,CensusTract,,,4
+17,CensusBlockGroup,,,4
+18,CensusBlock,,,4
+19,ParcelNumberRaw,"You can use this field as a Unique Identifier at the county level.  Keep in mind that the number provided may or may not be in the same format which the county provides in their web site, such as dashes.
+Additionally, although this field is often populated with numbers, it is recommended that you load this as TEXT.  The parcel numbers may also include leading alpha, leading zeros, periods, dashes, and other special characters.",,60
+20,ParcelNumberFormatted," - do not use - Though there may be data in this field, it's population is inconsistent and may not always be current or match the ParcelNumberFormatted values.",,60
+21,ParcelNumberYearAdded,"Where available.  Older parcels may not have any values as this was before the data was being collected by the county or ATTOM Data.",,2
+22,ParcelNumberAlternate,"In some counties, there may be multi-identifiers for a parcel, i.e. Acct#, APN, ParcelID.  When a count provide multiple fields, the primary is provided in the ParcelNumberRaw field above, while the second reference number is provided here.  This is helpful when end users may have one or the other reference number.",,60
+23,ParcelMapBook,"Not to be confused with the assessor maps, which follow a number format that is related to the Parcel Number.
+Example: 
+  - Parcel 400-123-01 will be on 
+   - - MAP BOOK 400
+   - - MAP PAGE 123",,10
+24,ParcelMapPage,,,10
+25,ParcelNumberYearChange,"Only populated when the parcel has gone through a parcel number change.",,2
+26,ParcelNumberPrevious,"Counties will generally change parcel numbers under the following conditions:
+- Changing to newer software, causing all parcels to be renumbered
+- Running out of Parcel Numbers, needing to renumber the entire county
+- Subdivision where one or more parcels are split or combined, thus a need to renumber
+Some parcel number changes are localized to a small area like a city or even a few blocks.  Other times, it could be the entire county.",,60
+27,ParcelAccountNumber,"Number may or may not be the same as the Parcel Number.  Generally associated to the taxing of the property.",,35
+28,PropertyAddressFull,"No further details",,150
+29,PropertyAddressHouseNumber,"No further details",,25
+30,PropertyAddressStreetDirection,"No further details",,10
+31,PropertyAddressStreetName,"No further details",,100
+32,PropertyAddressStreetSuffix,"No further details",,25
+33,PropertyAddressStreetPostDirection,"No further details",,10
+34,PropertyAddressUnitPrefix,"No further details",,20
+35,PropertyAddressUnitValue,"No further details",,25
+36,PropertyAddressCity,"No further details",,50
+37,PropertyAddressState,"No further details",,2
+38,PropertyAddressZIP,"No further details",,5
+39,PropertyAddressZIP4,"No further details",,4
+40,PropertyAddressCRRT,"No further details",,4
+41,PropertyAddressInfoPrivacy," - do not use - No longer supported - No further details",,2
+42,CongressionalDistrictHouse,"No further details",,2
+43,PropertyLatitude,"No further details",,12
+44,PropertyLongitude,"No further details",,12
+45,GeoQuality,"No further details",,20
+46,LegalDescription,"Depending on the county's standards, this field may contain block and lot data, tract information, subdivision and/or phase, metes and bounds, and other information used to describe the property and it's location.  This is a free text field with no particular format or standards as this is a direct capture from the county data.",,255
+47,LegalRange,"No further details",,35
+48,LegalTownship,"No further details",,35
+49,LegalSection,"No further details",,35
+50,LegalQuarter,"No further details",,4
+51,LegalQuarterQuarter,"No further details",,4
+52,LegalSubdivision,"No further details",,50
+53,LegalPhase,"No further details",,10
+54,LegalTractNumber,"No further details",,10
+55,LegalBlock1,"No further details",,10
+56,LegalBlock2,"No further details",,10
+" ",LegalLotNumber1,"No further details",,10
+58,LegalLotNumber2,"No further details",,10
+59,LegalLotNumber3,"No further details",,10
+60,LegalUnit,"No further details",,10
+61,PartyOwner1NameFull,"Contains the updated owner name based on the most current between the following:
+- Assessor Tax Roll Update  ... vs ..   - Deed Update
+
+The population of Owner Names 1, 2, 3, and 4 will vary, depending on the last name.
+Example1:
+SMITH JOHN L & MARY M will be populated as follows:
+Party Owner 1 fields: JOHN L SMITH
+Party Owner 2 fields: MARY M SMITH
+
+Example 2:
+SMITH JOHN L & MARY M, JONES MICHAEL T & CAROL S will be populated as follows:
+Party Owner 1 fields: JOHN L SMITH
+Party Owner 2 fields: MARY M SMITH
+Party Owner 3 fields: MICHAEL T JONES
+Party Owner 4 fields: CAROL S JONES
+
+Example 3:
+SMITH JOHN L, JONES CAROL S will be populated as follows:
+Party Owner 1 fields: JOHN L SMITH
+Party Owner 2 fields: 
+Party Owner 3 fields: CAROL S JONES
+Party Owner 4 fields: 
+
+Example 4:
+SMITH JOHN L, JONES MICHAEL T & CAROL S will be populated as follows:
+Party Owner 1 fields: JOHN L SMITH
+Party Owner 2 fields: 
+Party Owner 3 fields: MICHAEL T JONES
+Party Owner 4 fields: CAROL S JONES",,150
+62,PartyOwner1NameFirst,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+63,PartyOwner1NameMiddle,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+64,PartyOwner1NameLast,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+65,PartyOwner1NameSuffix,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+66,TrustDescription,"No further details",,50
+67,CompanyFlag,"No further details",,1
+68,PartyOwner2NameFull,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,150
+69,PartyOwner2NameFirst,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+70,PartyOwner2NameMiddle,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+71,PartyOwner2NameLast,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+72,PartyOwner2NameSuffix,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+73,OwnerTypeDescription1,"No further details",,50
+74,OwnershipVestingRelationCode,"No further details",,3
+75,PartyOwner3NameFull,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,150
+76,PartyOwner3NameFirst,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+77,PartyOwner3NameMiddle,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+78,PartyOwner3NameLast,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+79,PartyOwner3NameSuffix,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+80,PartyOwner4NameFull,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,150
+81,PartyOwner4NameFirst,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+82,PartyOwner4NameMiddle,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,20
+83,PartyOwner4NameLast,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,50
+84,PartyOwner4NameSuffix,"See PartyOwner1NameFull details - fields will be parsed into their respective fields using the same format",,5
+85,OwnerTypeDescription2,"No further details",,50
+86,ContactOwnerMailingCounty,"No further details",,50
+87,ContactOwnerMailingFIPS,"No further details",,5
+88,ContactOwnerMailAddressFull,"No further details",,100
+89,ContactOwnerMailAddressHouseNumber,"No further details",,20
+90,ContactOwnerMailAddressStreetDirection,"No further details",,10
+91,ContactOwnerMailAddressStreetName,"No further details",,100
+92,ContactOwnerMailAddressStreetSuffix,"No further details",,25
+93,ContactOwnerMailAddressStreetPostDirection,"No further details",,10
+94,ContactOwnerMailAddressUnitPrefix,"No further details",,20
+95,ContactOwnerMailAddressUnit,"No further details",,20
+96,ContactOwnerMailAddressCity,"No further details",,50
+97,ContactOwnerMailAddressState,"No further details",,2
+98,ContactOwnerMailAddressZIP,"No further details",,5
+99,ContactOwnerMailAddressZIP4,"No further details",,4
+100,ContactOwnerMailAddressCRRT,"No further details",,4
+101,ContactOwnerMailAddressInfoFormat,"No further details",,50
+102,ContactOwnerMailInfoPrivacy," - do not use - No longer supported - No further details",,1
+103,StatusOwnerOccupiedFlag,"No further details",,1
+104,DeedOwner1NameFull,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,150
+105,DeedOwner1NameFirst,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+106,DeedOwner1NameMiddle,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+107,DeedOwner1NameLast,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+108,DeedOwner1NameSuffix,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+109,DeedOwner2NameFull,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,150
+110,DeedOwner2NameFirst,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+111,DeedOwner2NameMiddle,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+112,DeedOwner2NameLast,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+113,DeedOwner2NameSuffix,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+114,DeedOwner3NameFull,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,150
+115,DeedOwner3NameFirst,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+116,DeedOwner3NameMiddle,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+117,DeedOwner3NameLast,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+118,DeedOwner3NameSuffix,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+119,DeedOwner4NameFull,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,150
+120,DeedOwner4NameFirst,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+121,DeedOwner4NameMiddle,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+122,DeedOwner4NameLast,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,50
+123,DeedOwner4NameSuffix,"Contains the respective owner name field if there has been a recent sale (after the Tax Roll through date)
+Will be blank if there is no recent ownership transfer",,20
+124,TaxYearAssessed,"No further details",,2
+125,TaxAssessedValueTotal,"No further details",,4
+126,TaxAssessedValueImprovements,"No further details",,4
+127,TaxAssessedValueLand,"No further details",,4
+128,TaxAssessedImprovementsPerc,"No further details",,5
+129,PreviousAssessedValue,"No further details",,4
+130,TaxMarketValueYear,"No further details",,2
+131,TaxMarketValueTotal,"No further details",,4
+132,TaxMarketValueImprovements,"No further details",,4
+133,TaxMarketValueLand,"No further details",,4
+134,TaxMarketImprovementsPerc,"No further details",,5
+135,TaxFiscalYear,"No further details",,2
+136,TaxRateArea,"No further details",,20
+137,TaxBilledAmount,"No further details",,4
+138,TaxDelinquentYear,"No further details",,2
+139,LastAssessorTaxRollUpdate,"No further details",,3
+140,AssrLastUpdated,"No further details",,4
+141,TaxExemptionHomeownerFlag,"No further details",,1
+142,TaxExemptionDisabledFlag,"No further details",,1
+143,TaxExemptionSeniorFlag,"No further details",,1
+144,TaxExemptionVeteranFlag,"No further details",,1
+145,TaxExemptionWidowFlag,"No further details",,1
+146,TaxExemptionAdditional,"No further details",,10
+147,YearBuilt,"No further details",,2
+148,YearBuiltEffective,"No further details",,2
+149,ZonedCodeLocal,"No further details",,50
+150,PropertyUseMuni,"No further details",,10
+151,PropertyUseGroup,"No further details",,50
+152,PropertyUseStandardized,"No further details",,4
+153,AssessorLastSaleDate,"Contains the last (most current) ARMS LENGTH Sale Date",,4
+154,AssessorLastSaleAmount,"Contains the last (most current) ARMS LENGTH Sale Amount",,4
+155,AssessorPriorSaleDate,"No further details",,4
+156,AssessorPriorSaleAmount,"No further details",,4
+157,LastOwnershipTransferDate,"Contains the LAST OWNERSHIP CHANGE DATE, regardless of it being ARMS-LENGTH or NON-ARMS-LENGTH in nature",,4
+158,LastOwnershipTransferDocumentNumber,"Contains the LAST OWNERSHIP CHANGES DOCUMENT NUMBER, regardless of it being ARMS-LENGTH or NON-ARMS-LENGTH in nature",,20
+159,LastOwnershipTransferTransactionID,"Contains the LAST OWNERSHIP CHANGE TRANSACTION ID, regardless of it being ARMS-LENGTH or NON-ARMS-LENGTH in nature",,4
+160,DeedLastSaleDocumentBook,"Contains the LAST ARMS-LENGTH DOCUMENT BOOK",,15
+161,DeedLastSaleDocumentPage,"Contains the LAST ARMS-LENGTH DOCUMENT PAGE",,15
+162,DeedLastDocumentNumber,"Contains the LAST ARMS-LENGTH DOCUMENT NUMBER",,25
+163,DeedLastSaleDate,"Contains the LAST ARMS-LENGTH DOCUMENT SALE DATE",,4
+164,DeedLastSalePrice,"Contains the LAST ARMS-LENGTH DOCUMENT SALE PRICE",,4
+165,DeedLastSaleTransactionID,"Contains the LAST ARMS-LENGTH DOCUMENT TRANSACION ID",,4
+166,AreaBuilding,"No further details",,4
+167,AreaBuildingDefinitionCode,"No further details",,2
+168,AreaGross,"No further details",,4
+169,Area1stFloor,"No further details",,4
+170,Area2ndFloor,"No further details",,4
+171,AreaUpperFloors,"No further details",,4
+172,AreaLotAcres,"No further details",,9
+173,AreaLotSF,"No further details",,9
+174,AreaLotDepth,"No further details",,4
+175,AreaLotWidth,"No further details",,4
+176,RoomsAtticArea,"No further details",,4
+177,RoomsAtticFlag,"No further details",,2
+178,RoomsBasementArea,"No further details",,4
+179,RoomsBasementAreaFinished,"No further details",,4
+180,RoomsBasementAreaUnfinished,"No further details",,4
+181,ParkingGarage,"No further details",,3
+182,ParkingGarageArea,"No further details",,4
+183,ParkingCarport,"0 = No
+1 = Yes",,3
+184,ParkingCarportArea,"No further details",,4
+185,HVACCoolingDetail,"No further details",,3
+186,HVACHeatingDetail,"No further details",,3
+187,HVACHeatingFuel,"No further details",,3
+188,UtilitiesSewageUsage,"No further details",,3
+189,UtilitiesWaterSource,"No further details",,3
+190,UtilitiesMobileHomeHookupFlag,"No further details",,2
+191,Foundation,"No further details",,3
+192,Construction,"No further details",,3
+193,InteriorStructure,"No further details",,3
+194,PlumbingFixturesCount,"No further details",,2
+195,ConstructionFireResistanceClass,"No further details",,3
+196,SafetyFireSprinklersFlag,"No further details",,2
+197,FlooringMaterialPrimary,"No further details",,2
+198,BathCount,"BathCount.. values may include any of the following:
+     -   Bath count provided by the county / source with no altering.. thus 4 or 4.25 or 4.5
+     -   Bath count derived from county / source thus 3 full plus 2 half = 5",,5
+199,BathPartialCount,"BathPartialCount.. values represent a whole number for each room, regardless of the number of fixtures in that room… thus:
+     -   one ¼ bath and
+     -   two ½ baths would equal
+     -   THREE total rooms… (one + two = THREE)
+          (the fraction is not summed.  It is the ROOM COUNTER that is summed)",,4
+200,BedroomsCount,"No further details",,4
+201,RoomsCount,"No further details",,4
+202,StoriesCount,"No further details",,2
+203,UnitsCount,"No further details",,4
+204,RoomsBonusRoomFlag,"No further details",,2
+205,RoomsBreakfastNookFlag,"No further details",,2
+206,RoomsCellarFlag,"No further details",,2
+207,RoomsCellarWineFlag,"No further details",,2
+208,RoomsExerciseFlag,"No further details",,2
+209,RoomsFamilyCode,"No further details",,4
+210,RoomsGameFlag,"No further details",,2
+211,RoomsGreatFlag,"No further details",,2
+212,RoomsHobbyFlag,"No further details",,2
+213,RoomsLaundryFlag,"No further details",,2
+214,RoomsMediaFlag,"No further details",,2
+215,RoomsMudFlag,"No further details",,2
+216,RoomsOfficeArea,"No further details",,4
+217,RoomsOfficeFlag,"No further details",,2
+218,RoomsSafeRoomFlag,"No further details",,2
+219,RoomsSittingFlag,"No further details",,2
+220,RoomsStormShelter,"No further details",,2
+221,RoomsStudyFlag,"No further details",,2
+222,RoomsSunroomFlag,"No further details",,2
+223,RoomsUtilityArea,"No further details",,4
+224,RoomsUtilityCode,"No further details",,4
+225,Fireplace,"No further details",,2
+226,FireplaceCount,"No further details",,2
+227,AccessabilityElevatorFlag,"No further details",,2
+228,AccessabilityHandicapFlag,"No further details",,2
+229,EscalatorFlag,"No further details",,2
+230,CentralVacuumFlag,"No further details",,2
+231,ContentIntercomFlag,"No further details",,2
+232,ContentSoundSystemFlag,"No further details",,2
+233,WetBarFlag,"No further details",,2
+234,SecurityAlarmFlag,"No further details",,2
+235,StructureStyle,"No further details",,2
+236,Exterior1Code,"No further details",,3
+237,RoofMaterial,"No further details",,3
+238,RoofConstruction,"No further details",,3
+239,ContentStormShutterFlag,"No further details",,2
+240,ContentOverheadDoorFlag,"No further details",,2
+241,ViewDescription,"No further details",,3
+242,PorchCode,"No further details",,3
+243,PorchArea,"No further details",,4
+244,PatioArea,"No further details",,4
+245,DeckFlag,"No further details",,2
+246,DeckArea,"No further details",,4
+247,FeatureBalconyFlag,"No further details",,2
+248,BalconyArea,"No further details",,4
+249,BreezewayFlag,"No further details",,2
+250,ParkingRVParkingFlag,"No further details",,2
+251,ParkingSpaceCount,"No further details",,2
+252,DrivewayArea,"No further details",,4
+253,DrivewayMaterial,"No further details",,2
+254,Pool,"No further details",,2
+255,PoolArea,"No further details",,4
+256,ContentSaunaFlag,"No further details",,2
+257,TopographyCode,"No further details",,2
+258,FenceCode,"No further details",,2
+259,FenceArea,"No further details",,4
+260,CourtyardFlag,"No further details",,2
+261,CourtyardArea,"No further details",,4
+262,ArborPergolaFlag,"No further details",,2
+263,SprinklersFlag,"No further details",,2
+264,GolfCourseGreenFlag,"No further details",,2
+265,TennisCourtFlag,"No further details",,2
+266,SportsCourtFlag,"No further details",,2
+267,ArenaFlag,"No further details",,1
+268,WaterFeatureFlag,"No further details",,2
+269,PondFlag,"No further details",,2
+270,BoatLiftFlag,"No further details",,2
+271,BuildingsCount,"No further details",,4
+272,BathHouseArea,"No further details",,4
+273,BathHouseFlag,"No further details",,2
+274,BoatAccessFlag,"No further details",,2
+275,BoatHouseArea,"No further details",,4
+276,BoatHouseFlag,"No further details",,2
+277,CabinArea,"No further details",,4
+278,CabinFlag,"No further details",,2
+279,CanopyArea,"No further details",,4
+280,CanopyFlag,"No further details",,2
+281,GazeboArea,"No further details",,4
+282,GazeboFlag,"No further details",,2
+283,GraineryArea,"No further details",,4
+284,GraineryFlag,"No further details",,2
+285,GreenHouseArea,"No further details",,4
+286,GreenHouseFlag,"No further details",,2
+287,GuestHouseArea,"No further details",,4
+288,GuestHouseFlag,"No further details",,2
+289,KennelArea,"No further details",,4
+290,KennelFlag,"No further details",,2
+291,LeanToArea,"No further details",,4
+292,LeanToFlag,"No further details",,2
+293,LoadingPlatformArea,"No further details",,4
+294,LoadingPlatformFlag,"No further details",,2
+295,MilkHouseArea,"No further details",,4
+296,MilkHouseFlag,"No further details",,2
+297,OutdoorKitchenFireplaceFlag,"No further details",,2
+298,PoolHouseArea,"No further details",,4
+299,PoolHouseFlag,"No further details",,2
+300,PoultryHouseArea,"No further details",,4
+301,PoultryHouseFlag,"No further details",,2
+302,QuonsetArea,"No further details",,4
+303,QuonsetFlag,"No further details",,2
+304,ShedArea,"No further details",,4
+305,ShedCode,"No further details",,4
+306,SiloArea,"No further details",,4
+307,SiloFlag,"No further details",,2
+308,StableArea,"No further details",,4
+309,StableFlag,"No further details",,2
+310,StorageBuildingArea,"No further details",,4
+311,StorageBuildingFlag,"No further details",,2
+312,UtilityBuildingArea,"No further details",,4
+313,UtilityBuildingFlag,"No further details",,2
+314,PoleStructureArea,"No further details",,4
+315,PoleStructureFlag,"No further details",,2
+316,CommunityRecRoomFlag,"No further details",,2
+317,PublicationDate,"No further details",,4
+318,ParcelShellRecord,"Shell records are created in the assessor file when a recording for a new parcel is received.  The shell record is a place-holder in the assessor file to correspond / link to the recorded event.  
+Due to assessor files being provided once per year, most recordings are provided for new parcels prior to the assessor providing the newer parcel in the assessor file.  Often times, the new record is not available until the following year.  In some cases, a county may take two or more years before providing the newer parcels in the assessor file.
+
+Example:
+11/1/2018 – Assessor Roll is released to all clients.
+Parcel 100-100 is for a five acre lot.
+1/5/2019 - ABC Builder acquires the property and splits the parcel into 10 separate parcels and begins to build these parcels.
+6/1/2019 – ABC Builder has completed construction on these properties and begins to sell them… 
+	These new properties will now have newer parcel numbers.. example:
+		100-101
+		100-102
+		100-103.. etc.. 
+	However, these newer parcel numbers are not yet part of the current assessor’s tax roll (which was released in 2018)
+	It is at this point, when the recordings begin to come in, that the shell records in the assessor files, allowing end users to link the recorder data to an assessor record.",,2
+,,,,5629

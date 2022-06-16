@@ -1,0 +1,429 @@
+﻿NAICS_CODE,TOP_CATEGORY,SUB_CATEGORY,TOTAL_POIS,ALL_POIS,OPENED_ON_PERCENT,CLOSED_ON_PERCENT,PHONE_FILL_RATE,OPEN_FILL_RATE
+485113,Urban Transit Systems,Bus and Other Motor Vehicle Transit Systems,644960,7952451,0.000000,0.000185,0.001836,0.000643
+722511,Restaurants and Other Eating Places,Full-Service Restaurants,504921,7952451,0.009392,0.254830,0.867082,0.445690
+813110,Religious Organizations,Religious Organizations,403330,7952451,0.000005,0.025716,0.577227,0.051300
+621111,Offices of Physicians,Offices of Physicians (except Mental Health Specialists),369929,7952451,0.005069,0.099587,0.432697,0.284006
+722513,Restaurants and Other Eating Places,Limited-Service Restaurants,235794,7952451,0.033059,0.116670,0.849797,0.727754
+522110,Depository Credit Intermediation,Commercial Banking,223291,7952451,0.019844,0.046639,0.237923,0.448366
+812112,Personal Care Services,Beauty Salons,193108,7952451,0.007814,0.147032,0.884376,0.546161
+621210,Offices of Dentists,Offices of Dentists,167036,7952451,0.002275,0.075648,0.655499,0.570931
+524210,"Agencies, Brokerages, and Other Insurance Related Activities",Insurance Agencies and Brokerages,153186,7952451,0.017619,0.073310,0.821315,0.589564
+447110,Gasoline Stations,Gasoline Stations with Convenience Stores,150965,7952451,0.053204,0.071288,0.470010,0.393641
+722515,Restaurants and Other Eating Places,Snack and Nonalcoholic Beverage Bars,150252,7952451,0.023401,0.219418,0.765208,0.550382
+812220,Death Care Services,Cemeteries and Crematories,141725,7952451,0.000000,0.000226,0.005144,0.001750
+811111,Automotive Repair and Maintenance,General Automotive Repair,135187,7952451,0.003706,0.156014,0.876882,0.514680
+712190,"Museums, Historical Sites, and Similar Institutions",Nature Parks and Other Similar Institutions,132091,7952451,0.000000,0.005678,0.099560,0.045628
+611110,Elementary and Secondary Schools,Elementary and Secondary Schools,126640,7952451,0.000276,0.000940,0.533078,0.003293
+812199,Personal Care Services,Other Personal Care Services,116740,7952451,0.005011,0.153598,0.866147,0.589943
+713940,Other Amusement and Recreation Industries,Fitness and Recreational Sports Centers,112005,7952451,0.017106,0.146279,0.807223,0.466113
+445110,Grocery Stores,Supermarkets and Other Grocery (except Convenience) Stores,101346,7952451,0.019350,0.155260,0.693732,0.417293
+624410,Child Day Care Services,Child Day Care Services,100119,7952451,0.004255,0.003016,0.679322,0.048952
+522390,Activities Related to Credit Intermediation,Other Activities Related to Credit Intermediation,84538,7952451,0.102853,0.038775,0.270375,0.971303
+441310,"Automotive Parts, Accessories, and Tire Stores",Automotive Parts and Accessories Stores,83689,7952451,0.011567,0.096715,0.860591,0.680735
+446110,Health and Personal Care Stores,Pharmacies and Drug Stores,82833,7952451,0.002825,0.062391,0.540171,0.547511
+722410,Drinking Places (Alcoholic Beverages),Drinking Places (Alcoholic Beverages),75495,7952451,0.000371,0.267461,0.822425,0.428346
+531210,Offices of Real Estate Agents and Brokers,Offices of Real Estate Agents and Brokers,75034,7952451,0.007916,0.040622,0.770904,0.223592
+621330,Offices of Other Health Practitioners,Offices of Mental Health Practitioners (except Physicians),70711,7952451,0.000000,0.060019,0.733959,0.382699
+721110,Traveler Accommodation,Hotels (except Casino Hotels) and Motels,70576,7952451,0.035593,0.062273,0.660550,0.601196
+812113,Personal Care Services,Nail Salons,66354,7952451,0.000347,0.106866,0.909606,0.527881
+811121,Automotive Repair and Maintenance,"Automotive Body, Paint, and Interior Repair and Maintenance",62154,7952451,0.002687,0.124916,0.883837,0.483686
+445120,Grocery Stores,Convenience Stores,61217,7952451,0.045167,0.139291,0.526373,0.267703
+448120,Clothing Stores,Women's Clothing Stores,60503,7952451,0.016842,0.256384,0.865759,0.553146
+621310,Offices of Other Health Practitioners,Offices of Chiropractors,57919,7952451,0.003194,0.097464,0.724322,0.443637
+517312,Wired and Wireless Telecommunications Carriers,Wireless Telecommunications Carriers (except Satellite),57793,7952451,0.126988,0.235426,0.787068,0.700742
+452319,"General Merchandise Stores, including Warehouse Clubs and Supercenters",All Other General Merchandise Stores,54637,7952451,0.044018,0.061039,0.469407,0.838296
+443142,Electronics and Appliance Stores,Electronics Stores,53441,7952451,0.040980,0.107371,0.762748,0.572276
+442110,Furniture Stores,Furniture Stores,50595,7952451,0.029351,0.217373,0.872972,0.589110
+447190,Gasoline Stations,Other Gasoline Stations,48475,7952451,0.000000,0.000000,0.035585,0.867478
+812111,Personal Care Services,Barber Shops,47132,7952451,0.002334,0.139969,0.906221,0.478932
+441120,Automobile Dealers,Used Car Dealers,46385,7952451,0.001294,0.211900,0.847170,0.434429
+522320,Activities Related to Credit Intermediation,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",46353,7952451,0.080211,0.015447,0.065195,0.643540
+446130,Health and Personal Care Stores,Optical Goods Stores,45408,7952451,0.005638,0.101480,0.608197,0.545565
+451110,"Sporting Goods, Hobby, and Musical Instrument Stores",Sporting Goods Stores,44639,7952451,0.016264,0.186675,0.855373,0.551961
+453310,Used Merchandise Stores,Used Merchandise Stores,44277,7952451,0.007679,0.239470,0.862999,0.465727
+541213,"Accounting, Tax Preparation, Bookkeeping, and Payroll Services",Tax Preparation Services,44183,7952451,0.010773,0.056085,0.824820,0.589344
+453910,Other Miscellaneous Store Retailers,Pet and Pet Supplies Stores,43084,7952451,0.004967,0.151913,0.909108,0.589198
+523930,Other Financial Investment Activities,Investment Advice,41131,7952451,0.002285,0.047823,0.739758,0.337799
+541940,"Other Professional, Scientific, and Technical Services",Veterinary Services,40599,7952451,0.008695,0.072342,0.682899,0.521712
+532282,Consumer Goods Rental,Video Tape and Disc Rental,40543,7952451,0.011371,0.082505,0.176331,0.067040
+445310,"Beer, Wine, and Liquor Stores","Beer, Wine, and Liquor Stores",37348,7952451,0.009452,0.129913,0.875094,0.432152
+448310,"Jewelry, Luggage, and Leather Goods Stores",Jewelry Stores,34445,7952451,0.006532,0.172507,0.885441,0.594948
+444130,Building Material and Supplies Dealers,Hardware Stores,34156,7952451,0.034401,0.087832,0.874546,0.673732
+611620,Other Schools and Instruction,Sports and Recreation Instruction,34145,7952451,0.000469,0.121775,0.824982,0.473803
+311811,Bakeries and Tortilla Manufacturing,Retail Bakeries,34040,7952451,0.005670,0.259019,0.873678,0.446622
+453110,Florists,Florists,33887,7952451,0.000000,0.192699,0.871514,0.536459
+621340,Offices of Other Health Practitioners,"Offices of Physical, Occupational and Speech Therapists, and Audiologists",33314,7952451,0.012607,0.068890,0.747464,0.544006
+531120,Lessors of Real Estate,Malls,32507,7952451,0.000215,0.000584,0.047067,0.012274
+491110,Postal Service,Postal Service,31383,7952451,0.003633,0.083835,0.959755,0.995666
+922160,"Justice, Public Order, and Safety Activities",Fire Protection,30982,7952451,0.000000,0.000194,0.574850,0.999968
+621399,Offices of Other Health Practitioners,Offices of All Other Miscellaneous Health Practitioners,30824,7952451,0.010933,0.090838,0.756326,0.625487
+623110,Nursing Care Facilities (Skilled Nursing Facilities),Nursing Care Facilities (Skilled Nursing Facilities),29478,7952451,0.000984,0.045831,0.552208,0.139901
+621610,Home Health Care Services,Home Health Care Services,28812,7952451,0.008295,0.073546,0.809350,0.311641
+5416,"Management, Scientific, and Technical Consulting Services",,28805,7952451,0.000000,0.058566,0.759694,0.280125
+811192,Automotive Repair and Maintenance,Car Washes,28642,7952451,0.007821,0.117380,0.799804,0.370365
+713990,Other Amusement and Recreation Industries,All Other Amusement and Recreation Industries,27126,7952451,0.003465,0.125452,0.714296,0.397552
+448210,Shoe Stores,Shoe Stores,26452,7952451,0.077499,0.202934,0.867571,0.710570
+453991,Other Miscellaneous Store Retailers,Tobacco Stores,26248,7952451,0.000457,0.210873,0.862580,0.545032
+238220,Building Equipment Contractors,"Plumbing, Heating, and Air-Conditioning Contractors",25929,7952451,0.002545,0.041884,0.899610,0.206294
+446120,Health and Personal Care Stores,"Cosmetics, Beauty Supplies, and Perfume Stores",25922,7952451,0.044557,0.120593,0.723632,0.595826
+812910,Other Personal Services,Pet Care (except Veterinary) Services,25321,7952451,0.003594,0.170530,0.912128,0.349552
+448140,Clothing Stores,Family Clothing Stores,24781,7952451,0.038538,0.107946,0.809168,0.785642
+444220,Lawn and Garden Equipment and Supplies Stores,"Nursery, Garden Center, and Farm Supply Stores",24277,7952451,0.000494,0.152943,0.898175,0.357911
+442299,Home Furnishings Stores,All Other Home Furnishings Stores,24139,7952451,0.009238,0.110485,0.893699,0.537512
+622110,General Medical and Surgical Hospitals,General Medical and Surgical Hospitals,23620,7952451,0.016850,0.062235,0.472481,0.232091
+453220,"Office Supplies, Stationery, and Gift Stores","Gift, Novelty, and Souvenir Stores",23272,7952451,0.004899,0.172697,0.855105,0.580139
+531130,Lessors of Real Estate,Lessors of Miniwarehouses and Self-Storage Units,22866,7952451,0.076970,0.051692,0.762573,0.549156
+441110,Automobile Dealers,New Car Dealers,22276,7952451,0.087269,0.033758,0.449991,0.859445
+522310,Activities Related to Credit Intermediation,Mortgage and Nonmortgage Loan Brokers,21065,7952451,0.004652,0.064135,0.706717,0.377973
+488410,Support Activities for Road Transportation,Motor Vehicle Towing,20949,7952451,0.000000,0.090649,0.864671,0.162872
+492110,Couriers and Express Delivery Services,Couriers and Express Delivery Services,20896,7952451,0.027613,0.134715,0.737557,0.616434
+6233,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,,20640,7952451,0.000000,0.054651,0.720882,0.192975
+423730,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers,19616,7952451,0.002753,0.024929,0.900591,0.256984
+812990,Other Personal Services,All Other Personal Services,19551,7952451,0.000460,0.142959,0.876477,0.506726
+3231,Printing and Related Support Activities,,18854,7952451,0.000000,0.069959,0.861780,0.332768
+451120,"Sporting Goods, Hobby, and Musical Instrument Stores","Hobby, Toy, and Game Stores",18513,7952451,0.008427,0.183925,0.900124,0.537298
+713910,Other Amusement and Recreation Industries,Golf Courses and Country Clubs,18512,7952451,0.000000,0.073520,0.663840,0.199870
+811122,Automotive Repair and Maintenance,Automotive Glass Replacement Shops,18462,7952451,0.001517,0.100693,0.851154,0.569548
+562211,Waste Treatment and Disposal,Hazardous Waste Treatment and Disposal,18360,7952451,0.000000,0.012146,0.312364,0.105991
+522291,Nondepository Credit Intermediation,Consumer Lending,18340,7952451,0.024155,0.179771,0.730807,0.726554
+541921,"Other Professional, Scientific, and Technical Services","Photography Studios, Portrait",18278,7952451,0.000328,0.109968,0.892822,0.378816
+621511,Medical and Diagnostic Laboratories,Medical Laboratories,18219,7952451,0.029091,0.070860,0.544322,0.387562
+522130,Depository Credit Intermediation,Credit Unions,17919,7952451,0.000279,0.080585,0.458061,0.464367
+451130,"Sporting Goods, Hobby, and Musical Instrument Stores","Sewing, Needlework, and Piece Goods Stores",17906,7952451,0.000391,0.200938,0.914163,0.481403
+446191,Health and Personal Care Stores,Food (Health) Supplement Stores,17643,7952451,0.005271,0.221958,0.856657,0.495721
+452210,Department Stores,Department Stores,17558,7952451,0.037533,0.105251,0.745017,0.841326
+441228,Other Motor Vehicle Dealers,"Motorcycle, ATV, and All Other Motor Vehicle Dealers",17468,7952451,0.017003,0.176609,0.690062,0.517804
+622310,Specialty (except Psychiatric and Substance Abuse) Hospitals,Specialty (except Psychiatric and Substance Abuse) Hospitals,17330,7952451,0.002020,0.079515,0.520889,0.422331
+621999,Other Ambulatory Health Care Services,All Other Miscellaneous Ambulatory Health Care Services,17080,7952451,0.001815,0.098478,0.764988,0.537763
+812320,Drycleaning and Laundry Services,Drycleaning and Laundry Services (except Coin-Operated),16260,7952451,0.001538,0.123186,0.871279,0.510947
+423910,Miscellaneous Durable Goods Merchant Wholesalers,Sporting and Recreational Goods and Supplies Merchant Wholesalers,16199,7952451,0.003951,0.118896,0.859806,0.456139
+532111,Automotive Equipment Rental and Leasing,Passenger Car Rental,15249,7952451,0.148403,0.125057,0.729425,0.821365
+611310,"Colleges, Universities, and Professional Schools","Colleges, Universities, and Professional Schools",15120,7952451,0.000529,0.080820,0.662500,0.212765
+519120,Other Information Services,Libraries and Archives,14987,7952451,0.000000,0.020818,0.842797,0.380797
+451211,Book Stores and News Dealers,Book Stores,14981,7952451,0.001736,0.230892,0.875976,0.445965
+523999,Other Financial Investment Activities,Miscellaneous Financial Investment Activities,14923,7952451,0.574214,0.006031,0.958185,0.014273
+453210,"Office Supplies, Stationery, and Gift Stores",Office Supplies and Stationery Stores,14922,7952451,0.001943,0.168945,0.885002,0.522115
+922120,"Justice, Public Order, and Safety Activities",Police Protection,14710,7952451,0.000000,0.010673,0.835758,0.042420
+238390,Building Finishing Contractors,Other Building Finishing Contractors,14681,7952451,0.000000,0.025203,0.909475,0.184047
+611691,Other Schools and Instruction,Exam Preparation and Tutoring,14516,7952451,0.004960,0.087076,0.787407,0.544778
+812210,Death Care Services,Funeral Homes and Funeral Services,13505,7952451,0.000074,0.020215,0.847020,0.064272
+621492,Outpatient Care Centers,Kidney Dialysis Centers,13339,7952451,0.021141,0.025639,0.353250,0.249644
+922110,"Justice, Public Order, and Safety Activities",Courts,13304,7952451,0.000000,0.003758,0.887778,0.037583
+451140,"Sporting Goods, Hobby, and Musical Instrument Stores",Musical Instrument and Supplies Stores,13217,7952451,0.014375,0.142695,0.911326,0.524249
+448190,Clothing Stores,Other Clothing Stores,12976,7952451,0.015490,0.199137,0.846794,0.637639
+453998,Other Miscellaneous Store Retailers,All Other Miscellaneous Store Retailers (except Tobacco Stores),12343,7952451,0.003808,0.131978,0.821680,0.521753
+811490,Personal and Household Goods Repair and Maintenance,Other Personal and Household Goods Repair and Maintenance,12319,7952451,0.000000,0.145466,0.881403,0.499554
+453920,Other Miscellaneous Store Retailers,Art Dealers,12298,7952451,0.000000,0.153846,0.858514,0.450642
+624120,Individual and Family Services,Services for the Elderly and Persons with Disabilities,12081,7952451,0.003642,0.088734,0.777916,0.346494
+712110,"Museums, Historical Sites, and Similar Institutions",Museums,12056,7952451,0.000000,0.020820,0.658925,0.198656
+339950,Other Miscellaneous Manufacturing,Sign Manufacturing,11873,7952451,0.002864,0.047419,0.867767,0.330582
+445230,Specialty Food Stores,Fruit and Vegetable Markets,11748,7952451,0.000000,0.104954,0.724634,0.428158
+312120,Beverage Manufacturing,Breweries,11522,7952451,0.000000,0.110224,0.654487,0.554852
+444110,Building Material and Supplies Dealers,Home Centers,11265,7952451,0.008522,0.069685,0.778606,0.249356
+424210,Drugs and Druggists' Sundries Merchant Wholesalers,Drugs and Druggists' Sundries Merchant Wholesalers,10936,7952451,0.005486,0.067575,0.718636,0.357169
+812930,Other Personal Services,Parking Lots and Garages,10798,7952451,0.001019,0.060937,0.411743,0.134377
+926120,Administration of Economic Programs,Regulation and Administration of Transportation Programs,10708,7952451,0.000000,0.021386,0.532406,0.563411
+812191,Personal Care Services,Diet and Weight Reducing Centers,10678,7952451,0.013579,0.148436,0.631673,0.565087
+423820,"Machinery, Equipment, and Supplies Merchant Wholesalers",Farm and Garden Machinery and Equipment Merchant Wholesalers,10448,7952451,0.032064,0.043645,0.662615,0.380264
+532289,Consumer Goods Rental,All Other Consumer Goods Rental,10372,7952451,0.003567,0.087929,0.789722,0.601138
+722320,Special Food Services,Caterers,9986,7952451,0.000200,0.151512,0.869117,0.415682
+811113,Automotive Repair and Maintenance,Automotive Transmission Repair,9954,7952451,0.003416,0.144364,0.883665,0.467149
+442210,Home Furnishings Stores,Floor Covering Stores,9952,7952451,0.011455,0.076065,0.894393,0.434184
+444120,Building Material and Supplies Dealers,Paint and Wallpaper Stores,9925,7952451,0.020453,0.036977,0.878892,0.767355
+621320,Offices of Other Health Practitioners,Offices of Optometrists,9841,7952451,0.017478,0.027538,0.553196,0.756122
+445292,Specialty Food Stores,Confectionery and Nut Stores,9761,7952451,0.021822,0.250487,0.850425,0.545026
+512131,Motion Picture and Video Industries,Motion Picture Theaters (except Drive-Ins),9709,7952451,0.012669,0.098156,0.697806,0.380987
+522298,Nondepository Credit Intermediation,All Other Nondepository Credit Intermediation,9491,7952451,0.001580,0.161311,0.877357,0.617954
+446199,Health and Personal Care Stores,All Other Health and Personal Care Stores,9490,7952451,0.017176,0.021075,0.294415,0.325922
+484210,Specialized Freight Trucking,Used Household and Office Goods Moving,9456,7952451,0.001058,0.038494,0.787014,0.304146
+448110,Clothing Stores,Men's Clothing Stores,9424,7952451,0.003820,0.195458,0.827674,0.578417
+551114,Management of Companies and Enterprises,"Corporate, Subsidiary, and Regional Managing Offices",9255,7952451,0.000000,0.001945,0.047326,0.010265
+712120,"Museums, Historical Sites, and Similar Institutions",Historical Sites,9025,7952451,0.000000,0.027590,0.384598,0.141939
+721211,RV (Recreational Vehicle) Parks and Recreational Camps,RV (Recreational Vehicle) Parks and Campgrounds,8943,7952451,0.003355,0.036565,0.699094,0.256961
+441222,Other Motor Vehicle Dealers,Boat Dealers,8897,7952451,0.000562,0.100146,0.823536,0.427785
+541219,"Accounting, Tax Preparation, Bookkeeping, and Payroll Services",Other Accounting Services,8760,7952451,0.000000,0.038927,0.818950,0.268037
+811191,Automotive Repair and Maintenance,Automotive Oil Change and Lubrication Shops,8687,7952451,0.072983,0.054334,0.893404,0.495453
+621493,Outpatient Care Centers,Freestanding Ambulatory Surgical and Emergency Centers,8448,7952451,0.024858,0.126302,0.670810,0.654830
+448130,Clothing Stores,Children's and Infants' Clothing Stores,8430,7952451,0.002017,0.261091,0.822776,0.521352
+811211,Electronic and Precision Equipment Repair and Maintenance,Consumer Electronics Repair and Maintenance,8259,7952451,0.000484,0.155467,0.881584,0.494249
+811412,Personal and Household Goods Repair and Maintenance,Appliance Repair and Maintenance,8217,7952451,0.000000,0.106121,0.902154,0.464403
+611699,Other Schools and Instruction,All Other Miscellaneous Schools and Instruction,8165,7952451,0.017146,0.072750,0.829394,0.542315
+623312,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,Assisted Living Facilities for the Elderly,7937,7952451,0.011087,0.052665,0.715258,0.174751
+238330,Building Finishing Contractors,Flooring Contractors,7916,7952451,0.000632,0.044088,0.908413,0.256443
+811411,Personal and Household Goods Repair and Maintenance,Home and Garden Equipment Repair and Maintenance,7519,7952451,0.000133,0.116372,0.816731,0.352839
+611692,Other Schools and Instruction,Automobile Driving Schools,7518,7952451,0.000000,0.131817,0.785448,0.411280
+332812,"Coating, Engraving, Heat Treating, and Allied Activities","Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers",7210,7952451,0.000139,0.074619,0.838419,0.373786
+531311,Activities Related to Real Estate,Residential Property Managers,7194,7952451,0.000000,0.043230,0.855435,0.249235
+532120,Automotive Equipment Rental and Leasing,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing",7155,7952451,0.001817,0.579734,0.912509,0.340461
+423850,"Machinery, Equipment, and Supplies Merchant Wholesalers",Service Establishment Equipment and Supplies Merchant Wholesalers,6969,7952451,0.017937,0.069020,0.844311,0.479409
+493110,Warehousing and Storage,General Warehousing and Storage,6361,7952451,0.038202,0.018708,0.542210,0.164754
+335220,Household Appliance Manufacturing,Major Household Appliance Manufacturing,6305,7952451,0.000000,0.146233,0.857415,0.383029
+312130,Beverage Manufacturing,Wineries,6255,7952451,0.000000,0.115747,0.862670,0.601759
+811420,Personal and Household Goods Repair and Maintenance,Reupholstery and Furniture Repair,6246,7952451,0.000000,0.126001,0.908101,0.334454
+922140,"Justice, Public Order, and Safety Activities",Correctional Institutions,6148,7952451,0.000000,0.000651,0.618575,0.003741
+485112,Urban Transit Systems,Commuter Rail Systems,5843,7952451,0.000000,0.000000,0.000000,0.000000
+445210,Specialty Food Stores,Meat Markets,5794,7952451,0.001726,0.169313,0.907663,0.384881
+561311,Employment Services,Employment Placement Agencies,5720,7952451,0.044580,0.032692,0.921678,0.584441
+713110,Amusement Parks and Arcades,Amusement and Theme Parks,5608,7952451,0.000000,0.139800,0.629993,0.254993
+238150,"Foundation, Structure, and Building Exterior Contractors",Glass and Glazing Contractors,5531,7952451,0.000000,0.041945,0.896944,0.375520
+5418,"Advertising, Public Relations, and Related Services",,5530,7952451,0.000000,0.061844,0.830561,0.339421
+621410,Outpatient Care Centers,Family Planning Centers,5453,7952451,0.002567,0.085458,0.746745,0.490189
+445220,Specialty Food Stores,Fish and Seafood Markets,5315,7952451,0.000000,0.176482,0.899718,0.401317
+444210,Lawn and Garden Equipment and Supplies Stores,Outdoor Power Equipment Stores,5315,7952451,0.000376,0.117215,0.834431,0.378363
+811118,Automotive Repair and Maintenance,Other Automotive Mechanical and Electrical Repair and Maintenance,5315,7952451,0.050800,0.096519,0.638570,0.566510
+621512,Medical and Diagnostic Laboratories,Diagnostic Imaging Centers,5314,7952451,0.019006,0.087505,0.649228,0.572262
+713950,Other Amusement and Recreation Industries,Bowling Centers,5306,7952451,0.003204,0.171127,0.820957,0.466453
+532284,Consumer Goods Rental,Recreational Goods Rental,5268,7952451,0.000000,0.101936,0.799924,0.549544
+561510,Travel Arrangement and Reservation Services,Travel Agencies,5219,7952451,0.000000,0.063997,0.777735,0.425560
+621498,Outpatient Care Centers,All Other Outpatient Care Centers,5212,7952451,0.007291,0.102456,0.548926,0.368956
+711211,Spectator Sports,Sports Teams and Clubs,5165,7952451,0.000000,0.050339,0.681510,0.255179
+482111,Rail Transportation,Line-Haul Railroads,5101,7952451,0.010390,0.058224,0.454029,0.255636
+445299,Specialty Food Stores,All Other Specialty Food Stores,4904,7952451,0.023246,0.101346,0.589927,0.538744
+3399,Other Miscellaneous Manufacturing,,4850,7952451,0.013402,0.014227,0.715258,0.250928
+448320,"Jewelry, Luggage, and Leather Goods Stores",Luggage and Leather Goods Stores,4755,7952451,0.004206,0.166772,0.793481,0.465615
+562920,Remediation and Other Waste Management Services,Materials Recovery Facilities,4651,7952451,0.000000,0.123844,0.812083,0.338207
+448150,Clothing Stores,Clothing Accessories Stores,4475,7952451,0.025251,0.159106,0.786816,0.682905
+561622,Investigation and Security Services,Locksmiths,4147,7952451,0.000000,0.017844,0.941162,0.196286
+441210,Other Motor Vehicle Dealers,Recreational Vehicle Dealers,4145,7952451,0.000000,0.116043,0.833052,0.589867
+488119,Support Activities for Air Transportation,Other Airport Operations,4062,7952451,0.000000,0.000492,0.058838,0.004431
+624110,Individual and Family Services,Child and Youth Services,3851,7952451,0.067515,0.051675,0.599844,0.009868
+711310,"Promoters of Performing Arts, Sports, and Similar Events","Promoters of Performing Arts, Sports, and Similar Events with Facilities",3796,7952451,0.000000,0.106691,0.683351,0.341939
+812921,Other Personal Services,Photofinishing Laboratories (except One-Hour),3783,7952451,0.000529,0.000000,0.948982,0.993127
+813312,Social Advocacy Organizations,"Environment, Conservation and Wildlife Organizations",3783,7952451,0.000000,0.067936,0.858049,0.386201
+441320,"Automotive Parts, Accessories, and Tire Stores",Tire Dealers,3706,7952451,0.047491,0.051538,0.665407,0.773610
+811198,Automotive Repair and Maintenance,All Other Automotive Repair and Maintenance,3657,7952451,0.013672,0.060979,0.700027,0.895269
+811430,Personal and Household Goods Repair and Maintenance,Footwear and Leather Goods Repair,3412,7952451,0.000000,0.172333,0.868992,0.485053
+624221,"Community Food and Housing, and Emergency and Other Relief Services",Temporary Shelters,3340,7952451,0.000000,0.003892,0.071257,0.018563
+712130,"Museums, Historical Sites, and Similar Institutions",Zoos and Botanical Gardens,3122,7952451,0.000000,0.067905,0.684177,0.328315
+221111,"Electric Power Generation, Transmission and Distribution",Hydroelectric Power Generation,3038,7952451,0.000000,0.001317,0.006583,0.002962
+611630,Other Schools and Instruction,Language Schools,3014,7952451,0.000000,0.107830,0.780358,0.476111
+221112,"Electric Power Generation, Transmission and Distribution",Fossil Fuel Electric Power Generation,2996,7952451,0.000000,0.000334,0.007343,0.002003
+713210,Gambling Industries,Casinos (except Casino Hotels),2972,7952451,0.003028,0.073351,0.611036,0.620458
+713120,Amusement Parks and Arcades,Amusement Arcades,2957,7952451,0.004735,0.230639,0.835982,0.414609
+541120,Legal Services,Offices of Notaries,2908,7952451,0.000000,0.041609,0.845942,0.240715
+532490,Commercial and Industrial Machinery and Equipment Rental and Leasing,Other Commercial and Industrial Machinery and Equipment Rental and Leasing,2900,7952451,0.083448,0.013793,0.712414,0.670345
+315990,Apparel Accessories and Other Apparel Manufacturing,Apparel Accessories and Other Apparel Manufacturing,2883,7952451,0.000000,0.081165,0.826570,0.457510
+443141,Electronics and Appliance Stores,Household Appliance Stores,2867,7952451,0.002093,0.170910,0.760028,0.420300
+562119,Waste Collection,Other Waste Collection,2756,7952451,0.001814,0.047170,0.810232,0.367199
+611210,Junior Colleges,Junior Colleges,2722,7952451,0.000000,0.000735,0.367377,0.017267
+562991,Remediation and Other Waste Management Services,Septic Tank and Related Services,2658,7952451,0.000000,0.041384,0.914974,0.212942
+713930,Other Amusement and Recreation Industries,Marinas,2609,7952451,0.000000,0.053277,0.785358,0.348409
+624190,Individual and Family Services,Other Individual and Family Services,2363,7952451,0.000423,0.013542,0.747355,0.909860
+423830,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Machinery and Equipment Merchant Wholesalers,2237,7952451,0.041574,0.016540,0.696468,0.480107
+532310,General Rental Centers,General Rental Centers,2213,7952451,0.016719,0.004519,0.991414,0.999548
+621112,Offices of Physicians,"Offices of Physicians, Mental Health Specialists",2086,7952451,0.044583,0.018217,0.402205,0.256951
+221114,"Electric Power Generation, Transmission and Distribution",Solar Electric Power Generation,2061,7952451,0.000000,0.000000,0.003882,0.001941
+484230,Specialized Freight Trucking,"Specialized Freight (except Used Goods) Trucking, Long-Distance",2050,7952451,0.000000,0.102439,0.866829,0.229756
+485210,Interurban and Rural Bus Transportation,Interurban and Rural Bus Transportation,2043,7952451,0.538913,0.160059,0.234459,0.975037
+237110,Utility System Construction,Water and Sewer Line and Related Structures Construction,2015,7952451,0.000000,0.037717,0.821836,0.155831
+487110,"Scenic and Sightseeing Transportation, Land","Scenic and Sightseeing Transportation, Land",1944,7952451,0.000000,0.039609,0.831790,0.399691
+524113,Insurance Carriers,Direct Life Insurance Carriers,1841,7952451,0.121130,0.089082,0.575774,0.040739
+517919,Other Telecommunications,All Other Telecommunications,1840,7952451,0.000000,0.000000,0.000543,0.000000
+561320,Employment Services,Temporary Help Services,1800,7952451,0.000000,0.000556,0.225000,0.705556
+561730,Services to Buildings and Dwellings,Landscaping Services,1784,7952451,0.002242,0.001121,0.952354,0.215247
+621910,Other Ambulatory Health Care Services,Ambulance Services,1739,7952451,0.000000,0.079931,0.825762,0.200115
+512240,Sound Recording Industries,Sound Recording Studios,1692,7952451,0.000000,0.044326,0.878251,0.242317
+423810,"Machinery, Equipment, and Supplies Merchant Wholesalers",Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers,1691,7952451,0.172679,0.134831,0.714962,0.740390
+445291,Specialty Food Stores,Baked Goods Stores,1659,7952451,0.045208,0.048825,0.660639,0.879445
+518210,"Data Processing, Hosting, and Related Services","Data Processing, Hosting, and Related Services",1656,7952451,0.000000,0.000000,0.016908,0.004831
+424910,Miscellaneous Nondurable Goods Merchant Wholesalers,Farm Supplies Merchant Wholesalers,1631,7952451,0.083998,0.034948,0.870632,0.296137
+485999,Other Transit and Ground Passenger Transportation,All Other Transit and Ground Passenger Transportation,1583,7952451,0.000000,0.066961,0.728364,0.239419
+454310,Direct Selling Establishments,Fuel Dealers,1506,7952451,0.067065,0.017264,0.503984,0.233732
+621991,Other Ambulatory Health Care Services,Blood and Organ Banks,1473,7952451,0.176511,0.090292,0.873727,0.754243
+111421,"Greenhouse, Nursery, and Floriculture Production",Nursery and Tree Production,1388,7952451,0.000000,0.095821,0.799712,0.335014
+611511,Technical and Trade Schools,Cosmetology and Barber Schools,1380,7952451,0.001449,0.060870,0.722464,0.419565
+312140,Beverage Manufacturing,Distilleries,1369,7952451,0.000000,0.130752,0.831994,0.540541
+721120,Traveler Accommodation,Casino Hotels,1338,7952451,0.008221,0.081465,0.473842,0.300448
+541310,"Architectural, Engineering, and Related Services",Architectural Services,1331,7952451,0.000000,0.017280,0.924869,0.223140
+423720,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers,1330,7952451,0.136842,0.167669,0.813534,0.990226
+424690,Chemical and Allied Products Merchant Wholesalers,Other Chemical and Allied Products Merchant Wholesalers,1301,7952451,0.042275,0.032283,0.931591,0.962337
+561720,Services to Buildings and Dwellings,Janitorial Services,1286,7952451,0.024106,0.041991,0.853033,0.611198
+423920,Miscellaneous Durable Goods Merchant Wholesalers,Toy and Hobby Goods and Supplies Merchant Wholesalers,1255,7952451,0.000000,0.089243,0.660558,0.472510
+423610,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",1227,7952451,0.017115,0.001630,0.917685,0.572942
+7111,Performing Arts Companies,,1206,7952451,0.000000,0.167496,0.694859,0.491708
+813219,Grantmaking and Giving Services,Other Grantmaking and Giving Services,1147,7952451,0.030514,0.029643,0.890148,0.026155
+485111,Urban Transit Systems,Mixed Mode Transit Systems,1144,7952451,0.000000,0.000000,0.000000,0.000000
+524127,Insurance Carriers,Direct Title Insurance Carriers,1125,7952451,0.043556,0.360000,0.501333,0.056000
+713920,Other Amusement and Recreation Industries,Skiing Facilities,1115,7952451,0.000000,0.094170,0.602691,0.330045
+523110,Securities and Commodity Contracts Intermediation and Brokerage,Investment Banking and Securities Dealing,1037,7952451,0.054002,0.035680,0.547734,0.657666
+611519,Technical and Trade Schools,Other Technical and Trade Schools,1033,7952451,0.000000,0.007744,0.633107,0.045499
+2361,Residential Building Construction,,1019,7952451,0.000000,0.000000,0.919529,0.019627
+424720,Petroleum and Petroleum Products Merchant Wholesalers,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals),943,7952451,0.037116,0.026511,0.400848,0.452810
+423450,Professional and Commercial Equipment and Supplies Merchant Wholesalers,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers",900,7952451,0.086667,0.025556,0.813333,0.896667
+423330,Lumber and Other Construction Materials Merchant Wholesalers,"Roofing, Siding, and Insulation Material Merchant Wholesalers",852,7952451,0.050469,0.026995,0.798122,0.946009
+532412,Commercial and Industrial Machinery and Equipment Rental and Leasing,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing",849,7952451,0.082450,0.008245,0.792697,0.580683
+524128,Insurance Carriers,"Other Direct Insurance (except Life, Health, and Medical) Carriers",822,7952451,0.000000,0.015815,0.760341,0.030414
+423990,Miscellaneous Durable Goods Merchant Wholesalers,Other Miscellaneous Durable Goods Merchant Wholesalers,786,7952451,0.063613,0.005089,0.226463,0.982188
+561710,Services to Buildings and Dwellings,Exterminating and Pest Control Services,786,7952451,0.013995,0.003817,0.914758,0.483461
+928120,National Security and International Affairs,International Affairs,750,7952451,0.000000,0.037333,0.770667,0.489333
+327212,Glass and Glass Product Manufacturing,Other Pressed and Blown Glass and Glassware Manufacturing,730,7952451,0.000000,0.158904,0.916438,0.435616
+323113,Printing and Related Support Activities,Commercial Screen Printing,728,7952451,0.000000,0.000000,0.365385,0.425824
+515210,Cable and Other Subscription Programming,Cable and Other Subscription Programming,726,7952451,0.106061,0.042700,0.020661,0.805785
+444190,Building Material and Supplies Dealers,Other Building Material Dealers,718,7952451,0.132312,0.041783,0.898329,0.476323
+493120,Warehousing and Storage,Refrigerated Warehousing and Storage,710,7952451,0.064789,0.015493,0.576056,0.008451
+611610,Other Schools and Instruction,Fine Arts Schools,705,7952451,0.041135,0.076596,0.913475,0.582979
+488190,Support Activities for Air Transportation,Other Support Activities for Air Transportation,691,7952451,0.000000,0.034732,0.311143,0.104197
+483212,Inland Water Transportation,Inland Water Passenger Transportation,662,7952451,0.000000,0.051360,0.551360,0.211480
+221115,"Electric Power Generation, Transmission and Distribution",Wind Electric Power Generation,655,7952451,0.000000,0.000000,0.000000,0.001527
+488510,Freight Transportation Arrangement,Freight Transportation Arrangement,626,7952451,0.075080,0.031949,0.774760,0.000000
+531190,Lessors of Real Estate,Lessors of Other Real Estate Property,620,7952451,0.124194,0.174194,0.595161,0.227419
+488310,Support Activities for Water Transportation,Port and Harbor Operations,599,7952451,0.000000,0.000000,0.557596,0.010017
+423710,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Hardware Merchant Wholesalers,562,7952451,0.295374,0.053381,0.620996,0.092527
+323111,Printing and Related Support Activities,Commercial Printing (except Screen and Books),558,7952451,0.166667,0.066308,0.858423,0.856631
+523120,Securities and Commodity Contracts Intermediation and Brokerage,Securities Brokerage,552,7952451,0.014493,0.048913,0.893116,0.983696
+551112,Management of Companies and Enterprises,Offices of Other Holding Companies,543,7952451,0.000000,0.000000,0.604052,0.998158
+811212,Electronic and Precision Equipment Repair and Maintenance,Computer and Office Machine Repair and Maintenance,543,7952451,0.101289,0.088398,0.891344,0.937385
+424490,Grocery and Related Product Merchant Wholesalers,Other Grocery and Related Products Merchant Wholesalers,534,7952451,0.026217,0.016854,0.544944,0.509363
+622210,Psychiatric and Substance Abuse Hospitals,Psychiatric and Substance Abuse Hospitals,518,7952451,0.000000,0.015444,0.457529,0.090734
+561431,Business Support Services,Private Mail Centers,494,7952451,0.008097,0.008097,0.613360,0.228745
+423690,Household Appliances and Electrical and Electronic Goods Merchant Wholesalers,Other Electronic Parts and Equipment Merchant Wholesalers,467,7952451,0.053533,0.068522,0.933619,0.922912
+623311,Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly,Continuing Care Retirement Communities,466,7952451,0.000000,0.002146,0.630901,0.064378
+512132,Motion Picture and Video Industries,Drive-In Motion Picture Theaters,465,7952451,0.000000,0.141935,0.825806,0.182796
+541860,"Advertising, Public Relations, and Related Services",Direct Mail Advertising,445,7952451,0.029213,0.011236,0.373034,0.968539
+813212,Grantmaking and Giving Services,Voluntary Health Organizations,441,7952451,0.063492,0.024943,0.408163,0.224490
+236118,Residential Building Construction,Residential Remodelers,435,7952451,0.071264,0.018391,0.774713,0.554023
+484121,General Freight Trucking,"General Freight Trucking, Long-Distance, Truckload",389,7952451,0.007712,0.015424,0.149100,0.000000
+423110,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Automobile and Other Motor Vehicle Merchant Wholesalers,382,7952451,0.073298,0.041885,0.871728,0.989529
+423740,"Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers",Refrigeration Equipment and Supplies Merchant Wholesalers,377,7952451,0.007958,0.010610,0.973475,0.984085
+115112,Support Activities for Crop Production,"Soil Preparation, Planting, and Cultivating",369,7952451,0.008130,0.005420,0.948509,0.000000
+813319,Social Advocacy Organizations,Other Social Advocacy Organizations,346,7952451,0.000000,0.000000,0.052023,0.002890
+327120,Clay Product and Refractory Manufacturing,Clay Building Material and Refractories Manufacturing,338,7952451,0.000000,0.000000,0.795858,0.857988
+485310,Taxi and Limousine Service,Taxi Service,335,7952451,0.000000,0.029851,0.832836,0.065672
+611420,Business Schools and Computer and Management Training,Computer Training,324,7952451,0.256173,0.033951,0.799383,0.740741
+336120,Motor Vehicle Manufacturing,Heavy Duty Truck Manufacturing,318,7952451,0.113208,0.012579,0.710692,0.990566
+481111,Scheduled Air Transportation,Scheduled Passenger Air Transportation,317,7952451,0.000000,0.085174,0.154574,0.069401
+221210,Natural Gas Distribution,Natural Gas Distribution,295,7952451,0.023729,0.013559,0.379661,0.410169
+423140,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Motor Vehicle Parts (Used) Merchant Wholesalers,280,7952451,0.314286,0.278571,0.650000,0.275000
+238990,Other Specialty Trade Contractors,All Other Specialty Trade Contractors,276,7952451,0.000000,0.065217,0.822464,0.355072
+423840,"Machinery, Equipment, and Supplies Merchant Wholesalers",Industrial Supplies Merchant Wholesalers,266,7952451,0.000000,0.003759,0.221805,0.127820
+611710,Educational Support Services,Educational Support Services,264,7952451,0.007576,0.151515,0.810606,0.738636
+624210,"Community Food and Housing, and Emergency and Other Relief Services",Community Food Services,264,7952451,0.000000,0.000000,0.787879,0.075758
+423940,Miscellaneous Durable Goods Merchant Wholesalers,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers",257,7952451,0.182879,0.128405,0.373541,0.599222
+561621,Investigation and Security Services,Security Systems Services (except Locksmiths),254,7952451,0.000000,0.000000,0.842520,0.000000
+323117,Printing and Related Support Activities,Books Printing,246,7952451,0.000000,0.000000,0.926829,0.959350
+561990,Other Support Services,All Other Support Services,234,7952451,0.098291,0.029915,0.376068,0.358974
+541611,"Management, Scientific, and Technical Consulting Services",Administrative Management and General Management Consulting Services,218,7952451,0.000000,0.000000,0.697248,0.000000
+488991,Other Support Activities for Transportation,Packing and Crating,214,7952451,0.014019,0.037383,0.383178,0.929907
+524126,Insurance Carriers,Direct Property and Casualty Insurance Carriers,205,7952451,0.039024,0.117073,0.175610,0.253659
+485119,Urban Transit Systems,Other Urban Transit Systems,192,7952451,0.000000,0.000000,0.000000,0.000000
+423930,Miscellaneous Durable Goods Merchant Wholesalers,Recyclable Material Merchant Wholesalers,190,7952451,0.000000,0.042105,0.368421,0.305263
+423390,Lumber and Other Construction Materials Merchant Wholesalers,Other Construction Material Merchant Wholesalers,187,7952451,0.128342,0.106952,0.240642,0.951872
+561499,Business Support Services,All Other Business Support Services,187,7952451,0.176471,0.187166,0.668449,0.545455
+423130,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Tire and Tube Merchant Wholesalers,177,7952451,0.293785,0.084746,0.920904,1.000000
+525990,Other Investment Pools and Funds,Other Financial Vehicles,169,7952451,0.041420,0.035503,0.733728,0.017751
+424320,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Men's and Boys' Clothing and Furnishings Merchant Wholesalers,164,7952451,0.000000,0.000000,0.140244,0.865854
+722514,Restaurants and Other Eating Places,"Cafeterias, Grill Buffets, and Buffets",159,7952451,0.031447,0.295597,0.842767,0.836478
+811219,Electronic and Precision Equipment Repair and Maintenance,Other Electronic and Precision Equipment Repair and Maintenance,156,7952451,0.032051,0.121795,0.814103,0.929487
+311991,Other Food Manufacturing,Perishable Prepared Food Manufacturing,146,7952451,0.109589,0.246575,0.595890,0.534247
+922150,"Justice, Public Order, and Safety Activities",Parole Offices and Probation Offices,142,7952451,0.000000,0.000000,0.936620,0.000000
+238140,"Foundation, Structure, and Building Exterior Contractors",Masonry Contractors,141,7952451,0.333333,0.234043,0.886525,0.014184
+561790,Services to Buildings and Dwellings,Other Services to Buildings and Dwellings,138,7952451,0.000000,0.188406,0.275362,0.173913
+561740,Services to Buildings and Dwellings,Carpet and Upholstery Cleaning Services,125,7952451,0.048000,0.016000,0.936000,0.224000
+3119,Other Food Manufacturing,,125,7952451,0.000000,0.368000,0.976000,0.000000
+423120,Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers,Motor Vehicle Supplies and New Parts Merchant Wholesalers,124,7952451,0.032258,0.000000,0.024194,0.000000
+523920,Other Financial Investment Activities,Portfolio Management,121,7952451,0.008264,0.016529,0.983471,1.000000
+621420,Outpatient Care Centers,Outpatient Mental Health and Substance Abuse Centers,113,7952451,0.053097,0.026549,0.707965,0.840708
+6241,Individual and Family Services,,107,7952451,0.000000,0.009346,0.532710,0.074766
+339920,Other Miscellaneous Manufacturing,Sporting and Athletic Goods Manufacturing,106,7952451,0.028302,0.066038,0.650943,0.792453
+236115,Residential Building Construction,New Single-Family Housing Construction (except For-Sale Builders),99,7952451,0.000000,0.000000,0.949495,0.000000
+532299,,,95,7952451,0.000000,0.031579,0.894737,0.652632
+8129,Other Personal Services,,89,7952451,0.000000,0.033708,0.808989,0.134831
+336991,Other Transportation Equipment Manufacturing,"Motorcycle, Bicycle, and Parts Manufacturing",87,7952451,0.114943,0.011494,0.839080,0.931034
+312113,Beverage Manufacturing,Ice Manufacturing,78,7952451,0.000000,0.000000,0.012821,0.000000
+562212,Waste Treatment and Disposal,Solid Waste Landfill,76,7952451,0.000000,0.013158,0.526316,0.184211
+332510,Hardware Manufacturing,Hardware Manufacturing,76,7952451,0.000000,0.000000,0.723684,1.000000
+423510,Metal and Mineral (except Petroleum) Merchant Wholesalers,Metal Service Centers and Other Metal Merchant Wholesalers,74,7952451,0.013514,0.013514,0.770270,0.000000
+424510,Farm Product Raw Material Merchant Wholesalers,Grain and Field Bean Merchant Wholesalers,73,7952451,0.041096,0.013699,0.849315,0.000000
+333120,"Agriculture, Construction, and Mining Machinery Manufacturing",Construction Machinery Manufacturing,72,7952451,0.361111,0.000000,0.111111,0.944444
+424950,Miscellaneous Nondurable Goods Merchant Wholesalers,"Paint, Varnish, and Supplies Merchant Wholesalers",68,7952451,0.088235,0.058824,0.808824,0.014706
+541810,"Advertising, Public Relations, and Related Services",Advertising Agencies,66,7952451,0.015152,0.075758,0.818182,0.939394
+238160,"Foundation, Structure, and Building Exterior Contractors",Roofing Contractors,65,7952451,0.061538,0.015385,0.846154,0.984615
+316998,Other Leather and Allied Product Manufacturing,All Other Leather Good and Allied Product Manufacturing,63,7952451,0.047619,0.253968,0.317460,0.333333
+928110,National Security and International Affairs,National Security,61,7952451,0.000000,0.000000,0.836066,0.065574
+711219,Spectator Sports,Other Spectator Sports,60,7952451,0.033333,0.066667,0.850000,0.716667
+921110,"Executive, Legislative, and Other General Government Support",Executive Offices,59,7952451,0.000000,0.016949,0.237288,0.118644
+541200,,,54,7952451,0.000000,0.092593,0.925926,0.111111
+813990,"Business, Professional, Labor, Political, and Similar Organizations","Other Similar Organizations (except Business, Professional, Labor, and Political Organizations)",54,7952451,0.000000,0.000000,0.629630,0.629630
+517911,Other Telecommunications,Telecommunications Resellers,52,7952451,0.096154,0.076923,0.211538,0.807692
+331221,Steel Product Manufacturing from Purchased Steel,Rolled Steel Shape Manufacturing,51,7952451,0.019608,0.000000,0.490196,0.000000
+423310,Lumber and Other Construction Materials Merchant Wholesalers,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers",50,7952451,0.020000,0.020000,0.540000,1.000000
+332313,Architectural and Structural Metals Manufacturing,Plate Work Manufacturing,48,7952451,0.020833,0.104167,0.833333,0.000000
+339114,Medical Equipment and Supplies Manufacturing,Dental Equipment and Supplies Manufacturing,46,7952451,0.391304,0.000000,0.260870,0.086957
+611410,Business Schools and Computer and Management Training,Business and Secretarial Schools,44,7952451,0.000000,0.000000,0.704545,0.000000
+442291,Home Furnishings Stores,Window Treatment Stores,41,7952451,0.048780,0.000000,1.000000,0.975610
+922190,"Justice, Public Order, and Safety Activities","Other Justice, Public Order, and Safety Activities",40,7952451,0.000000,0.000000,0.925000,0.000000
+813410,Civic and Social Organizations,Civic and Social Organizations,39,7952451,0.000000,0.000000,0.000000,0.025641
+532210,Consumer Goods Rental,Consumer Electronics and Appliances Rental,39,7952451,0.000000,0.025641,0.923077,1.000000
+541715,Scientific Research and Development Services,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology)",36,7952451,0.000000,0.000000,0.722222,0.000000
+332311,Architectural and Structural Metals Manufacturing,Prefabricated Metal Building and Component Manufacturing,33,7952451,0.000000,0.000000,0.333333,1.000000
+316210,Footwear Manufacturing,Footwear Manufacturing,33,7952451,0.030303,0.030303,0.242424,0.181818
+424410,Grocery and Related Product Merchant Wholesalers,General Line Grocery Merchant Wholesalers,31,7952451,0.032258,0.000000,0.548387,0.129032
+424430,Grocery and Related Product Merchant Wholesalers,Dairy Product (except Dried or Canned) Merchant Wholesalers,28,7952451,0.000000,0.035714,0.142857,1.000000
+561920,Other Support Services,Convention and Trade Show Organizers,26,7952451,0.000000,0.038462,0.653846,0.307692
+711212,Spectator Sports,Racetracks,25,7952451,0.000000,0.040000,0.400000,0.320000
+238310,Building Finishing Contractors,Drywall and Insulation Contractors,24,7952451,0.000000,0.000000,1.000000,1.000000
+524114,Insurance Carriers,Direct Health and Medical Insurance Carriers,23,7952451,0.000000,0.000000,0.043478,1.000000
+485410,School and Employee Bus Transportation,School and Employee Bus Transportation,23,7952451,0.000000,0.043478,0.043478,0.000000
+423320,Lumber and Other Construction Materials Merchant Wholesalers,"Brick, Stone, and Related Construction Material Merchant Wholesalers",21,7952451,0.047619,0.000000,0.952381,1.000000
+424710,Petroleum and Petroleum Products Merchant Wholesalers,Petroleum Bulk Stations and Terminals,21,7952451,0.000000,0.000000,0.142857,0.000000
+339112,Medical Equipment and Supplies Manufacturing,Surgical and Medical Instrument Manufacturing,20,7952451,0.150000,0.000000,0.500000,1.000000
+213112,Support Activities for Mining,Support Activities for Oil and Gas Operations,19,7952451,0.000000,0.105263,0.526316,0.157895
+325510,"Paint, Coating, and Adhesive Manufacturing",Paint and Coating Manufacturing,19,7952451,0.000000,0.000000,0.000000,0.000000
+211120,Oil and Gas Extraction,Crude Petroleum Extraction ,18,7952451,0.000000,0.000000,0.111111,0.000000
+611512,Technical and Trade Schools,Flight Training,18,7952451,0.000000,0.000000,0.833333,0.000000
+33121,Steel Product Manufacturing from Purchased Steel,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,18,7952451,0.000000,0.000000,0.888889,0.000000
+3121,Beverage Manufacturing,,17,7952451,0.000000,0.117647,0.823529,0.000000
+238290,Building Equipment Contractors,Other Building Equipment Contractors,16,7952451,0.125000,0.062500,0.437500,0.000000
+511130,"Newspaper, Periodical, Book, and Directory Publishers",Book Publishers,16,7952451,0.125000,0.062500,0.812500,1.000000
+336411,Aerospace Product and Parts Manufacturing,Aircraft Manufacturing,16,7952451,0.000000,0.000000,0.000000,0.000000
+333414,"Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing",Heating Equipment (except Warm Air Furnaces) Manufacturing,15,7952451,0.000000,0.000000,0.933333,0.200000
+561591,Travel Arrangement and Reservation Services,Convention and Visitors Bureaus,12,7952451,0.000000,0.000000,0.416667,0.333333
+424340,"Apparel, Piece Goods, and Notions Merchant Wholesalers",Footwear Merchant Wholesalers,11,7952451,0.000000,0.000000,0.818182,1.000000
+711130,Performing Arts Companies,Musical Groups and Artists,11,7952451,0.000000,0.090909,0.272727,0.090909
+923130,Administration of Human Resource Programs,"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs)",11,7952451,0.000000,0.000000,0.000000,1.000000
+493190,Warehousing and Storage,Other Warehousing and Storage,10,7952451,0.000000,0.000000,0.500000,0.000000
+511191,"Newspaper, Periodical, Book, and Directory Publishers",Greeting Card Publishers,10,7952451,0.000000,1.000000,1.000000,0.000000
+322230,Converted Paper Product Manufacturing,Stationery Product Manufacturing,10,7952451,0.000000,0.200000,1.000000,0.300000
+332992,Other Fabricated Metal Product Manufacturing,Small Arms Ammunition Manufacturing,10,7952451,0.000000,0.000000,0.000000,0.000000
+561520,Travel Arrangement and Reservation Services,Tour Operators,9,7952451,0.000000,0.111111,0.888889,0.444444
+562910,Remediation and Other Waste Management Services,Remediation Services,9,7952451,0.111111,0.000000,1.000000,0.000000
+711190,Performing Arts Companies,Other Performing Arts Companies,9,7952451,0.000000,0.000000,0.777778,0.444444
+485320,Taxi and Limousine Service,Limousine Service,7,7952451,0.000000,0.000000,0.714286,0.285714
+321992,Other Wood Product Manufacturing,Prefabricated Wood Building Manufacturing,6,7952451,0.000000,0.000000,1.000000,0.000000
+334519,"Navigational, Measuring, Electromedical, and Control Instruments Manufacturing",Other Measuring and Controlling Device Manufacturing,6,7952451,0.166667,0.000000,0.666667,0.000000
+326199,Plastics Product Manufacturing,All Other Plastics Product Manufacturing,6,7952451,0.000000,0.000000,0.000000,0.000000
+493130,Warehousing and Storage,Farm Product Warehousing and Storage,6,7952451,0.000000,0.000000,0.000000,0.000000
+923140,Administration of Human Resource Programs,Administration of Veterans' Affairs,5,7952451,0.000000,0.000000,0.000000,0.000000
+522120,Depository Credit Intermediation,Savings Institutions,5,7952451,0.000000,0.000000,0.200000,1.000000
+921190,"Executive, Legislative, and Other General Government Support",Other General Government Support,4,7952451,0.000000,0.000000,0.250000,0.250000
+3344,Semiconductor and Other Electronic Component Manufacturing,,4,7952451,0.000000,0.000000,0.250000,0.000000
+561612,Investigation and Security Services,Security Guards and Patrol Services,4,7952451,0.000000,0.000000,1.000000,0.000000
+333132,"Agriculture, Construction, and Mining Machinery Manufacturing",Oil and Gas Field Machinery and Equipment Manufacturing,3,7952451,0.000000,0.000000,0.000000,0.000000
+711510,"Independent Artists, Writers, and Performers","Independent Artists, Writers, and Performers",3,7952451,0.000000,0.000000,0.333333,0.666667
+333112,"Agriculture, Construction, and Mining Machinery Manufacturing",Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing,3,7952451,0.000000,0.000000,0.000000,0.000000
+324122,Petroleum and Coal Products Manufacturing,Asphalt Shingle and Coating Materials Manufacturing,3,7952451,0.000000,0.000000,0.000000,0.000000
+336111,Motor Vehicle Manufacturing,Automobile Manufacturing,2,7952451,0.000000,0.000000,0.000000,0.000000
+561440,Business Support Services,Collection Agencies,2,7952451,0.000000,0.000000,0.000000,0.000000
+3313,Alumina and Aluminum Production and Processing,,2,7952451,0.000000,0.000000,0.500000,0.000000
+339910,Other Miscellaneous Manufacturing,Jewelry and Silverware Manufacturing,2,7952451,0.000000,0.000000,1.000000,0.500000
+331313,Alumina and Aluminum Production and Processing,Alumina Refining and Primary Aluminum Production,2,7952451,0.000000,0.000000,1.000000,0.000000
+334510,"Navigational, Measuring, Electromedical, and Control Instruments Manufacturing",Electromedical and Electrotherapeutic Apparatus Manufacturing,2,7952451,0.000000,0.000000,0.000000,0.000000
+541712,,,2,7952451,0.000000,0.000000,1.000000,0.000000
+711110,Performing Arts Companies,Theater Companies and Dinner Theaters,2,7952451,0.000000,0.000000,0.500000,0.500000
+315240,Cut and Sew Apparel Manufacturing,"Women’s, Girls’, and Infants’ Cut and Sew Apparel Manufacturing",2,7952451,0.000000,1.000000,1.000000,0.000000
+6213,Offices of Other Health Practitioners,,1,7952451,0.000000,0.000000,1.000000,0.000000
+6211,Offices of Physicians,,1,7952451,0.000000,0.000000,0.000000,0.000000
+423210,Furniture and Home Furnishing Merchant Wholesalers,Furniture Merchant Wholesalers,1,7952451,0.000000,0.000000,0.000000,0.000000
+423420,Professional and Commercial Equipment and Supplies Merchant Wholesalers,Office Equipment Merchant Wholesalers,1,7952451,0.000000,0.000000,1.000000,1.000000
+5617,Services to Buildings and Dwellings,,1,7952451,0.000000,0.000000,1.000000,1.000000
+237310,"Highway, Street, and Bridge Construction","Highway, Street, and Bridge Construction",1,7952451,0.000000,0.000000,1.000000,1.000000
+4483,"Jewelry, Luggage, and Leather Goods Stores",,1,7952451,0.000000,0.000000,0.000000,0.000000
+541613,"Management, Scientific, and Technical Consulting Services",Marketing Consulting Services,1,7952451,0.000000,0.000000,1.000000,0.000000
+541199,Legal Services,All Other Legal Services,1,7952451,0.000000,0.000000,1.000000,0.000000
+721214,RV (Recreational Vehicle) Parks and Recreational Camps,Recreational and Vacation Camps (except Campgrounds),1,7952451,0.000000,0.000000,0.000000,0.000000
+4461,Health and Personal Care Stores,,1,7952451,0.000000,0.000000,0.000000,0.000000
+8121,Personal Care Services,,1,7952451,0.000000,1.000000,1.000000,1.000000
+337121,Household and Institutional Furniture and Kitchen Cabinet Manufacturing,Upholstered Household Furniture Manufacturing,1,7952451,0.000000,1.000000,1.000000,1.000000
+483112,"Deep Sea, Coastal, and Great Lakes Water Transportation",Deep Sea Passenger Transportation,1,7952451,0.000000,0.000000,1.000000,0.000000
+541618,"Management, Scientific, and Technical Consulting Services",Other Management Consulting Services,1,7952451,0.000000,0.000000,1.000000,0.000000
+515120,Radio and Television Broadcasting,Television Broadcasting,1,7952451,0.000000,0.000000,0.000000,0.000000

@@ -1,0 +1,137 @@
+"RT Standard Field Name","Field Definition","Field Data Type","Field Size","Acceptable Value","Value Definition"
+RTPropertyUniqueIdentifier,"A RealtyTrac integer identifier for the property",int,,,
+RTDocumentIdentifier,"A RealtyTrac integer identifier for the transaction document",int,,,
+JurisdictionCountyFIPS,"The five-digit state and county Federal Information Processing Standards (FIPS) code combination of the jurisdiction ",char,5,,
+FIPSCountyName,"The five-digit state and county Federal Information Processing Standards (FIPS) code combination of the jurisdiction ",varchar,35,,
+MunicipalityName,"The jurisdiction name associated with the site property address Federal Information Processing Standards (FIPS) county code.",varchar,24,,
+DocumentNumber,"The unaltered instrument or book/page number stamped or printed on the primary document in the recorded transaction",varchar,50,,
+DocumentNumberFormatted,"The formatted instrument or book/page number stamped or printed on the primary document in the recorded transaction.",varchar,20,,
+Book,"The book number stamped on the primary document",varchar,20,,
+Page,"The page number stamped on the primary document",varchar,20,,
+APNOriginal,"The parcel number, if provided on the document, as-is depicted without DQ standard formatting applied",varchar,40,,
+DocumentDate,"The date which the document was drawn at the county recorder's office",date,,,
+FilingDate,"The date which the document was filed at the county recorder's office",date,,,
+RecordingDate,"The date which the document was recorded at local jurisdiction's recorder's office",date,,,
+SiteAddressRaw,"The unparsed site address number and street name as keyed directly from a deed",varchar,100,,
+MailAddressRaw,"The unparsed mail address as keyed from the document tax mail address",varchar,100,,
+MailAddressHouseNumber,"The mailing address house number of the current owner of the property.",varchar,20,,
+MailAddressFraction,"The mailing address street fraction of the current owner of the property.",varchar,10,,
+MailAddressDirection,"The pre-direction of the mailing street of the current owner of the property.",varchar,2,,
+MailAddressStreetName,"The mailing address street name of the current owner of the property.",varchar,50,,
+MailAddressSuffix,"The mailing address street name suffix of the current owner of the property.",varchar,4,,
+MailAddressPostDirection,"The mailing address post direction of the current owner of the property.",varchar,2,,
+MailAddressUnitPrefix,"The mailing address unit number prefix of the current owner of the property.",varchar,10,,
+MailAddressUnitValue,"The mailing address unit value of the current owner of the property.",varchar,6,,
+MailCity,"The mailing address city name of the current owner of the property",varchar,50,,
+MailState,"The mailing address state name of the current owner of the property.",varchar,2,,
+MailZip,"The mailing address zip code of the current owner of the property.",int,12,,
+MailZip4,"The mailing address zip plus 4 of the current owner of the property.",smallint,7,,
+MailCRRT,"The mailing address postal carrier route of the current owner of the property.",varchar,4,,
+DocumentCategoryType,"The type of Recorder document",char,4,DEED,Deed
+DocumentCategoryType,,,,MORT,Mortgage
+DocumentTypeDescription,"A descriptor for the specific type of document",varchar,100,,
+MultiParcel,"An indicator for whether the transaction involves multiple parcels",bit,,(blank),No
+MultiParcel,,,,1,Yes
+Quitclaim,"An indicator for whether the transaction is a quitclaim.",bit,,(blank),No
+Quitclaim,,,,1,Yes
+ArmsLengthTransfer,"An Indicator for whether the transaction represented a transfer between two unrelated parties",bit,,(blank),No
+ArmsLengthTransfer,,,,1,Yes
+Legal,"The full legal text from deed doc",varchar,8000,,
+LegalBlock,"The legal block keyed from the recorded document",varchar,6,,
+LegalLot,"The legal lot keyed from the recorded document",varchar,6,,
+LegalPlatBook,"The plat book keyed from the recorded document",varchar,6,,
+LegalPlatPage,"The plat book page keyed from the recorded document",varchar,6,,
+LegalRange,"The legal range keyed from the recorded document.  A range consists of a six mile wide row of sections, or 1/6 of a township.",varchar,3,,
+LegalSection,"The legal section keyed from the recorded document.  A section consists of one square mile (640 acres)",varchar,3,,
+LegalSubDivision,"The legal subdivision keyed from the recorded document",varchar,50,,
+LegalTownship,"The legal township keyed from the recorded document.  A township consists of six square miles and contains thirty-six sections, each one square mile.",varchar,3,,
+LegalTract,"The legal tract keyed from the recorded document",varchar,30,,
+LegalUnit,"The legal unit keyed from the recorded document",varchar,8,,
+Borrower,"The name of the Mortgagor or borrower when the transaction is a refinance or equity loan.",varchar,100,,
+Grantor,"The name of the Seller, in case of mortgage",varchar,100,,
+Grantee,"The individual names of the buyer(s) ",varchar,100,,
+LenderName,"The name of the originating lender (populated for mortgage transactions)",varchar,250,,
+CleanLenderName,"The formatted and cleaned name of the originating lender (populated for mortgage transactions)",varchar,500,,
+ParentLenderName,"The parent company of the LenderName",varchar,250,,
+MergerParentName,"The merged company of the LenderName",varchar,250,,
+PartialInterest,"An indicator for whether the transaction is a partial interest transaction",bit,,1,Yes
+PartialInterest,,,,(blank),No
+SalePrice,"The consideration for conveyance",int,,,
+LoanRateTypeDescription,"A descriptor for the type of interest rate on the loan in the transaction",varchar,100,"Adjustable Rate",
+LoanRateTypeDescription,,,,"All Inclusive Deed of Trust",
+LoanRateTypeDescription,,,,Closed-ended,
+LoanRateTypeDescription,,,,Demand,
+LoanRateTypeDescription,,,,"Fannie Mae Mortgage Financing",
+LoanRateTypeDescription,,,,"Fixed Rate",
+LoanRateTypeDescription,,,,Graduated,
+LoanRateTypeDescription,,,,"Growing Equity",
+LoanRateTypeDescription,,,,(blank),Unknown
+LoanTypeDescription,"A descriptor for the type of loan in the transaction",varchar,100,Assumption,
+LoanTypeDescription,,,,Balloon,
+LoanTypeDescription,,,,"Building or Construction Loan",
+LoanTypeDescription,,,,Construction,
+LoanTypeDescription,,,,Conventional,
+LoanTypeDescription,,,,"Credit Line (Revolving)",
+LoanTypeDescription,,,,Fixed,
+LoanTypeDescription,,,,FHA,
+LoanTypeDescription,,,,"Graduated Payment",
+LoanTypeDescription,,,,"New Conventional",
+LoanTypeDescription,,,,"Seller take-back",
+LoanTypeDescription,,,,"Stand Alone First",
+LoanTypeDescription,,,,"Stand Alone Refi",
+LoanTypeDescription,,,,"Stand Alone Second",
+LoanTypeDescription,,,,Unknown,
+LoanTypeDescription,,,,"Veterans Administration Loan",
+LoanTypeDescription,,,,"Home Equity Line of Credit (HELOC)",
+LoanTypeDescription,,,,"Refi – Assignment",
+LoanTypeDescription,,,,(blank),Unknown
+NewLoan1Amount,,int,,,
+NewLoan2Amount,,int,,,
+NewLoanDocumentNumber,,varchar,50,,
+NewLoanInterestRate,,decimal,"5,3",,
+CreateDate,"The date of subject property record creation for this document",date,,,
+LastUpdated,"The date when the record data was last updated",date,,,
+PublicationDate,"The date when the record data was included for publication",date,,,
+ProcessIndicator,"An indicator for suggested record processing",char,1,I,"New record to be inserted"
+ProcessIndicator,,char,,U,"Existing record to be updated"
+InMedianRange,"An indicator for whether the sale price is within 2 standard deviation of the median price in the subject property's zip at the time of sale",bit,,1,Yes
+InMedianRange,,,,(blank),No
+ForeclosureAuctionSale,"An indicator for whether the transaction was a foreclosure auction sale",bit,,1,Yes
+ForeclosureAuctionSale,,,,(blank),No
+InvestorBulkBuy,"An Indicator for whether the transaction was from a non-lending entity with more than 10 purchases in 12 months",bit,,1,Yes
+InvestorBulkBuy,,,,(blank),No
+AbsentOwner,"An indicator for whether the buyer is not the occupant of the property (derived from tax mailing address)",bit,,1,Yes
+AbsentOwner,,,,(blank),No
+DistressCircumstanceDescription,"A descriptor for whether the sale was related to a foreclosure action",varchar,50,"not provided",
+DistressCircumstanceDescription,,,,"Foreclosure NOD Record",
+DistressCircumstanceDescription,,,,"Foreclosure NOT Record",
+DistressCircumstanceDescription,,,,"REO Record with Doc Type='U'",
+DistressCircumstanceDescription,,,,"REO Record derived from Keywords",
+DistressCircumstanceDescription,,,,"REO Transfer to Guarantor",
+DistressCircumstanceDescription,,,,"Loan Record",
+DistressCircumstanceDescription,,,,"Sale Record -  REO Liquidation",
+DistressCircumstanceDescription,,,,"Sale Record - Foreclosure Auction",
+DistressCircumstanceDescription,,,,"Sale Record - Inferred Short Sale",
+DistressCircumstanceDescription,,,,"Sale Record - Ownership Transfer",
+DistressCircumstanceDescription,,,,"non distress transaction",
+DistressCircumstanceDescription,,,,(blank),Unknown
+SaleTermsDescription,"A descriptor for whether the sale was with cash or cash to new financing",varchar,100,"100% financed",
+SaleTermsDescription,,,,Cash,
+SaleTermsDescription,,,,"Cash to new loan",
+SaleTermsDescription,,,,"Loan Unknown Amount",
+SaleTermsDescription,,,,(blank),Unknown
+SaleTypeDescription,"A descriptor of the type of transaction sales",varchar,100,"Existing Structure",
+SaleTypeDescription,,,,"New Structure",
+SaleTypeDescription,,,,Timeshare,
+SaleTypeDescription,,,,Unknown,
+SaleTypeDescription,,,,(blank),Unknown
+TransferTypeDescription,"A descriptor of the type of transaction transfer ",varchar,100,"Construction Sale",
+TransferTypeDescription,,,,"Transfer to Lender",
+TransferTypeDescription,,,,Mortgage,
+TransferTypeDescription,,,,Transfer,
+TransferTypeDescription,,,,"Subdivision Related Transfer",
+TransferTypeDescription,,,,"Timeshare Transfer",
+TransferTypeDescription,,,,(blank),Unknown
+RTUniqueFCIdentifier,"A reference to foreclosure document in case of transfers to REO or third party. (To be linked to the foreclosure record layout)",int,,,
+RTUniqueREOSaleIdentifier,"RealtyTrac Document ID of the REO sale record when transfer from REO to third party.",int,,,
+AVMatDocRecordingDate,"The estimated market value of the property at time of doc recording",int,,,

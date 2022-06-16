@@ -1,0 +1,400 @@
+"RT Standard Field Name","Field Definition","Field Data Type","Field Size","Acceptable Value","Value Definition"
+RTPropertyUniqueIdentifier,"A RealtyTrac integer identifier for the property",int,,,
+sa_property_id,"A legacy identifier for the property. The value refers to DataQuick SA_PROPERTY_ID",bigint,,,
+SitusStateCountyFIPS,"The five-digit state and county Federal Information Processing Standards (FIPS) code combination of the site property address",char,5,,
+JurisdictionCountyFIPS,"The five-digit state and county Federal Information Processing Standards (FIPS) code combination of the taxing jurisdiction ",char,5,,
+APNUnformatted,"The Tax Identification number (APN) of the property",varchar,100,,
+APNFormatted,"The Formatted Tax Identification number (APN) of the property",varchar,60,,
+FIPSCountyName,"The county name associated with the site property address Federal Information Processing Standards (FIPS) county code.",varchar,35,,
+MunicipalityName,"The full name of the Jurisdiction",varchar,24,,
+InactiveParcelFlag,"An indicator that the parcel is not actively taxed by the assessor.",varchar,1,Y,"The parcel is currently active"
+InactiveParcelFlag,,varchar,1,(blank),"The status of the parcel is unknown. The assessor is no longer providing updates to this parcel"
+ParcelNumberReference,"A secondary identifier recognized by the jurisdiction as a means to refer to a property. This number may not be unique in a jurisdiction.",varchar,35,,
+ParcelAccountNumber,"A jurisdiction-internal identifier used to identify a property. This number is often associated with the owner of record as opposed to a parcel of land. In cases where the account number refers to ownership, the value changes often and is not best qualified to identify a property long term.",varchar,35,,
+ParcelNumberAlternate,"An additional identifier for the primary parcel number. The ParcelNumberAlternate is recognizable by the jurisdiction and this number may not be unique in a jurisdiction.",varchar,35,,
+ParcelNumberPrevious,"The previous parcel number after a parcel number conversion occurs.",varchar,35,,
+ParcelNumberYearChange,"The year in which the most recent parcel number conversion took place.",smallint,7,,
+ShellParcelFlag,"An indicator that the record may contain limited data elements until the next assessor update is processed.",varchar,1,Y,Yes
+ShellParcelFlag,,,,(blank),Unknown
+ApnAddedYear,"The vendor-provided year indicating when the APN was added                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",smallint,7,,
+SitusAddress,"The site full address of the property",varchar,150,,
+SitusCity,"The site city of the property",varchar,50,,
+SitusState,"The site state of the property",char,2,,
+SitusZip,"The site ZIP code of the property",char,5,,
+SitusZip4,"The site-specific 4-digit ZIP code extension of the property",char,4,,
+AddressCRRT,"The site address Postal Carrier Route of the property. A Carrier Route includes city routes, rural routes, highway contract routes, Post Office box sections and general delivery units.",varchar,4,,
+OwnerOccupied,"A derived code for whether the subject property is Owner Occupied and the logic used for the determination",varchar,1,-1,"Unknown - A definite YES or NO cannot be determined by business logic"
+OwnerOccupied,,,,0,"NO owner occupancy determined by logic - Site Mail Same is not true, Exemption Flag is not populated, Exemption Value is not populated"
+OwnerOccupied,,,,1,"YES owner occupancy determined by logic - Site Mail Same is true, Exemption Flag is not populated, Exemption Value is not populated"
+OwnerOccupied,,,,2,"YES owner occupancy determined by logic - Site Mail Same is not true, Exemption Flag is populated, Exemption Value is not populated"
+OwnerOccupied,,,,3,"YES owner occupancy determined by logic - Site Mail Same is true, Exemption Flag is populated, Exemption Value is not populated"
+OwnerOccupied,,,,4,"YES owner occupancy determined by logic - Site Mail Same is not true, Exemption Flag is not populated, Exemption Value is populated"
+OwnerOccupied,,,,5,"YES owner occupancy determined by logic - Site Mail Same is true, Exemption Flag is not populated, Exemption Value is populated"
+OwnerOccupied,,,,6,"YES owner occupancy determined by logic - Site Mail Same is not true, Exemption Flag is populated, Exemption Value is populated"
+OwnerOccupied,,,,7,"YES owner occupancy determined by logic - Site Mail Same is true, Exemption Flag is populated, Exemption Value is populated"
+,,,,Y,"Yes owner occupied"
+SitusCounty,"The county name of the situs address for the property",varchar,50,,
+SitusHouseNumber,"The site house number of the property",varchar,25,,
+SitusHouseNumberFraction,"The site house fraction number (1/2, etc.) of the property",varchar,10,,
+SitusStreetName,"The site street name of the property",varchar,100,,
+SitusDirection,"The site pre direction of the property",varchar,15,,
+SitusAddressSuffix,"The site suffix (Ave, Dr, Ct, etc.) of the property",varchar,100,,
+SitusPostDirection,"The site post direction (N, S, E, W, NE, etc.) of the property",varchar,25,,
+SitusUnitPrefix,"The site unit number prefix of the property",varchar,10,,
+SitusUnitValue,"The site unit number of the property",varchar,25,,
+CombinedStatisticalArea,"The Metropolitan Statistical Area (MSA) name of the property",varchar,100,,
+MetropolitanDivision,"The Metropolitan Division of the property",varchar,100,,
+LegalDescription,"The assessor's description of the property location",varchar,8000,,
+LotNumber,"The primary first lot; this is part of the legal description of a property and usually refers to a portion of the subdivision.",varchar,6,,
+Subdivision,"The property developer subdivision tract of the property",varchar,30,,
+Section,"A code for the section in which the property lies per the Government Rectangular Survey.  A section consists of one square mile (640 acres).",varchar,2,,
+Township,"A code for the township in which the property lies per the Government Rectangular Survey.  A township consists of six square miles and contains thirty-six sections, each one square mile.",varchar,3,,
+Quarter,"A code for the quarter section or half section in which the property lies per the Government Rectangular Survey.  A quarter section contains 160 acres.",varchar,2,,
+Range,"A code for the range in which the property lies per the Governmental Rectangular Survey.  A range consists of a six mile wide row of sections, or 1/8 of a township.",varchar,3,,
+PropertyZoning,"The zoning code assigned to a property by a county, city, or other government bureau which defines the allowed size, type, structure, nature, and use of property and/or buildings.  This code is not standardized and is subjective to the specific local government regulation.",varchar,50,,
+PropertyGroup,"The general property use type for the property",,,Commercial,"Commercial Property"
+PropertyGroup,,,,"Not Provided","Unknown due to unprovided data from Assessor's office"
+PropertyGroup,,,,Other,"Other Property grouping"
+PropertyGroup,,,,Residential,"Residential Property"
+PropertyGroup,,,,Unknown,Unknown
+PropertyGroup,,,,(blank),Unknown
+PropertyType,"The standardized property use type of property",varchar,100,,
+UcUseCodeMuni,"The jurisdiction-specific property use type of the property.",varchar,6,,
+Longitude,"The X coordinate, longitude location for the property.",numeric,16,,
+Latitude,"The Y coordinate, latitude location for the property.",numeric,15,,
+CensusBlockGroup,"The census block group of the property",varchar,1,,
+CensusTract,"The census tract of the property.  A small, relatively permanent statistical subdivision of a county. Census Tracts are designed to be homogenous with respect to population characteristics, economic status, and living conditions",varchar,7,,
+GeoQualityCode,"A code to indicate the level of quality of the geocodes as determined by the Geocoding process.",varchar,1,0,Parcel-Centroid
+GeoQualityCode,,,,1,"Street Centerline"
+GeoQualityCode,,,,5,"Zip Level"
+GeoQualityCode,,,,9,"County Centroid"
+GeoQualityCode,,,,(blank),Unknown
+MSACode,"The four-digit Federal Information Processing Standards (FIPS) code for the Metropolitan Statistical Area (MSA).  NOTE: Not every address will fall within an MSA. The MSA refers to a core area containing a substantial population nucleus, together with adjacent communities having a high degree of social and economic integration with that core. MSA comprise one or more entire counties.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ",varchar,4,,
+Bedrooms,"The total number of bedrooms for all structures on the property",int,,,
+Bathrooms,"The total number of rooms dedicated as a bathroom.  For example a property containing a 1/4 bath, a 1/2 bath, and a full bathroom would have a value of 3 in this field.",decimal,"9,3",,
+NumberOfBaths,"The total number of baths in real estate terms (sum of quarter, half, three-quarter, and full bathrooms). For example a property containing a 1/4 bath, a 1/2 bath, and a full bathroom would have a value of 1.75 in this field.",numeric,11,,
+SquareFootage,"The total square footage of the living area of all structures on the property",int,,,
+FinishedSquareFeet,"The total finished area of all the buildings on the property",int,12,,
+SquareFeetAssessorTotal,"The total assessor raw square footage of all buildings on the property",int,12,,
+LotSize,"The lot size expressed in square feet of the property",decimal,"12,2",,
+Acreage,"The lot size in acres of the property",numeric,12,,
+LotType,"The lot type of the property",varchar,10,(blank),Unknown
+YearBuilt,"The Year in which the primary structure on the property was built",int,,,
+EffectiveYearBuilt,"The Year after which the property underwent significant construction",int,,,
+StructureNumber,"The number of structures on the property",smallint,7,,
+ViewDescription,"A descriptor for the view quality or features from the property",varchar,50,AIRPORT,"Property in vicinity of an airport"
+ViewDescription,"Indicates the view quality or features from the property",,,AVERAGE,"General view quality from the property is average"
+ViewDescription,"Indicates the view quality or features from the property",,,CANYON,"Property in vicinity of a canyon"
+ViewDescription,"Indicates the view quality or features from the property",,,CITY,"General view quality from the property is metropolitan"
+ViewDescription,"Indicates the view quality or features from the property",,,CREEK/LAKE,"Property in vicinity of a creek/view"
+ViewDescription,"Indicates the view quality or features from the property",,,EXCELLENT,"General view quality from the property is excellent"
+ViewDescription,"Indicates the view quality or features from the property",,,FAIR,"General view quality from the property is fair"
+ViewDescription,"Indicates the view quality or features from the property",,,"GOLF COURSE","Property in vicinity of a golf course"
+ViewDescription,"Indicates the view quality or features from the property",,,GOOD,"General view quality from the property is good"
+ViewDescription,"Indicates the view quality or features from the property",,,LAKE,"Property in vicinity of a lake"
+ViewDescription,"Indicates the view quality or features from the property",,,MOUNTAIN,"Property in vicinity of a mountain"
+ViewDescription,"Indicates the view quality or features from the property",,,NONE,"No available view description on the property"
+ViewDescription,"Indicates the view quality or features from the property",,,"NOT PROVIDED","No available view description on the property"
+ViewDescription,"Indicates the view quality or features from the property",,,PARK,"Property in vicinity of a park"
+ViewDescription,"Indicates the view quality or features from the property",,,RIVER,"Property in vicinity of a river"
+ViewDescription,"Indicates the view quality or features from the property",,,"TYPE UNKNOWN","Unknown view description"
+ViewDescription,"Indicates the view quality or features from the property",,,WATER,"Property in vicinity of a body of water"
+ViewDescription,"Indicates the view quality or features on the property",,,(blank),Unknown
+ArchitectureDescription,"A descriptor for the property's architectural style.",varchar,75," Modern",
+ArchitectureDescription,,,,Colonial,
+ArchitectureDescription,,,,Contemporary,
+ArchitectureDescription,,,,Conventional,
+ArchitectureDescription,,,,English,
+ArchitectureDescription,,,,French,
+ArchitectureDescription,,,,Rustic,
+ArchitectureDescription,,,,Spanish,
+ArchitectureDescription,,,,(blank),Unknown
+StructureDescription,"A descriptor for the structural style or the presence of specific style elements in the property",varchar,75,,
+ExteriorDescription1,"A descriptor for the primary material used as an exterior sheathing/cover for the structure on the property                 ",varchar,75,,
+ExteriorDescription2,"A descriptor for the secondary material used as an exterior sheathing/cover for the structure on the property                 ",varchar,75,,
+ConstructionDescription,"A descriptor for the material used in the construction of the framework for the structure on the  property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ",varchar,75,Brick,
+ConstructionDescription,,,,Concrete,
+ConstructionDescription,,,,Log,
+ConstructionDescription,,,,Masonry,
+ConstructionDescription,,,,"Metal Stud",
+ConstructionDescription,,,,Non-combustible,
+ConstructionDescription,,,,Pole,
+ConstructionDescription,,,,Special,
+ConstructionDescription,,,,Steel,
+ConstructionDescription,,,,Steel/Concrete,
+ConstructionDescription,,,,"Wood Frame",
+ConstructionDescription,,,,(blank),Unknown
+ConstructionQuality,"A descriptor for the construction quality of the property which uses a one to ten scale, ten being the highest quality",decimal,"10,2",,
+FoundationDescription,"A descriptor for the type of foundation of the primary structure on the property",varchar,50,BLOCK,
+FoundationDescription,,,,BRICK,
+FoundationDescription,,,,BYPASS,
+FoundationDescription,,,,CONCRETE,
+FoundationDescription,,,,"CONCRETE BLOCK",
+FoundationDescription,,,,CONCRETE/BEAM,
+FoundationDescription,,,,"CONTINUOUS FOOTING",
+FoundationDescription,,,,"CONTINUOUS WALL",
+FoundationDescription,,,,"CROSS BRIDGED/WALLS",
+FoundationDescription,,,,DIRT/EARTH,
+FoundationDescription,,,,GRADE-BEAM,
+FoundationDescription,,,,MASONRY,
+FoundationDescription,,,,"MUD SILL",
+FoundationDescription,,,,PIER,
+FoundationDescription,,,,PILINGS,
+FoundationDescription,,,,PIPE/IRON,
+FoundationDescription,,,,PRE-FAB,
+FoundationDescription,,,,RAISED,
+FoundationDescription,,,,"RAISED W/BASEMENT",
+FoundationDescription,,,,"RAISED W/CRAWSPACE",
+FoundationDescription,,,,SLAB,
+FoundationDescription,,,,"SPREAD FOOTING",
+FoundationDescription,,,,STANDARD,
+FoundationDescription,,,,STEEL,
+FoundationDescription,,,,"STEM WALL",
+FoundationDescription,,,,STONE,
+FoundationDescription,,,,"TYPE UNKNOWN",
+FoundationDescription,,,,"TYPE UNKNOWN WITH BASEMENT",
+FoundationDescription,,,,"TYPE UNKNOWN WITH PART BASEMENT",
+FoundationDescription,,,,"TYPE UNKOWWN WITH CRAWSPACE",
+FoundationDescription,,,,WOOD,
+FoundationDescription,,,,(blank),Unknown
+InteriorCode,"A code indicating the presence of an interior structure in the primary structure on the property. It, alternatively, can also indicate the type of the interior structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",varchar,2,0,Unknown
+InteriorCode,,,,1,Drywall
+InteriorCode,,,,2,Plaster
+InteriorCode,,,,3,Drywall/Panel
+InteriorCode,,,,4,Composition
+InteriorCode,,,,5,Plywood
+InteriorCode,,,,6,"Cld & Paper"
+InteriorCode,,,,7,Paneling
+InteriorCode,,,,8,Vinylwrap
+InteriorCode,,,,9,Hardboard
+InteriorCode,,,,10,Cedar
+InteriorCode,,,,11,Wallpaper
+InteriorCode,,,,12,"T&T Drywall"
+InteriorCode,,,,13,Hardboard
+InteriorCode,,,,14,Other
+InteriorCode,,,,15,"LC Paneling"
+InteriorCode,,,,16,"Photo Finish plaster"
+InteriorCode,,,,17,"Single Coat plaster"
+InteriorCode,,,,18,"Tongue & Groove"
+InteriorCode,,,,19,Vinylwrap
+InteriorCode,,,,20,Plaster/Drywall/Paneling
+InteriorCode,,,,21,Decorative
+InteriorCode,,,,22,Tile
+InteriorCode,,,,23,Unfinished
+InteriorCode,,,,(blank),Unknown
+LandSlopeCode,"Indicates the type of land slope of the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",varchar,2,0,Unknown
+LandSlopeCode,,,,1,Level
+LandSlopeCode,,,,2,"Level Slope"
+LandSlopeCode,,,,3,Slope
+LandSlopeCode,,,,4,"Steep Slope"
+LandSlopeCode,,,,5,Steep
+LandSlopeCode,,,,6,Other
+LandSlopeCode,,,,7,"Slope up"
+LandSlopeCode,,,,8,"Slope Down"
+LandSlopeCode,,,,(blank),Unknown
+BuildingQualityClassCode,"The code assigned to a building/structure indicating its quality                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",varchar,2,0,Unknown
+BuildingQualityClassCode,,,,1,Low
+BuildingQualityClassCode,,,,2,Fair
+BuildingQualityClassCode,,,,3,Average
+BuildingQualityClassCode,,,,4,Good
+BuildingQualityClassCode,,,,5,"Very Good"
+BuildingQualityClassCode,,,,6,Excellent
+BuildingQualityClassCode,,,,7,"High res"
+BuildingQualityClassCode,,,,8,Cabin
+BuildingQualityClassCode,,,,9,Other
+BuildingQualityClassCode,,,,(blank),Unknown
+ElectricAvailableCode,"The code indicating the availability of electricity. It, alternatively, can also specify the electricity transmission type for a particular property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ",varchar,2,0,Unknown
+ElectricAvailableCode,,,,2,Overhead
+ElectricAvailableCode,,,,3,Undergrnd
+ElectricAvailableCode,,,,4,Developed
+ElectricAvailableCode,,,,5,Available
+ElectricAvailableCode,,,,6,Standard
+ElectricAvailableCode,,,,7,"Below std"
+ElectricAvailableCode,,,,8,"Above std"
+ElectricAvailableCode,,,,9,Average
+ElectricAvailableCode,,,,10,Fair
+ElectricAvailableCode,,,,11,Good
+ElectricAvailableCode,,,,12,Poor
+ElectricAvailableCode,,,,13,Good
+ElectricAvailableCode,,,,N,No
+ElectricAvailableCode,,,,Y,Yes
+ElectricAvailableCode,,,,(blank),Unknown
+LotDepth,"The depth of the lot, measured in number of feet",int,,,
+LotWidth,"The width of the property; measured in number of feet at the front of the property",int,,,
+FinishedSquareFeet1,"The sum total of the area covered by ground floors of all the buildings on the property",int,,,
+FinishedSquareFeet2,"The sum total of the area covered by second floors of all the buildings on the property",int,,,
+FinishedSquareFeet3,"The sum total of the area covered by third floors of all the buildings on the property",int,,,
+FinishedSquareFeet4,"The sum total of the area covered by fourth floors of all the buildings on the property",int,,,
+AdditionsSquareFeet,"The identified additions square feet of the property",int,,,
+AtticSquareFeet,"The total square footage of the attic present on the property",int,,,
+BasementSquareFeet,"The total square footage of the basement present on the property",int,,,
+Basement1Code,"A two-character code that indicates the presence/absence of a basement. It also indicates if one or two basements are present.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",varchar,2,,
+GarageSquareFeet,"The total square footage of the primary garage present on the property",int,,,
+PatioPorchDescription,"The description of presence or type of patio or porch on the property.",varchar,2,,
+PatioPorchDeck1Code,"A code representing the material of which the primary patio, porch or deck is made                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ",varchar,2,0,none
+PatioPorchDeck1Code,,,,1,concrete
+PatioPorchDeck1Code,,,,2,aggregate
+PatioPorchDeck1Code,,,,3,"kool deck"
+PatioPorchDeck1Code,,,,4,stone
+PatioPorchDeck1Code,,,,5,brick
+PatioPorchDeck1Code,,,,6,asphalt
+PatioPorchDeck1Code,,,,7,wood
+PatioPorchDeck1Code,,,,8,deck
+PatioPorchDeck1Code,,,,9,patio
+PatioPorchDeck1Code,,,,10,porch
+PatioSquareFeet,"The square footage of the patio(s) for all structures on the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",smallint,7,,
+PorchSquareFeet,"The total square footage of the porch(s) on the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ",smallint,7,,
+HeatingCooling,"An indicator specifying whether there is a heating/cooling system on the property",varchar,2,,
+HeatingDetailDescription,"A descriptor specifying primary heating system or method on the property",varchar,75,,
+CoolingDetailDescription,"A descriptor specifying primary cooling system or method on the property",varchar,75,,
+FuelDescription,"A descriptor specifying primary heating fuel used.",varchar,50,,
+FirePlaceDescription,"A descriptor specifying presence or absence of a fireplace, and potentially the type of fireplace on the property",varchar,75,,
+FirePlaceNumber,"The number of fireplaces on a property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ",smallint,,,
+GarageCarport,"A indicator of the presence of a garage or carport, if it is attached or detached, and the number of spaces.",varchar,3,,
+GarageDescription,"A descriptor specifying the type of the primary garage.",varchar,2,,
+GarageSpacesNumber,"The number of parking spaces in the garages for all structures on the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",smallint,,,
+GasAvailableCode,"A code representing the availability of natural gas on the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",varchar,2,,
+BathroomNumberQuarter,"The number of 1/4 baths for all structures on the property.  A 1/4 bath is defined as having a toilet only",int,,,
+BathroomNumberHalf,"The number of 1/2 baths for all structures on the property.  A 1/2 bath is defined as having a toilet and a sink only.",int,,,
+BathroomNumberThreeQuarter,"The number of 3/4 baths for all structures on the property.  A 3/4 bath is defined as having a toilet, sink, and shower only.",int,,,
+BathroomNumberFull,"The number of full baths for all structures on the property.  A full bath is defined as having a toilet, sink, and a bathtub.",int,,,
+NumberOfUnits,"The total number of units on the property.",int,,,
+RoofTypeDescription,"The finished material of which the roof is made",varchar,75,,
+AirConditioning,"The presence of air conditioning on the property.",varchar,4,,
+PoolDescription,"A descriptor specifying if there is a pool on the property and/or pool construction material used.",varchar,100,,
+SewerUsedCode,"A code specifying where a sewer is used and, if known, the type of sewer used on the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ",varchar,2,0,Unknown
+SewerUsedCode,,varchar,,3,Industrial
+SewerUsedCode,,varchar,,4,Developed
+SewerUsedCode,,varchar,,5,Undergrnd
+SewerUsedCode,,varchar,,6,Storm
+SewerUsedCode,,varchar,,7,Sanitary
+SewerUsedCode,,varchar,,8,Public
+SewerUsedCode,,varchar,,9,Private
+SewerUsedCode,,varchar,,10,Septic
+SewerUsedCode,,varchar,,11,Pub/Sep
+SewerUsedCode,,varchar,,N,No
+SewerUsedCode,,varchar,,Y,Yes
+SewerUsedCode,,varchar,,(blank),Unknown
+WaterUsedCode,"A code specifying the water source for the property                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ",varchar,,0,Unknown
+WaterUsedCode,,varchar,,3,Developed
+WaterUsedCode,,varchar,,4,Undergrnd
+WaterUsedCode,,varchar,,5,"Irrg ditch"
+WaterUsedCode,,varchar,,6,Public
+WaterUsedCode,,varchar,,7,Sprint/crk
+WaterUsedCode,,varchar,,8,"Pirv well"
+WaterUsedCode,,varchar,,9,Priv/publ
+WaterUsedCode,,varchar,,N,No
+WaterUsedCode,,varchar,,Y,Yes
+WaterUsedCode,,varchar,,(blank),Unknown
+NeighborhoodCode,"An assessor provided code used to delineate geographic areas within an assessing unit for valuation purposes. A unique code will be assigned for each delineated area.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ",varchar,10,,
+TopographyCode,"A code specifying the topography of the property.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",varchar,2,0,Unknown
+TopographyCode,,varchar,,1,Slope/Gntl
+TopographyCode,,varchar,,2,Level
+TopographyCode,,varchar,,3,Rolling
+TopographyCode,,varchar,,4,"Steep Side"
+TopographyCode,,varchar,,5,Low/Wet
+TopographyCode,,varchar,,6,Combo
+TopographyCode,,varchar,,7,Broken
+TopographyCode,,varchar,,8,Low
+TopographyCode,,varchar,,9,High
+TopographyCode,,varchar,,10,Wet
+TopographyCode,,varchar,,11,Steep
+TopographyCode,,varchar,,12,Steep/Low
+TopographyCode,,varchar,,13,Steep/Wet
+TopographyCode,,varchar,,14,Underwater
+TopographyCode,,varchar,,15,Other
+TopographyCode,,varchar,,16,"Below Road/Slope"
+TopographyCode,,varchar,,17,"Above Road/Slope"
+TopographyCode,,varchar,,18,"Above Road/Steep"
+TopographyCode,,varchar,,19,"Below Road/Steep"
+TopographyCode,,varchar,,20,"Partially Developed"
+TopographyCode,,varchar,,21,"Needs Development"
+TopographyCode,,varchar,,(blank),Unknown
+TaxYear,"The year of the most recent tax assessment on the property",int,,,
+TaxYearAssessed,"The year of the assessment provided by the jurisdictional Assessor Office.  Assessments are not necessarily run every year, and sometimes assessments are for the year prior and sometimes assessments are for the year following.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ",varchar,4,,
+TaxAssessedValue,"The tax assessor's determination of the value of the property in order to calculate the tax amount owed.",int,,,
+TaxImprovementValue,"The value of the property's improvements that are taxed by the assessor.",int,,,
+TaxLandValue,"The value of the property's land that is taxed by the assessor",int,,,
+TaxImprovementPercent,"The percent of total assessed value represented by improvements.",int,,,
+TaxAmount,"The property tax amount billed to the owner of the property.",int,,,
+TaxDelinquentYear,"The most recent year of tax delinquency on the property",int,,,
+FullCashValue,"The amount of cash or its equivalent that the property would bring if exposed for sale in the open market.",int,,,
+CurrentLimitValue,"The value for any additional tax value restrictions or limitations on the property",int,,,
+MarketValue,"The market value as determined by the assessor on the property",int,,,
+AppraiseImprovementPercent,"The percent of total appraised value represented by improvements.",numeric,8,,
+MarketImprovementPercent,"The percent of total market value represented by improvements.",numeric,8,,
+AppraiseImprovementValue,"The assessor's appraised value of the improvement(s).",int,12,,
+AppraiseLandValue,"The assessor's appraised value of the land.",int,12,,
+PreviousAssessedValue,"The previous assessed value of the property.",int,12,,
+MarketImprovementValue,"The market value of improvements as determined by assessor.",int,12,,
+LandMarketValue,"The market value of land as determined by assessor.",int,12,,
+AppraiseLandYear,"The year in which the last land appraisal occurred",smallint,7,,
+ExemptFlag7,"An indicator of the source of the market value on the property.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ",varchar,1,,
+TaxExemptionAmountHomeowner,"The homeowner tax exemption amount observed by the assessor.",int,,,
+TaxExemptionAmountDisabled,"The disabled tax exemption amount for disabled homeowner.",int,,,
+TaxExemptionAmountSenior,"The senior tax exemption amount for a senior homeowner.",int,,,
+TaxExemptionAmountVeteran,"The veteran tax exemption amount for a veteran homeowner.",int,,,
+TaxExemptionAmountWidow,"The widow tax exemption amount for a widow homeowner.",int,,,
+TaxExemptionAmountOther,"Other tax exemption amount for undefined status.",int,,,
+TaxBillMailingAddress,"The mailing address of the property owner from assessor record",varchar,120,,
+TaxBillMailingCity,"The mailing city of the property owner from assessor record",varchar,55,,
+TaxBillMailingState,"The mailing state of the property owner from assessor record",char,2,,
+TaxBillMailingZip,"The mailing zip code of the property owner from assessor record",char,5,,
+TaxBillMailingZip4,"The mailing zip plus 4 code of the property owner from assessor record",char,4,,
+MailingCarrierCode,"The Mailing Address Postal Carrier Route  of the property owner from assessor record. A Carrier Route includes city routes, rural routes, highway contract routes, Post Office box sections and general delivery units.",varchar,4,,
+TaxBillMailingCounty,"The mailing county of the property owner from assessor record",varchar,50,,
+TaxBillMailingFIPs,"The mailing Federal Information Processing Standard (FIPS) code for the county",char,5,,
+TaxBillMailingHouseNumber,"The mailing address house number of the property owner from assessor record",varchar,20,,
+TaxBillMailingHouseNumberFraction,"The mailing address house number fraction (1/2, etc.) of the property owner from assessor record",varchar,10,,
+TaxBillMailingStreetName,"The mailing address street name of the property owner from assessor record",varchar,50,,
+TaxBillMailingDirection,"The Mailing address pre-directional of the property owner from assessor record",varchar,2,,
+TaxBillMailingAddressSuffix,"The Mailing address street name suffix of the property owner from assessor record",varchar,4,,
+TaxBillMailingPostDirection,"The Mailing Address Post Direction of the property owner from assessor record",varchar,2,,
+TaxBillMailingUnitPrefix,"The Mailing address unit number prefix of the property owner from assessor record",varchar,10,,
+TaxBillMailingUnitValue,"The Mailing address unit number of the property owner from assessor record",varchar,6,,
+PrimaryOwnerNamePrefix,"The prefix of the primary owner's name",varchar,10,,
+PrimaryOwnerFullName,"The full unparsed primary owner's name.  The primary owner is the individual or entity who holds the most interest in a property.",varchar,50,,
+PrimaryOwnerFirstName,"The first name of the primary owner of the property.  If primary owner is a company the company name will be present in this field.",varchar,50,,
+PrimaryOwnerMiddleName,"The middle name of the primary owner of a property.",varchar,20,,
+PrimaryOwnerLastName,"The primary owner's last name.",varchar,50,,
+PrimaryOwnerNameSuffix,"The suffix associated with the primary owner of the property (Jr., III, etc.)",varchar,5,,
+PrimaryOwnerOtherPartyName,"Any additional primary ownership information.",varchar,15,,
+PrimaryOwnerSpouseFirstName,"The first name of the primary owner's spouse.",varchar,50,,
+PrimaryOwnerSpouseMiddleName,"The middle name of the primary owner's spouse.",varchar,50,,
+PrimaryOwnerSpouseNameSuffix,"The suffix associated with the primary owner's spouse (Jr., III, etc.)",varchar,5,,
+SecondaryOwnerFullName,"The full unparsed name of secondary property owner.",varchar,50,,
+SecondaryOwnerFirstName,"The first name of the secondary owner of the property.  If the secondary owner is a company the company name will be present in this field.",varchar,50,,
+SecondaryOwnerMiddleName,"The middle name of the secondary owner.",varchar,20,,
+SecondaryOwnerLastName,"The last name of the secondary owner.",varchar,50,,
+SecondaryOwnerNameSuffix,"The suffix associated with the secondary property owner of the property (Jr., III, etc.)",varchar,5,,
+SecondaryOwnerSpouseFirstName,"The first name of the secondary owner's spouse.",varchar,50,,
+SecondaryOwnerSpouseMiddleName,"The middle name of the secondary owner's spouse.",varchar,20,,
+OwnershipVestingRelationDescription,"Indicates the ownership vesting type.  Generally a relationship between owners or type of entity.",varchar,75,,
+TrustDescription,"A descriptor that indicates if the primary property owner is a trust.",varchar,50,,
+SecondOwnerTypeDescription,"A descriptor if the secondary owner is an individual, a company, or deceased.",varchar,50,,
+OwnerTypeDescription,"A descriptor if the primary owner is an individual, a company, or deceased.",varchar,50,,
+CompanyFlag,"An indicator that specifies if the property is owned by a non-individual entity",varchar,1,Y,Yes
+CompanyFlag,,,,(blank),"Unknown "
+TransferDate,"The date of the most recent arms-length ownership transfer",int,12,,
+DocumentNumberFormat,"The document number for the most recent arms-length ownership transfer",varchar,20,,
+MailingPrivacyCode,"An indicator of the Do Not Call/Do Not Mail status of the property owner.",varchar,1,B,"Owner on both Do Not Call and Do Not Mail lists"
+MailingPrivacyCode,,,,M,"Owner on Do Not Mail list"
+MailingPrivacyCode,,,,P,"Owner on Do Not Call lists"
+MailingPrivacyCode,,,,(blank),"None, known"
+TransferPrice,"The amount paid for the property from the most recent arms-length ownership transfer",int,12,,
+CreateDate,"The date of subject property record creation for this property",date,,,
+LastUpdated,"The date when the record data was last updated",date,,,
+PublicationDate,"The date when the record data was included for publication",date,,,
+ProcessIndicator,"An indicator for suggested record processing",char,1,I,Insert
+ProcessIndicator,,,,U,Update
+EstimatedValue,"The current estimated AVM value of the property",int,,,
+LastSaleDate,"The date which the current owner acquired the property",int,,,
+LastSaleAmount,"The amount paid by current owner for the property",int,,,
+PriorSaleDate,"The date which the previous owner acquired the property ",int,,,
+PriorSaleAmount,"The amount paid by previous owner",varchar,,,
+OpenLoan1,"The amount of mortgage modeled in lien position 1",int,,,
+OpenLoan2,"The amount of mortgage modeled in lien position 2",varchar,,,
+OpenLoan3,"The amount of mortgage modeled in lien position 3",int,,,
+Equity,"The available equity on the property. This value is calculated from Estimated Value minus the sum of OpenLoan1 , OpenLoan2,  and OpenLoan3 fields ",varchar,,,
+OccupancyStatus,"The property occupancy status as represented by postal change of address",int,,,
+CalculationDate,"The last date which the record estimated value was calculated",date,,,

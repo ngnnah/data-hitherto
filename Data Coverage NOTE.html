@@ -1,0 +1,684 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Data Coverage!</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="6dde7ba2-619e-479f-b164-330db8c5142b" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">🎲</span></div><h1 class="page-title">Data Coverage!</h1></header><div class="page-body"><p id="af6777fe-1f57-4a5d-a52f-e08568c74912" class="">
+</p><h1 id="6a350ee1-70ff-4ac4-abd7-1fc926e7f190" class="">May, 2022: We want to improve our customer base , hence data coverage, from</h1><p id="4c8559b2-44df-46f2-a270-2341b873a71c" class="">SF52 (50 states + DC + PR)</p><pre id="5f79a7a0-6ad1-42de-8bb4-350294f5725f" class="code"><code>SF52 = {&#x27;01&#x27;: &#x27;AL&#x27;, &#x27;02&#x27;: &#x27;AK&#x27;, &#x27;04&#x27;: &#x27;AZ&#x27;, &#x27;05&#x27;: &#x27;AR&#x27;, &#x27;06&#x27;: &#x27;CA&#x27;, &#x27;08&#x27;: &#x27;CO&#x27;, &#x27;09&#x27;: &#x27;CT&#x27;, &#x27;10&#x27;: &#x27;DE&#x27;, &#x27;11&#x27;: &#x27;DC&#x27;, &#x27;12&#x27;: &#x27;FL&#x27;, &#x27;13&#x27;: &#x27;GA&#x27;, &#x27;15&#x27;: &#x27;HI&#x27;, &#x27;16&#x27;: &#x27;ID&#x27;, &#x27;17&#x27;: &#x27;IL&#x27;, &#x27;18&#x27;: &#x27;IN&#x27;, &#x27;19&#x27;: &#x27;IA&#x27;, &#x27;20&#x27;: &#x27;KS&#x27;, &#x27;21&#x27;: &#x27;KY&#x27;, &#x27;22&#x27;: &#x27;LA&#x27;, &#x27;23&#x27;: &#x27;ME&#x27;, &#x27;24&#x27;: &#x27;MD&#x27;, &#x27;25&#x27;: &#x27;MA&#x27;, &#x27;26&#x27;: &#x27;MI&#x27;, &#x27;27&#x27;: &#x27;MN&#x27;, &#x27;28&#x27;: &#x27;MS&#x27;, &#x27;29&#x27;: &#x27;MO&#x27;, &#x27;30&#x27;: &#x27;MT&#x27;, &#x27;31&#x27;: &#x27;NE&#x27;, &#x27;32&#x27;: &#x27;NV&#x27;, &#x27;33&#x27;: &#x27;NH&#x27;, &#x27;34&#x27;: &#x27;NJ&#x27;, &#x27;35&#x27;: &#x27;NM&#x27;, &#x27;36&#x27;: &#x27;NY&#x27;, &#x27;37&#x27;: &#x27;NC&#x27;, &#x27;38&#x27;: &#x27;ND&#x27;, &#x27;39&#x27;: &#x27;OH&#x27;, &#x27;40&#x27;: &#x27;OK&#x27;, &#x27;41&#x27;: &#x27;OR&#x27;, &#x27;42&#x27;: &#x27;PA&#x27;, &#x27;44&#x27;: &#x27;RI&#x27;, &#x27;45&#x27;: &#x27;SC&#x27;, &#x27;46&#x27;: &#x27;SD&#x27;, &#x27;47&#x27;: &#x27;TN&#x27;, &#x27;48&#x27;: &#x27;TX&#x27;, &#x27;49&#x27;: &#x27;UT&#x27;, &#x27;50&#x27;: &#x27;VT&#x27;, &#x27;51&#x27;: &#x27;VA&#x27;, &#x27;53&#x27;: &#x27;WA&#x27;, &#x27;54&#x27;: &#x27;WV&#x27;, &#x27;55&#x27;: &#x27;WI&#x27;, &#x27;56&#x27;: &#x27;WY&#x27;, &#x27;72&#x27;: &#x27;PR&#x27;}</code></pre><p id="4bfa2691-49cd-4025-9609-4a10c9edc47c" class="">to SF57 = 50 states + DC + 6 territories (PR, VI, AS, GU, MP, UM)</p><pre id="d1f2c40c-ce55-4ea4-8691-33de83c35556" class="code"><code>SF57 = {&#x27;01&#x27;: &#x27;AL&#x27;, &#x27;02&#x27;: &#x27;AK&#x27;, &#x27;04&#x27;: &#x27;AZ&#x27;, &#x27;05&#x27;: &#x27;AR&#x27;, &#x27;06&#x27;: &#x27;CA&#x27;, &#x27;08&#x27;: &#x27;CO&#x27;, &#x27;09&#x27;: &#x27;CT&#x27;, &#x27;10&#x27;: &#x27;DE&#x27;, &#x27;11&#x27;: &#x27;DC&#x27;, &#x27;12&#x27;: &#x27;FL&#x27;, &#x27;13&#x27;: &#x27;GA&#x27;, &#x27;15&#x27;: &#x27;HI&#x27;, &#x27;16&#x27;: &#x27;ID&#x27;, &#x27;17&#x27;: &#x27;IL&#x27;, &#x27;18&#x27;: &#x27;IN&#x27;, &#x27;19&#x27;: &#x27;IA&#x27;, &#x27;20&#x27;: &#x27;KS&#x27;, &#x27;21&#x27;: &#x27;KY&#x27;, &#x27;22&#x27;: &#x27;LA&#x27;, &#x27;23&#x27;: &#x27;ME&#x27;, &#x27;24&#x27;: &#x27;MD&#x27;, &#x27;25&#x27;: &#x27;MA&#x27;, &#x27;26&#x27;: &#x27;MI&#x27;, &#x27;27&#x27;: &#x27;MN&#x27;, &#x27;28&#x27;: &#x27;MS&#x27;, &#x27;29&#x27;: &#x27;MO&#x27;, &#x27;30&#x27;: &#x27;MT&#x27;, &#x27;31&#x27;: &#x27;NE&#x27;, &#x27;32&#x27;: &#x27;NV&#x27;, &#x27;33&#x27;: &#x27;NH&#x27;, &#x27;34&#x27;: &#x27;NJ&#x27;, &#x27;35&#x27;: &#x27;NM&#x27;, &#x27;36&#x27;: &#x27;NY&#x27;, &#x27;37&#x27;: &#x27;NC&#x27;, &#x27;38&#x27;: &#x27;ND&#x27;, &#x27;39&#x27;: &#x27;OH&#x27;, &#x27;40&#x27;: &#x27;OK&#x27;, &#x27;41&#x27;: &#x27;OR&#x27;, &#x27;42&#x27;: &#x27;PA&#x27;, &#x27;44&#x27;: &#x27;RI&#x27;, &#x27;45&#x27;: &#x27;SC&#x27;, &#x27;46&#x27;: &#x27;SD&#x27;, &#x27;47&#x27;: &#x27;TN&#x27;, &#x27;48&#x27;: &#x27;TX&#x27;, &#x27;49&#x27;: &#x27;UT&#x27;, &#x27;50&#x27;: &#x27;VT&#x27;, &#x27;51&#x27;: &#x27;VA&#x27;, &#x27;53&#x27;: &#x27;WA&#x27;, &#x27;54&#x27;: &#x27;WV&#x27;, &#x27;55&#x27;: &#x27;WI&#x27;, &#x27;56&#x27;: &#x27;WY&#x27;, &#x27;60&#x27;: &#x27;AS&#x27;, &#x27;66&#x27;: &#x27;GU&#x27;, &#x27;69&#x27;: &#x27;MP&#x27;, &#x27;72&#x27;: &#x27;PR&#x27;, &#x27;74&#x27;: &#x27;UM&#x27;, &#x27;78&#x27;: &#x27;VI&#x27;}</code></pre><p id="66aa7c67-48ed-468e-bedc-a4e211769ab3" class="">
+</p><h1 id="4fdf12f8-2adb-4b71-898e-4f72fbb8e1dd" class="">Regrid doesn’t have parcel data on these 2 statefips:</h1><pre id="8cb6d267-c43a-4110-81d2-a67aa49fc0c0" class="code code-wrap"><code>{&#x27;AS&#x27; 60, &#x27;UM&#x27; 74}</code></pre><blockquote id="bb443da6-bfe3-4c10-be07-945d0bd66088" class=""></blockquote><ul id="1f18f86e-dc58-47e7-8c03-006eeb8dfe07" class="toggle"><li><details open=""><summary>Regrid parcels covers <strong>SF55</strong> (50 states + DC + PR + VI + GU + MP):</summary><ul id="afa9fc79-5fa8-4052-8179-432257ce94e9" class="bulleted-list"><li style="list-style-type:disc">Based on table_name: <strong>3110</strong> <strong>counties </strong>(likely from TIGER2019-county), <ul id="e897dfa1-46f7-4db6-8bed-b85c4ac4fa4b" class="bulleted-list"><li style="list-style-type:circle">Per REGRID: “Generally if there is a null table_name in verse, the county is not in our dataset.”</li></ul></li></ul><ul id="1217c885-e69f-40eb-8f98-a8ec132adfeb" class="bulleted-list"><li style="list-style-type:disc">But, based on files in our Google geo-bucket, there are <strong>3120</strong> counties! (also covers SF55)  (3120 zips file, plus gs://boss-geo-data/<strong>verse</strong>.geojson.zip)<pre id="c7052b85-1456-4a43-8502-a16098e041ea" class="code"><code>glob(f&quot;/home/nhat/regrid-bucket/{sf}_*.geojson.zip&quot;)</code></pre><pre id="95d37a8d-25b9-4655-b766-71a48d450aa7" class="code code-wrap"><code>diff = {&#x27;ak_aleutians_west&#x27;,
+  &#x27;ak_bethel&#x27;,
+  &#x27;ak_bristol_bay&#x27;,
+  &#x27;il_hardin&#x27;,
+  &#x27;ky_bell&#x27;,
+  &#x27;mi_iosco&#x27;,
+  &#x27;tx_hutchinson&#x27;,
+  &#x27;va_craig&#x27;,
+  &#x27;va_dickenson&#x27;,
+  &#x27;va_rappahannock&#x27;}</code></pre></li></ul></details></li></ul><h1 id="440dc372-be05-458b-8f03-64d3baf44d70" class="">And Attom’s TaxAssessor File (parcel) coverage = Mlab’s coverage = SF51 (50 states + DC), i.e. these are missing statefips:</h1><pre id="3696a0aa-f1e6-4c74-a84e-687e8b994165" class="code code-wrap"><code>as 60 ; gu 66 ; mp 69; pr 72 ; um 74 ; vi 78</code></pre><blockquote id="8bd54417-cde2-4255-895e-a6743ada73c1" class="">Attom parcels include <strong>3141</strong> <strong>counties </strong>(likely from TIGER2010-county), in <strong>SF51</strong> (50 states + DC)</blockquote><h1 id="83cce801-c109-4b09-a83a-fb93a057f6a5" class="">Lastly, as above, ATTOM POI also misses coverage for: AS, GU, MP, PR, UM, VI</h1><p id="da581be6-e0bb-4c05-9c33-9932882c754d" class="">
+</p><h1 id="8252d5b6-0259-49e5-8f3a-2f33175cabdc" class="">Ookla likely has speed tests for all statefips</h1><p id="f7e0a0f6-13d6-44e7-9f54-6688e35bb6e2" class="">
+</p><p id="a33d51b4-19a9-42c0-8f31-7079e657d514" class="">
+</p><h2 id="d18a6a98-dec5-4127-ac5c-1d0f6e3c62e7" class="">TIGER2019/CENSUSBLOCK has no coverage for UM statefips = 74, neither does Elasticsearch bossdata (no bossdata74 index)</h2><p id="de3beac5-3635-411c-bfa1-d40d2f3db491" class="">
+</p></div></article></body></html>

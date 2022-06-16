@@ -1,0 +1,13 @@
+"RT Standard Field Name","Field Definition","Field Data Type","Field Size","Acceptable Value","Value Definition"
+RTPropertyUniqueIdentifier,"A RealtyTrac integer identifier for the property",int,,,
+EstimatedValue,"The AVM (Automated Valuation Model)  value of the property",int,,,
+EstimatedValueLow,"The low range AVM value of the property",int,,,
+EstimatedValueHigh,"The high range AVM value of the property",int,,,
+OpenLoanAmount1,"The mortgage loan/equity amount in the modeled first lien position",int,,,
+OpenLoanDocNumber1,"The document number of the recorder document for the modeled first lien position",varchar,50,,
+OpenLoanAmount2,"The mortgage loan/equity amount in the modeled second lien position ",int,,,
+OpenLoanDocNumber2,"The document number of the recorder document for the modeled second lien position",varchar,50,,
+OpenLoanAmount3,"The mortgage loan/equity amount of in the modeled third lien position",int,,,
+OpenLoanDocNumber3,"The document number of the recorder document for the modeled third lien position",varchar,50,,
+Equity,"The available equity on the property. This value is calculated from Estimated Value minus the sum of OpenLoanAmount1 , OpenLoanAmount2,  and OpenLoanAmount3 fields ",int,,,
+CalculationDate,"The date in which the AVM and Modeled loan data was calculated and updated",date,,,

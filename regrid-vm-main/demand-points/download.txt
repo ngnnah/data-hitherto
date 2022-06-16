@@ -1,0 +1,11 @@
+/home/nhat/mdu/samples/ca_los_angeles.geojson.zip
+/home/nhat/mdu/samples/fl_liberty.geojson.zip
+/home/nhat/mdu/samples/ia_adams.geojson.zip
+/home/nhat/mdu/samples/ma_middlesex.geojson.zip
+/home/nhat/mdu/samples/mo_caldwell.geojson.zip
+/home/nhat/mdu/samples/mo_clinton.geojson.zip
+/home/nhat/mdu/samples/mo_dekalb.geojson.zip
+/home/nhat/mdu/samples/mo_gentry.geojson.zip
+/home/nhat/mdu/samples/ny_kings.geojson.zip
+/home/nhat/mdu/samples/ny_new_york.geojson.zip
+/home/nhat/mdu/samples/tx_loving.geojson.zip

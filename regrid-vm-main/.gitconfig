@@ -1,0 +1,11 @@
+[user]
+	email = ngnnah@gmail.com
+	name = Nhat
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[http]
+	version = HTTP/1.1

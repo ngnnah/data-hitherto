@@ -1,0 +1,52 @@
+,,"Building Permits","Version 4.01"
+No.,"Field Name",Description,"Data Type"
+1,BuildingPermitID,"The unique proprietary identifier assigned to each Building Permit entity.",int
+2,"ATTOM ID","ATTOM Data's Unique parcel identifier.",int
+3,CountyName,"County where the property is situated.",varchar(50)
+4,StateCountyFIPS,"5 digit numeric Federal Information Processing Standard (FIPS) code combining state and county codes where the property is located.",char(5)
+5,PropertyAddressFull,"123 1/2 N Main St  - Full site address line",varchar(150)
+6,PropertyAddressAddressHouseNumber,"123 1/2 N Main St  - Property address house number and fraction.",varchar(25)
+7,PropertyAddressAddressStreetDirection,"123 1/2 N Main St  - Property address pre-directional.",varchar(10)
+8,PropertyAddressAddressStreetName,"123 1/2 N Main St  - Property address street name.",varchar(100)
+9,PropertyAddressAddressStreetSuffix,"123 1/2 N Main St  - Property address street name suffix.",varchar(25)
+10,PropertyAddressAddressStreetPostDirection,"100 Center NW Pl., Unit 4a - Property address post-directional.",varchar(10)
+11,PropertyAddressAddressUnitPrefix,"100 Center NW Pl., Unit 4a - Property address unit number prefix.",varchar(20)
+12,PropertyAddressAddressUnit,"100 Center NW Pl., Unit 4a - Property address unit number.",varchar(25)
+13,PropertyAddressCity,"Anytown CA 90001-0001 CR0523 - Site address city name.     ",varchar(50)
+14,PropertyAddressState,"Anytown CA 90001-0001 CR0523 - Site address state.           ",varchar(2)
+15,PropertyAddressZIP,"Anytown CA 90001-0001 CR0523 - Site address Zip Code.                  ",varchar(5)
+16,PropertyAddressZIP4,"Anytown CA 90001-0001 CR0523 - Site address Zip  Plus 4 code.      ",varchar(4)
+17,PropertyAddressCRRT,"Anytown CA 90001-0001 CR0523 - Site address Carrier Route.",varchar(4)
+18,PropertyAddressInfoPrivacy,"Indicator of whether is a legal restriction on the property address being used for marketing.",smallint
+19,ContactOwnerMailingCounty,"Mailing county of the property.",varchar(50)
+20,ContactOwnerMailingFIPS,"Mailing Federal Information Processing Standard (FIPS) code for the county.",char(5)
+21,ContactOwnerMailAddressFull,"123 1/2 N Main St  - Full mailing address.",varchar(150)
+22,ContactOwnerMailAddressHouseNumber,"123 1/2 N Main St  - Mailing address house number and fraction.",varchar(25)
+23,ContactOwnerMailAddressStreetDirection,"123 1/2 N Main St  - Mailing address pre-directional.",varchar(10)
+24,ContactOwnerMailAddressStreetName,"123 1/2 N Main St  - Mailing address street name.",varchar(100)
+25,ContactOwnerMailAddressStreetSuffix,"123 1/2 N Main St  - Mailing address street name suffix.",varchar(25)
+26,ContactOwnerMailAddressStreetPostDirection,"100 Center NW Pl., Unit 4a - Mailing address post-directional.",varchar(10)
+27,ContactOwnerMailAddressUnitPrefix,"100 Center NW Pl., Unit 4a - Mailing address unit number prefix.",varchar(20)
+28,ContactOwnerMailAddressUnit,"100 Center NW Pl., Unit 4a - Mailing address unit number.",varchar(25)
+29,ContactOwnerMailAddressCity,"Anytown CA 90001-0001 CR0523 - Mailing city.",varchar(50)
+30,ContactOwnerMailAddressState,"Anytown CA 90001-0001 CR0523 - Mailing state.",varchar(2)
+31,ContactOwnerMailAddressZIP,"Anytown CA 90001-0001 CR0523 - Mailing zip code.",varchar(5)
+32,ContactOwnerMailAddressZIP4,"Anytown CA 90001-0001 CR0523 - Mailing zip plus 4 code.",varchar(4)
+33,ContactOwnerMailAddressCRRT,"Anytown CA 90001-0001 CR0523 - Mailing carrier route.",varchar(4)
+34,ContactOwnerMailAddressInfoFormat,"Mailing Standard U.S., PO Box, Rural Route, etc.",varchar(50)
+35,ContactOwnerMailInfoPrivacy,"Non-soliciation flag. ATTOM Data derived. Not associated with DMAA or other databases",varchar(1)
+36,EffectiveDate,"The permit's date of issuance by the building department, unless the permit is in an earlier stage of the building process. If the permit has not been issued yet, EffectiveDate is the date of the most recent stage in the planning process.",date
+37,PermitNumber,"The official permit number as given by the issuing body.",varchar(100)
+38,Status,"The permit's last known stage in the building and approval process. These stages vary by jurisdiction.",varchar(100)
+39,Description,"The description of work requiring the permit, as specified by the project owner on the permit.",text
+40,Type,"The category or type of work the permit is for, as specified by the permit. Values vary by jurisdiction.",varchar(100)
+41,SubType,"The subtype of work the permit is for, as specified by the permit. Values vary by jurisdiction.",varchar(100)
+42,ProjectName,"The project title for the permit, as specified by the project owner on the permit.",text
+43,JobValue,"The job value estimate provided by the contractor on the permit. This value is provided prior to the start of work.",int
+44,Fees,"The building permit fees paid to the presiding building permit authority. In absence of a declared job value, the fees are a reasonable, directional estimate to the size and scale of a project.",int
+45,PermitRequestorName,"Name of the person or company requesting a building permit. May contain multiple names if the permit provides multiple contractors (i.e. ABC Electrical, XYZ Plumbing, LMNOP Roofing).",varchar(100)
+46,OwnerName,"The name of the property owner or person/company for which the work is for, as specified on the permit.",varchar(100)
+47,PublicationDate,"Date the subject file was produced.",date
+,,,
+,,,
+"CONFIDENTIAL.  This document is Confidential Information to ATTOM Data Solutions for your internal use only.  Do not distribute.",,,

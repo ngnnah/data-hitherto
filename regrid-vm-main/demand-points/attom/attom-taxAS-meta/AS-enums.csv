@@ -1,0 +1,2131 @@
+"Tax Assessor Data Code Values",,
+,,
+PropertyAddressInfoPrivacy,,
+,PropertyAddressInfoPrivacy,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Cannot Use for Marketing, Based on Legal Restriction"
+,,
+GeoQuality,,
+,GeoQuality,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,Rooftop
+,1,"Street Level "
+,5,"ZIP Centroid"
+,9,"County Level"
+,,
+TrustDescription,,
+,TrustDescription,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,Estate,"The Owner is an estate"
+,"Name is a Trust","The Owner is a trust"
+,"Not a trust","The Owner is not a Trust"
+,Unknown,"A Determination Cannot be Made"
+,,
+CompanyFlag,,
+,CompanyFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,Y,"The Owner is Determine to be a Company"
+,,
+OwnerTypeDescription1,,
+,OwnerTypeDescription1,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,Individual,"Owned by a person, couple or some non-incorporated entity"
+,Company,Company
+,Deceased,"The owner is deceased"
+,Unknown,"Unable to determine the owner type"
+,Government,"(No longer supported / used)"
+,,
+OwnerTypeDescription2,,
+,OwnerTypeDescription2,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,Individual,"Owned by a person, couple or some non-incorporated entity"
+,Company,Company
+,Deceased,"The owner is deceased"
+,Unknown,"Unable to determine the owner type"
+,Government,"(No longer supported / used)"
+,,
+OwnershipVestingRelationCode,,
+,OwnerVestingRelationCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,101,"Brother And Sister"
+,103,Company
+,104,"Corporate Trust"
+,105,Deceased
+,107,Divorced
+,109,"Husband And Wife"
+,111,"Individual Man"
+,113,"Individual Woman"
+,115,Married
+,117,"Married Couple"
+,118,"Married Man"
+,120,"Married Woman"
+,122,"Personal Trust"
+,123,Single
+,125,"Single Man"
+,127,"Single Woman"
+,129,Trustee
+,130,Trust
+,131,"Unmarried Man"
+,133,Unmarried
+,135,"Unmarried Woman"
+,137,Widow
+,139,Widower
+,141,Heirs
+,142,Single
+,143,Wife
+,144,"Owner has DBA data"
+,145,"Wholly Exempt"
+,146,Association
+,147,"Trustee Corporation"
+,148,"Contract Purchase"
+,149,"Community Property"
+,150,Estate
+,151,Executor
+,152,Guardian
+,153,"Joint Tenant/Joint Tenant W/ Right Of Survivorship"
+,154,"Joint Venture"
+,155,"Lifetime Benefit"
+,156,"Life Estate"
+,157,"Lease From"
+,158,"Limited Partnership"
+,159,"Living Trust"
+,160,"Non Declared Trust"
+,161,"Personal Representative"
+,162,Partnership
+,163,Remainderman
+,164,"Right Of Survivorship"
+,165,"Revocable Trust"
+,166,"Separate Estate/Property"
+,167,"Sole Owner"
+,168,Survivor
+,169,"Tenants In Common"
+,170,Trust
+,171,"Tenant By Entirety"
+,172,"Undivided Interest"
+,173,"Name Derived From Affidavit"
+,174,"Also Known As (AKA)"
+,175,"Doing Business As (DBA)"
+,176,Defendant
+,177,"Dower Clause"
+,178,"Formerly Known As (FKA)"
+,179,Government
+,180,Individual(s)
+,181,"Seller Is Owner On Current Assessment File"
+,182,"Life Tenant (holds A Life Estate Interest Only)"
+,183,"Minor, Ward Or Client (represented By Trustee)"
+,184,"Now Known As"
+,185,"Not Provided (name Blurred Or Missing From Document)"
+,186,"Non-vested Spouse"
+,187,Plaintiff
+,188,Receiver
+,189,"Revocable Living Trust"
+,190,"Surviving Joint Tenant"
+,191,"Successor Trustee (LA County Only)"
+,192,Separated
+,193,"Trustor/Debtor (borrower In Default/Foreclosure On Trustee's Deed)"
+,194,"Who Acquired Title As"
+,195,"Widow Or Widower"
+,196,"Agent Or Guardian"
+,197,"Alternate Beneficiary"
+,198,"Assignee (buyer/borrower only)"
+,199,"Assignor (seller only)"
+,200,"Beneficiary / Creditor - When Doc Type Bd, This Buyer Id Code Identifies The Person Designated To Acquire Title Upon Death Of Grantor."
+,201,Builder/Developer
+,202,"Last Will and Testament"
+,203,"Irrevocable Trust"
+,204,"Irrevocable Living Trust"
+,205,"Joint Tenants"
+,206,"Married Man as his Sole and Separate Property"
+,207,"Married Woman as her Sole and Separate Property"
+,208,Partnership
+,209,"Transfer of Death"
+,210,Tenant
+,211,Trustee/Conservator
+,212,Trust
+,213,"Surviving Tenant by the Entirety"
+,214,"Surviving Spouse"
+,215,"Tax Payer"
+,216,"Domestic Partner"
+,217,"Community Property (Marital Community) with Rights of Survivorship"
+,218,"Et Al (and Others) - Vendor Data Only"
+,219,"Et Ux (and Wife) - Vendor Data Only"
+,220,"Family Living Trust"
+,221,"Family Trust"
+,222,"Family Revocable Trust"
+,223,"Her Husband"
+,224,"Single Person or Individual"
+,225,"His Wife"
+,226,"Et Vir (and Husband)"
+,227,"Contract Owner"
+,228,"Tenants in Severalty"
+,229,"Inter Vivos Trust"
+,230,Spouse
+,,
+,,
+ContactOwnerMailAddressInfoFormat,,
+,ContactOwnerMailAddressInfoFormat,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"4   ",NON-US
+,"A   ",Alias
+,"F   ",Company
+,"G   ","General Delivery"
+,"H   ",Highrise
+,"P   ","PO BOX"
+,"R   ","RURAL  ROUTE"
+,"S   ","STANDARD US"
+,,
+ContactOwnerMailInfoPrivacy,,
+,ContactOwnerMailInfoPrivacy,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Cannot Use for Marketing, Based on Legal Restriction"
+,,
+StatusOwnerOccupiedFlag,,
+,StatusOwnerOccupiedFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,1,"Owner Occupied"
+,Y,"Owner Occupied"
+,0,"Not Owner Occupied or Unknown"
+,,
+PropertyUseGroup,,
+,PropertyUseGroup,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"OTHER / UNKNOWN","The use for the property cannot be determined or is not associated with the other Property Use Groups"
+,"Agriculture / Farming","The general use for the property is for agriculture or farming purposes"
+,Commercial,"The general use for the property is for commercial purposes"
+,Industrial,"The general use for the property is for industrial purposes"
+,"Public Works","Land which may be one of the following: Public spaces (i.e. parks and beaches), public buildings (i.e. schools, hospitals, courthouse), public services (i.e. water treatment, electrical grid/product, dams)"
+,Residential,"The general use for the property is for residential purposes"
+,"Vacant Land","Land which is typically void of any structures or improvements"
+,,
+TaxExemptionHomeownerFlag,,
+,TaxExemptionHomeownerFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has a Homeowner's Exemption filed with the county on subject property"
+,,
+TaxExemptionDisabledFlag,,
+,TaxExemptionDisabledFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has a Disable Person's Exemption filed with the county on subject property"
+,,
+TaxExemptionSeniorFlag,,
+,TaxExemptionSeniorFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has a Senior Citizen's Exemption filed with the county on subject property"
+,,
+TaxExemptionVeteranFlag,,
+,TaxExemptionVeteranFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has a Veteran's Exemption filed with the county on subject property"
+,,
+TaxExemptionWidowFlag,,
+,TaxExemptionWidowFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has a Widower's Exemption filed with the county on subject property"
+,,
+TaxExemptionAdditional,,
+,TaxExemptionAdditional,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,1,"Owner has an ""Other"" Exemption filed with the county on subject property"
+,,
+PropertyUseStandardized,,
+,PropertyUseStandardized,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,101,"DAIRY FARM"
+,102,"DESERT OR BARREN LAND"
+,103,"FARM, CROPS"
+,104,FEEDLOTS
+,105,"FARM (IRRIGATED OR DRY)"
+,106,"HORTICULTURE, ORNAMENTAL (AGRICULTURAL)"
+,107,"IRRIGATION, FLOOD CONTROL"
+,108,"LIVESTOCK, ANIMALS"
+,109,"MISCELLANEOUS STRUCTURES - RANCH, FARM FIXTURES"
+,110,"ORCHARD (FRUIT, NUT)"
+,111,"ORCHARDS, GROVES"
+,112,PASTURE
+,113,"POULTRY FARM (CHICKEN, TURKEY, FISH, BEES, RABBITS)"
+,114,RANCH
+,115,"RESERVOIR, WATER SUPPLY"
+,116,"RURAL IMPROVED / NON-RESIDENTIAL"
+,117,"RANGE LAND (GRAZING)"
+,118,"AGRICULTURAL/RURAL (GENERAL)"
+,119,"TRUCK CROPS"
+,120,"TIMBERLAND, FOREST, TREES"
+,121,VINEYARD
+,122,"WELL SITE (AGRICULTURAL)"
+,123,"WILDLIFE (REFUGE)"
+,124,"CONVENIENCE STORE (7-11)"
+,125,"APPLIANCE STORE (CIRCUIT CITY, GOODS BUYS, BEST BUY)"
+,126,"AUTO REPAIR, GARAGE"
+,127,"VEHICLE SALES, VEHICLE RENTALS (AUTO/TRUCK/RV/BOAT/ETC)"
+,128,BAKERY
+,129,"BAR, TAVERN"
+,130,"COMMERCIAL BUILDING, MAIL ORDER, SHOW ROOM (NON-AUTO), WAREHOUSE"
+,131,"BED & BREAKFAST"
+,132,CASINO
+,133,"CEMETERY, FUNERAL HOME, MORTUARY (COMMERCIAL)"
+,134,"COMMON AREA (COMMERCIAL, NOT SHOPPING CENTER)"
+,135,"COMMERCIAL (GENERAL)"
+,136,"COMMERCIAL OFFICE (GENERAL)"
+,137,"CONVENIENCE STORE (W/FUEL PUMP)"
+,138,"COMMERCIAL CONDOMINIUM (NOT OFFICES)"
+,139,"CONDOMINIUM OFFICES"
+,140,"STORE/OFFICE (MIXED USE)"
+,141,"DEPARTMENT STORE (APPAREL, HOUSEHOLD GOODS, FURNITURE)"
+,142,"DENTAL BUILDING"
+,143,"DEPARTMENT STORE (MULTI-STORY)"
+,144,"GARDEN CENTER, HOME IMPROVEMENT (DO-IT-YOURSELF)"
+,145,"DRUG STORE, PHARMACY"
+,146,"DRIVE-THRU RESTAURANT, FAST FOOD"
+,147,"DRY CLEANER"
+,148,RESTAURANT
+,149,"FARM SUPPLY & EQUIPMENT (COMMERCIAL)"
+,150,"FINANCIAL BUILDING"
+,151,"GROCERY, SUPERMARKET"
+,152,"HOSPITAL - PRIVATE"
+,153,HOTEL/MOTEL
+,154,HOTEL-RESORT
+,155,HOTEL
+,156,KENNEL
+,157,"LAUNDROMAT (SELF-SERVICE)"
+,158,"LIQUOR STORE"
+,159,"MOBILE COMMERCIAL UNITS"
+,160,"MEDICAL BUILDING"
+,161,"MIXED USE (COMMERCIAL/INDUSTRIAL)"
+,162,"MOBILE HOME PARK, TRAILER PARK"
+,163,MOTEL
+,164,"COMMERCIAL MULTI-PARCEL MISCELLANEOUS"
+,165,"COMMERCIAL MISCELLANEOUS"
+,166,"NIGHTCLUB (COCKTAIL LOUNGE)"
+,167,"NEIGHBORHOOD: SHOPPING CENTER, STRIP CENTER, ENTERPRISE ZONE"
+,168,"NURSERY, GREENHOUSE, FLORIST (RETAIL, WHOLESALE)"
+,169,"OFFICE BUILDING"
+,170,"OFFICE BUILDING (MULTI-STORY)"
+,171,"COMMERCIAL OFFICE/RESIDENTIAL (MIXED USE)"
+,172,"PARKING GARAGE, PARKING STRUCTURE"
+,173,"PRINTER - RETAIL (PIP, QWIKCOPY, ETC)"
+,174,"PARKING LOT"
+,175,"DAY CARE, PRE-SCHOOL (COMMERCIAL)"
+,176,"PROFESSIONAL BUILDING (MULTI-STORY)"
+,177,"PROFESSIONAL BUILDING (LEGAL, INSURANCE, REAL ESTATE, BUSINESS)"
+,178,"RETAIL STORES (PERSONAL SERVICES, PHOTOGRAPHY, TRAVEL)"
+,179,"REGIONAL: SHOPPING CENTER, MALL (W/ANCHOR)"
+,180,"GAS STATION"
+,181,"SINGLE FAMILY RESIDENTIAL"
+,182,"SHOPPING CENTER COMMON AREA (PARKING ETC)"
+,183,"COMMUNITY: SHOPPING CENTER, MINI-MALL"
+,184,"SKYSCRAPER/HIGH-RISE (COMMERCIAL OFFICES)"
+,185,"SERVICE STATION W/CONVENIENCE STORE (FOOD MART)"
+,186,"SERVICE STATION (FULL SERVICE)"
+,187,"STORES & APARTMENTS"
+,188,"STORE, RETAIL OUTLET"
+,189,"TAKE-OUT RESTAURANT (FOOD PREPARATION)"
+,190,"TRUCK STOP (FUEL AND DINER)"
+,191,"SERVICE SHOP (TV, RADIO, ELECTRIC, PLUMBING)"
+,192,"VETERINARY, ANIMAL HOSPITAL"
+,193,"CAR WASH"
+,194,"WHOLESALE OUTLET, DISCOUNT STORE (FRANCHISE)"
+,195,"ASSEMBLY (LIGHT INDUSTRIAL)"
+,196,"BULK STORAGE, TANKS (GASOLINE, FUEL, ETC)"
+,197,CANNERY
+,198,"CONSTRUCTION/CONTRACTING SERVICES (INDUSTRIAL)"
+,199,CHEMICAL
+,200,"COMMON AREA (INDUSTRIAL)"
+,201,"CONDOMINIUMS (INDUSTRIAL)"
+,202,"COLD STORAGE"
+,203,"DISTILLERY, BREWERY, BOTTLING"
+,204,"DUMP SITE"
+,205,"FACTORY (APPAREL, TEXTILE, LEATHER, MEDIUM MFG)"
+,206,"FOOD PROCESSING"
+,207,"FOUNDRY, INDUSTRIAL PLANT (METAL, RUBBER, PLASTIC)"
+,208,"FOOD PACKING, PACKING PLANT (FRUIT, VEGETABLE, MEAT, DAIRY)"
+,209,"GRAIN ELEVATOR"
+,210,"HEAVY INDUSTRIAL (GENERAL)"
+,211,"HEAVY MANUFACTURING"
+,212,"INDUSTRIAL (GENERAL)"
+,213,"INDUSTRIAL PARK"
+,214,"LABOR CAMPS (INDUSTRIAL)"
+,215,"LIGHT INDUSTRIAL (10% IMPROVED OFFICE SPACE; MACHINE SHOP)"
+,216,"INDUSTRIAL LOFT BUILDING, LOFT BUILDING"
+,217,"LUMBERYARD, BUILDING MATERIALS"
+,218,"LUMBER & WOOD PRODUCT MFG (INCLUDING FURNITURE)"
+,219,"MARINE FACILITY/BOARD REPAIRS (SMALL CRAFT, SAILBOAT)"
+,220,"MANUFACTURING (LIGHT)"
+,221,"MILL (FEED, GRAIN, PAPER, LUMBER, TEXTILE, PULP"
+,222,"MINING, MINERAL, QUARRIES"
+,223,"INDUSTRIAL MISCELLANEOUS"
+,224,"MULTI-TENANT INDUSTRIAL BUILDING"
+,225,"PAPER PRODUCT MFG & RELATED PRODUCTS"
+,226,"REFINERY, PETROLEUM PRODUCTS"
+,227,"PRINTING * PUBLISHING (LIGHT INDUSTRIAL)"
+,228,"PROCESSING PLANT (MINERALS, CEMENT, ROCK, GRAVEL, GLASS, CLAY)"
+,229,"MINI-WAREHOUSE, STORAGE"
+,230,"QUARRIES (SAND, GRAVEL, ROCK)"
+,231,"R&D FACILITY, LABORATORY, RESEARCH FACILITY, COSMETICS, PHARMACEUTICAL"
+,232,"RECYCLING (METAL, PAPER, GLASS)"
+,233,"SHIPYARD - BUILT OR REPAIRED (SEAGOING VESSELS)"
+,234,"SLAUGHTER HOUSE, STOCKYARD"
+,235,"STORAGE YARD (JUNK, AUTO WRECKING, SALVAGE)"
+,236,"STORAGE YARD, OPEN STORAGE (LIGHT EQUIPMENT, MATERIAL)"
+,237,"SUGAR REFINERY"
+,238,"WAREHOUSE, STORAGE"
+,239,WINERY
+,240,"WASTE DISPOSAL, SEWAGE (PROCESSING, DISPOSAL, STORAGE, TREATMENT)"
+,241,"COMMON AREA (MISC)"
+,242,"EASEMENT (MISC)"
+,243,"HOMESTEAD (MISC)"
+,244,"LEASEHOLD RIGHTS (MISC)"
+,245,"PETROLEUM & GAS WELLS (MISC)"
+,246,"PIPELINE OR RIGHT-OF-WAY"
+,247,"POSSESSORY INTEREST (MISC)"
+,248,"RAIL (RIGHT-OF-WAY & TRACK)"
+,249,"ROAD (RIGHT-OF-WAY)"
+,250,"ROYALTY INTEREST"
+,251,"RIGHT-OF-WAY (NOT RAIL, ROAD OR UTILITY)"
+,252,"SUB-SURFACE RIGHTS (MINERAL)"
+,253,"SURFACE RIGHTS (GRAZING, TIMBER, COAL, ETC.)"
+,254,UNKNOWN
+,255,"UTILITIES (RIGHT-OF-WAY ONLY)"
+,256,"WATER RIGHTS (MISC)"
+,257,"WORKING INTEREST"
+,258,"AIRPORT & RELATED"
+,259,"ARCADES (AMUSEMENT)"
+,260,"ARENA, CONVENTION CENTER"
+,261,AUDITORIUM
+,262,"OUTDOOR RECREATION: BEACH, MOUNTAIN, DESERT"
+,263,"POOL HALL, BILLIARD PARLOR"
+,264,"BOWLING ALLEY"
+,265,"BUS TERMINAL"
+,266,"COMMERCIAL AUTO TRANSPORTATION/STORAGE"
+,267,"COUNTRY CLUB"
+,268,"CENTRALLY ASSESSED"
+,269,"CHARITABLE ORGANIZATION, FRATERNAL"
+,270,"CLUBS, LODGES, PROFESSIONAL ASSOCIATIONS"
+,271,"COMMUNITY CENTER (EXEMPT)"
+,272,COMMUNICATIONS
+,273,"CAMPGROUND, RV PARK"
+,274,"COLLEGE, UNIVERSITY, VOCATIONAL SCHOOL - PRIVATE"
+,275,"CREMATORIUM, MORTUARY (EXEMPT)"
+,276,"CABLE TV STATION"
+,277,"CITY, MUNICIPAL, TOWN, VILLAGE OWNED (EXEMPT)"
+,278,"COUNTY OWNED (EXEMPT)"
+,279,"DANCE HALL"
+,280,"DISTRIBUTION WAREHOUSE (REGIONAL)"
+,281,"DRIVE-IN THEATER"
+,282,"CEMETERY (EXEMPT)"
+,283,"EMERGENCY (POLICE, FIRE, RESCUE, SHELTERS, ANIMAL SHELTER)"
+,284,"EXEMPT (FULL OR PARTIAL)"
+,285,FAIRGROUNDS
+,286,"FEDERAL PROPERTY (EXEMPT)"
+,287,"FISH CAMPS, GAME CLUB TARGET SHOOTING"
+,288,"FOREST (PARK, RESERVE, RECREATION, CONSERVATION)"
+,289,"FREEWAYS, STATE HWYS"
+,290,"DRIVING RANGE (GOLF)"
+,291,"TRANSPORTATION (GENERAL)"
+,292,"GO-CARTS, MINIATURE GOLD, WATER SLIDES"
+,293,"GOLF COURSE"
+,294,"GOVERNMENTAL / PUBLIC USE (GENERAL)"
+,295,"GOVT. ADMINISTRATIVE OFFICE (FEDERAL, STATE, LOCAL, COURT HOUSE)"
+,296,"GYM, HEALTH SPA"
+,297,"HISTORICAL DISTRICT"
+,298,"CULTURAL, HISTORICAL (MONUMENTS, HOMES, MUSEUMS, OTHER)"
+,299,"HISTORICAL TRANSIENT LODGING (HOTEL, MOTEL)"
+,300,"HARBOR & MARINE TRANSPORTATION"
+,301,"HISTORICAL OFFICE"
+,302,"HOSPITAL - PUBLIC"
+,303,"HISTORICAL PARK, SITE, MISC."
+,304,"HISTORICAL - PRIVATE (GENERAL)"
+,305,"HISTORICAL RECREATION, ENTERTAINMENT"
+,306,"HISTORICAL RESIDENCE"
+,307,"HISTORICAL RETAIL"
+,308,"HISTORICAL WAREHOUSE"
+,309,"INDIAN LANDS"
+,310,"INSTITUTIONAL (GENERAL)"
+,311,"MARINA, BOAT SLIPS, YACHT CLUB, BOAT LANDING"
+,312,"MEDICAL CLINIC"
+,313,MICROWAVE
+,314,"MILITARY (OFFICE, BASE, POST, PORT, RESERVE, WEAPON RANGE, TEST SITES)"
+,315,"MISCELLANEOUS (GENERAL)"
+,316,"MUSEUM, LIBRARY, ART GALLERY (RECREATIONAL)"
+,317,"NATURAL RESOURCES"
+,318,"RECREATIONAL NON-TAXABLE (CAMPS, BOY SCOUTS)"
+,319,"CORRECTIONAL FACILITY, JAILS, PRISONS, INSANE ASYLUM"
+,320,"CHILDREN'S HOME, ORPHANAGE"
+,321,"PUBLIC HEALTH CARE FACILITY (EXEMPT)"
+,322,"PARK, PLAYGROUND, PICNIC AREA"
+,323,"PIERS, WHARF (RECREATION)"
+,324,"POLLUTION CONTROL"
+,325,"POST OFFICE"
+,326,"PUBLIC SWIMMING POOL"
+,327,"AMUSEMENT PARK, TOURIST ATTRACTION"
+,328,"PAROCHIAL SCHOOL, PRIVATE SCHOOL"
+,329,"PUBLIC UTILITY (ELECTRIC, WATER, GAS, ETC.)"
+,330,"RAILROAD & RELATED"
+,331,"RACQUET COURT, TENNIS COURT"
+,332,"RECREATIONAL CENTER"
+,333,"REGULATING DISTRICTS & ASSESSMENTS; TAX ABATEMENT"
+,334,"RECREATIONAL/ENTERTAINMENT (GENERAL)"
+,335,"REDEVELOPMENT AGENCY OR ZONE"
+,336,"RELIGIOUS, CHURCH, WORSHIP (SYNAGOGUE, TEMPLE, PARSONAGE)"
+,337,"RIDING STABLE, TRAILS"
+,338,"ROADS, STREETS, BRIDGES"
+,339,"HOMES (RETIRED, HANDICAP, REST, CONVALESCENT, NURSING)"
+,340,"RADIO OR TV STATION"
+,341,"SBE - SPECIAL ASSESSMENTS"
+,342,"PUBLIC SCHOOL (ADMINISTRATION, CAMPUS, DORMS, INSTRUCTION)"
+,343,"SKATING RINK, ICE SKATING, ROLLER SKATING"
+,344,"STATE OWNED (EXEMPT)"
+,345,"SPECIAL PURPOSE"
+,346,STADIUM
+,347,"TELEGRAPH, TELEPHONE"
+,348,"THEATER (MOVIE)"
+,349,"TRANSPORTATION (AIR, RAIL, BUS)"
+,350,"RACE TRACK (AUTO, DOG, HORSE)"
+,351,"TRUCK TERMINAL (MOTOR FREIGHT)"
+,352,"COLLEGES, UNIVERSITY - PUBLIC"
+,353,"PRIVATE UTILITY (ELECTRIC, WATER, GAS, ETC.)"
+,354,"WELFARE, SOCIAL SERVICE, LOW INCOME HOUSING (EXEMPT)"
+,355,ZOO
+,356,"OTHER EXEMPT PROPERTY"
+,357,"GARDEN APT, COURT APT (5+ UNITS)"
+,358,"HIGH-RISE APARTMENTS"
+,359,"APARTMENT HOUSE (100+ UNITS)"
+,360,"APARTMENTS (GENERIC)"
+,361,"APARTMENT HOUSE (5+ UNITS)"
+,362,"BOARDING/ROOMING HOUSE, APT HOTEL"
+,363,"BUNGALOW (RESIDENTIAL)"
+,364,"CLUSTER HOME"
+,365,"COMMON AREA (RESIDENTIAL)"
+,366,CONDOMINIUM
+,367,COOPERATIVE
+,368,"DORMITORY, GROUP QUARTERS (RESIDENTIAL)"
+,369,"DUPLEX (2 UNITS, ANY COMBINATION)"
+,370,"FRATERNITY HOUSE, SORORITY HOUSE"
+,371,"MANUFACTURED, MODULAR, PRE-FABRICATED HOMES"
+,372,"MULTI-FAMILY DWELLINGS (GENERIC, ANY COMBINATION)"
+,373,"MOBILE HOME"
+,374,"RESIDENTIAL MULTI-PARCEL MISCELLANEOUS"
+,375,"MISCELLANEOUS (RESIDENTIAL)"
+,376,"PATIO HOME"
+,377,"PLANNED UNIT DEVELOPMENT (PUD)"
+,378,"QUADPLEX (4 UNITS, ANY COMBINATION)"
+,379,"CONDOMINIUM DEVELOPMENT (ASSOCIATION ASSESSMENT)"
+,380,"RESIDENTIAL (GENERAL/SINGLE)"
+,381,"RESIDENTIAL INCOME (GENERAL/MULTI-FAMILY)"
+,382,"ROW HOUSE"
+,383,"RURAL RESIDENCE"
+,384,"SEASONAL, CABIN, VACATION RESIDENCE"
+,385,"SINGLE FAMILY RESIDENCE"
+,386,TOWNHOUSE
+,387,TIMESHARE
+,388,"TRIPLEX (3 UNITS, ANY COMBINATION)"
+,389,"VACANT LAND"
+,390,"ZERO LOT LINE (RESIDENTIAL)"
+,391,"ABANDONED SITE, CONTAMINATED SITE"
+,392,"AGRICULTURAL (UNIMPROVED) - VACANT LAND"
+,393,"VACANT COMMERCIAL"
+,394,"GOVERNMENT - VACANT LAND"
+,395,"INDUSTRIAL - VACANT LAND"
+,396,"INSTITUTIONAL - VACANT LAND"
+,397,"VACANT MISCELLANEOUS"
+,398,"MULTI-FAMILY - VACANT LAND"
+,399,"PRIVATE PRESERVE, OPEN SPACE - VACANT LAND"
+,400,"RECREATIONAL - VACANT LAND"
+,401,"RESIDENTIAL - VACANT LAND"
+,402,"UNDER CONSTRUCTION"
+,403,"UNUSABLE LAND (REMNANT, STEEP, ETC.)"
+,404,"WASTE LAND, MARSH, SWAMP, SUBMERGED - VACANT LAND"
+,406,"WATER AREA (LAKES, RIVER, SHORE) - VACANT LAND"
+,407,"COMMON AREA (MISC.)"
+,408,"TEMPORARY STRUCTURES"
+,409,"VACANT LAND - EXEMPT"
+,410,"SPORTS COMPLEX"
+,411,"PERSONAL PROPERTY (GENERAL)"
+,412,"PET BOARDING & GROOMING"
+,413,"CROPS (IN GROUND)"
+,414,"STRUCTURES (GENERAL)"
+,415,AIRCRAFT
+,416,LANDOMINIUM
+,417,"SURFACE RIGHTS (GRAZING, TIMBER, COAL, ETC.)"
+,418,"RESIDENTIAL PARKING GARAGE"
+,419,INVENTORY
+,420,"MOTOR VEHICLES (CARS, TRUCKS, ETC.)"
+,421,"CONDOMINIUM BUILDING (RESIDENTIAL)"
+,422,"MISC STRUCTURES NOT OTHERWISE CLASSED (BILLBOARDS, ETC.)"
+,423,BARNDOMINIUM
+,424,"SUB-SURFACE RIGHTS (MINERAL)"
+,425,"GOODS IN TRANSIT"
+,426,"RIGHT-OF-WAY (NOT RAIL, ROAD OR UTILITY)"
+,427,SPACECRAFT
+,428,"RAIL (RIGHT-OF-WAY & TRACK)"
+,429,"STRUCTURES ON LEASED LAND"
+,430,"ROYALTY INTEREST"
+,431,"POSSESSORY INTEREST (MISC.)"
+,432,"WATERCRAFT (SHIPS, BOATS, PWCS, ETC.)"
+,433,"CAR WASH - SELF-SERVE"
+,434,"ROLLING STOCK (RAILROAD)"
+,435,"WATER RIGHTS (MISC.)"
+,436,"MISC PERSONAL PROPERTY NOT OTHERWISE CLASSED"
+,437,"INTANGIBLE PERSONAL PROPERTY"
+,438,"LEASEHOLD RIGHTS (MISC.)"
+,439,"MISC. BUSINESS PERSONAL PROPERTY NOT OTHERWISE CLASSED"
+,440,"HOMESTEAD (MISC.)"
+,441,"VEHICLES (GENERAL)"
+,442,"UTILITIES (RIGHT-OF-WAY ONLY)"
+,443,"PIPELINE OR RIGHT-OF-WAY"
+,444,"MISC VEHICLES NOT OTHERWISE CLASSED (ANTIQUES, ETC.)"
+,445,"BUSINESS PERSONAL PROPERTY (GENERAL)"
+,446,"CROPS (HARVESTED)"
+,447,"TINY HOUSE"
+,448,"RESIDENTIAL STORAGE SPACE"
+,449,"ROADSIDE MARKET"
+,450,"CANNABIS GROW FACILITY"
+,451,CELLULAR
+,452,"GARDEN HOME"
+,453,"VACANT LAND - DESTROYED/UNINHABITABLE IMPROVEMENT"
+,454,"ROAD (RIGHT-OF-WAY)"
+,455,"EQUIPMENT / SUPPLIES"
+,456,"PETROLEUM & GAS WELLS (MISC.)"
+,457,"WORKING INTEREST"
+,458,"CAR WASH - AUTOMATED"
+,459,"CANNABIS DISPENSARY"
+,460,"RECREATIONAL VEHICLES / TRAVEL TRAILERS"
+,461,"COOPERATIVE BUILDING (RESIDENTIAL)"
+,462,"VACANT LAND - UNSPECIFIED IMPROVEMENT"
+,463,"PARCELS WITH IMPROVEMENTS, USE NOT SPECIFIED"
+,464,"BARBER/HAIR SALON"
+,465,"EASEMENT (MISC.)"
+,466,"LIVESTOCK (ANIMALS, FISH, BIRDS, ETC.)"
+,,
+,,
+,,
+,,
+,,
+AreaBuildingDefinitionCode,,
+,AreaBuildingDefinitionCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,10,"Living Area"
+,11,"Heated Area"
+,12,"Adjusted Area"
+,13,"Gross Area"
+,14,"Effective Area"
+,15,"Building Perimeter"
+,16,"Total Area"
+,17,"Base Area"
+,18,Garage
+,19,Attic
+,20,"Finished Area"
+,,
+ParkingCarport,,
+,CarportCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,"UNKNOWN OR NOT PROVIDED"
+,1,YES
+,,
+ParkingGarage,,
+,ParkingGarage,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"UNKNOWN OR NOT PROVIDED"
+,4,"Pole Building Garage"
+,11,"Garage, Attached"
+,12,"Garage, Detached"
+,13,"Garage, Unfinished"
+,14,"Garage, Finished"
+,15,"Garage, Enclosed"
+,16,"Garage, Open"
+,17,"Detached (Unspecified)"
+,18,"Attached (Unspecified)"
+,19,"Detached, Finished"
+,20,"Detached, Unfinished"
+,21,"Attached, Finished"
+,22,"Attached, Unfinished"
+,23,"Detached, 1-Car"
+,24,"Detached, 2-Car"
+,25,"Detached, 3+ Car"
+,26,"Attached, 1-Car"
+,27,"Attached, 2-Car"
+,28,"Attached, 3+ Car"
+,30,"Carport (Unspecified)"
+,31,"Carport, Attached"
+,32,"Carport, Detached"
+,33,"Carport, Enclosed"
+,34,"Carport, Open"
+,35,"Carport, 1-Car"
+,36,"Carport, 2-Car"
+,37,"Carport, 3+ Car"
+,38,"Carport, Finished"
+,39,"Carport, Unfinished"
+,40,"Garage, Basement"
+,41,"Garage, Basement, 1-Car"
+,42,"Garage, Basement, 2-Car"
+,43,"Garage, Basement, 3+ Car"
+,44,"Garage, Basement, Finished"
+,45,"Garage, Basement, Finished, 1-Car"
+,46,"Garage, Basement, Finished, 2-Car"
+,47,"Garage, Basement, Finished, 3+ Car"
+,48,"Garage, Basement, Unfinished"
+,49,"Garage, Basement, Unfinished, 1-Car"
+,50,"Garage, Basement, Unfinished, 2-Car"
+,51,"Garage, Basement, Unfinished, 3+ Car"
+,52,"Garage, Tuckunder"
+,53,"Garage, Built-in"
+,54,"Garage, Built-in, 1-Car"
+,55,"Garage, Built-in, 2-Car"
+,57,"Garage, Built-in, Unfinished"
+,58,"Garage, Built-in, Finished"
+,59,"Garage, 1-Car"
+,60,"Garage, 2-Car"
+,61,"Garage, 3+ Car"
+,62,"Garage, Unfinished, 1-Car"
+,63,"Garage, Unfinished, 2-Car"
+,64,"Garage, Unfinished, 3+ Car"
+,65,"Carport, Detached, Finished"
+,67,"Carport, Detached, Unfinished"
+,68,Covered
+,69,Mixed
+,70,"Garage, Heated"
+,189,"Parking Structure"
+,999,"Type Not Specified"
+,,
+HVACCoolingDetail,,
+,HVACCoolingDetail,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,REFRIGERATOR
+,102,EVAPORATIVE
+,103,CENTRAL
+,104,SOLAR
+,105,REFRIGERATOR/EVAPORATIVE
+,106,"WALL UNIT"
+,107,"REFRIGERATION WALL UNIT"
+,108,"EVAPORATIVE WALL UNIT"
+,109,NONE
+,110,"WINDOW A/C"
+,111,"WINDOW EVAPORATIVE"
+,112,YES
+,113,AC.CENTRAL
+,114,"AC.CHILLED WATER"
+,115,"AC.CENTRAL PARTIAL"
+,116,"AC.CENTRAL & UNIT"
+,117,"AC.DUAL UNIT"
+,118,AC.EVAPORATIVE
+,119,"AC.FAN COOLING"
+,120,"AC.HEAT PUMP"
+,121,"AC.OFFICE ONLY"
+,122,AC.REFRIGERATION
+,123,AC.PACKAGE
+,124,"AC.PACKAGE ROOF"
+,125,AC.PARTIAL
+,126,AC.REFRIGERATION/EVAPORATION
+,127,"AC.SEPARATE SYSTEM"
+,128,AC.SOLAR
+,129,"AC.SPLIT SYSTEM"
+,130,"AC.WALL UNIT"
+,131,"AC.WINDOW UNIT"
+,132,"AC.WALL/WINDOW UNIT"
+,133,AC.NONE
+,134,BYPASS
+,135,"TYPE UNKNOWN"
+,136,"EVAPORATIVE COOLER"
+,137,OTHER
+,138,PARTIAL
+,139,"CHILLED WATER"
+,140,YES
+,141,"AC.COMMERCIAL A/C"
+,,
+HVACHeatingDetail,,
+,HVACHeatingDetail,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,OTHER
+,102,"FORCED AIR"
+,103,BASEBOARD
+,104,GRAVITY
+,105,"HEAT PUMP"
+,106,SOLAR
+,107,"CEILING CABLE"
+,108,CENTRAL
+,109,"FLOOR/WALL FURNACE"
+,110,STEAM
+,111,"HOT WATER"
+,112,RADIANT
+,113,ELECTRIC
+,114,FIREPLACE
+,115,"CEILING FURNACE"
+,116,STOVE
+,117,"FORCED AIR WITH AIR CONDITIONING"
+,118,"FLOOR FURNACE"
+,119,"WALL GAS"
+,120,SPACE
+,121,PACKAGE
+,122,"WOOD FURNACE"
+,219,NONE
+,222,CONVECTION
+,226,PARTIAL
+,229,COAL
+,231,GAS
+,232,OIL
+,236,YES
+,238,ZONE
+,239,"FORCED AIR"
+,243,GEO-THERMAL
+,244,PROPANE
+,,
+HVACHeatingFuel,,
+,HVACHeatingFuel,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,30,COAL
+,80,ELECTRIC
+,90,GAS
+,120,GEO-THERMAL
+,130,"HEAT PUMP"
+,160,"HEAT.ELECTRIC/HOT WATER"
+,300,"LIQUEFIED PETROLEUM GAS"
+,320,OIL
+,340,OTHER
+,350,PROPANE
+,360,SOLAR
+,370,SOLID
+,380,"TYPE UNKNOWN"
+,400,WOOD
+,,
+UtilitiesSewageUsage,,
+,UtilitiesSewageUsage,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,NONE
+,102,YES
+,104,CESSPOOL
+,105,COMMERCIAL
+,106,PRIVATE
+,107,PUBLIC
+,108,SEPTIC
+,109,STORM
+,110,DEVELOPED
+,111,SANITARY
+,112,PUBLIC/SEPTIC
+,113,MUNICIPAL
+,,
+UtilitiesWaterSource,,
+,UtilitiesWaterSource,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,NONE
+,102,"YES - TYPE UNKNOWN"
+,103,BYPASS
+,104,CISTERN
+,105,COMMERCIAL
+,106,PRIVATE
+,107,PUBLIC
+,108,"PUBLIC WELL"
+,109,SPRING/CREEK
+,110,WELL
+,,
+UtilitiesMobileHomeHookupFlag,,
+,UtilitiesWaterSource,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Property has a utility hookup (electric and/or water) for a mobilize home or RV"
+,,
+SafetyFireSprinklersFlag,,
+,SafetyFireSprinklersFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"The property is equipped with a fire-suppression sprinkler system"
+,,
+Foundation,,
+,Foundation,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"NO FOUNDATION"
+,100,"MAT/RAFT FOUNDATION (SLAB)"
+,101,"CONCRETE BEAM & SLAB"
+,200,FOOTING
+,201,"FOOTING - CONTINUOUS/STRIP"
+,202,"FOOTING - SPREAD"
+,300,PILE
+,301,"PILE - CONCRETE"
+,302,"PILE - WOOD/TIMBER"
+,400,"PIER/POST & BEAM"
+,401,"PIER/POST - WOOD"
+,403,"OPEN PIERS"
+,404,"CLOSED PIERS"
+,501,"RAISED (UNSPECIFIED)"
+,510,"STEM WALL/CRAWLSPACE"
+,920,"WOOD (UNSPECIFIED)"
+,921,"STONE  (UNSPECIFIED)"
+,922,"MASONRY  (UNSPECIFIED)"
+,923,"BLOCK (UNSPECIFIED)"
+,924,"BRICK (UNSPECIFIED)"
+,930,"RETAINING WALL"
+,999,"TYPE NOT SPECIFIED"
+,,
+Construction,,
+,Construction,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"TYPE NOT SPECIFIED"
+,2,FRAME
+,7,"LIGHT FRAME"
+,8,"HEAVY FRAME"
+,9,"POLE FRAME"
+,10,WOOD
+,15,"WOOD FRAME"
+,19,"METAL FRAME"
+,19,"METAL FRAME"
+,20,"STEEL FRAME"
+,23,CONCRETE
+,24,"STEEL & CONCRETE"
+,25,"MASONRY/CONCRETE MASONRY UNITS (CMUS)"
+,28,"CONCRETE BLOCKS"
+,31,BRICK
+,38,STONE
+,41,ADOBE
+,42,LOG
+,43,MANUFACTURED
+,46,"TILT-UP CONCRETE"
+,50,ARCHED/DOME
+,99,MIXED
+,,
+InteriorStructure,,
+,InteriorStructure,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,Finished/Painted
+,102,Custom/Decorative
+,103,Combination
+,104,Composition
+,110,"Paneling (Unspecified)"
+,180,Firewall
+,190,Unfinished
+,199,Other
+,201,Wallboard/Drywall
+,202,"Drywall & Plaster"
+,203,"Wood & Drywall"
+,210,"Cement Board"
+,301,"Wood (Unspecified)"
+,302,"Wood, Cedar"
+,303,"Wood, Hardwood"
+,304,"Wood, Pine"
+,305,"Wood, Redwood"
+,310,"Wood Paneling"
+,320,Plywood
+,321,"Plywood Paneling"
+,330,Fiber/Woodboard
+,350,Log
+,360,"Wood Shingle"
+,401,"Masonry (Unspecified)"
+,402,"Block (Unspecified)"
+,410,Brick
+,411,"Brick & Block"
+,412,"Brick & Stone"
+,420,Stone
+,421,"Stone, Marble"
+,430,Concrete
+,431,"Concrete Tilt-Up"
+,432,"Concrete Block"
+,501,Tile
+,590,"Acoustic Tile/Panels"
+,601,Metal
+,602,Tin
+,603,Copper
+,610,"Enameled Metal"
+,701,Plaster
+,702,"Plaster & Masonry"
+,703,"Plaster & Paneling"
+,710,Stucco
+,720,Terrazzo
+,730,Wallpaper
+,740,Formica
+,750,Glass
+,760,"Vinyl Panel/Coating"
+,770,Adobe
+,790,Fiberglass
+,999,"Type Not Specified"
+,,
+ConstructionFireResistanceClass,,
+,ConstructionFireResistanceClass,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"0  ",UNKNOWN
+,101,"Buildings having fireproofed structural steel frames carrying all wall, floor and roof loads.  Wall, floor and roof structures are built of non-combustible materials."
+,102,"Buildings having fireproofed reinforced concrete frames carrying all wall, floor and roof loads which are all non-combustible."
+,103,"Buildings having exterior walls built of a non-combustible material such as brick, concrete, block or poured concrete.  Interior partitions and roof structure are built of combustible materials.  Floor may be concrete or wood frame."
+,104,"Buildings having wood or wood and steel frames."
+,105,"Specialized buildings that do not fit in any of the above categories."
+,,
+FlooringMaterialPrimary,,
+,FlooringMaterialPrimary,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"TYPE UNSPECIFIED"
+,2,CARPET
+,3,VINYL/RESILIENT
+,4,"VINYL TILE (VCT)"
+,6,"VINYL SHEET/LINOLEUM"
+,8,"LAMINATE PLANK"
+,13,"WOOD (UNSPECIFIED)"
+,14,HARDWOOD
+,15,SOFTWOOD
+,16,PARQUET
+,17,PLYWOOD
+,19,"WOOD, PINE"
+,24,CORK
+,28,SLATE
+,29,MARBLE
+,30,GRANITE
+,31,STONE
+,32,"CERAMIC TILE"
+,36,TERRAZZO
+,37,CONCRETE/CEMENT
+,40,"TILE (UNSPECIFIED)"
+,42,BRICK
+,45,"ASBESTOS (TILES, SHEET)"
+,47,EARTH/DIRT
+,60,"COMBINATION, OTHER"
+,61,OTHER
+,62,"STEEL BEAM"
+,63,SUBFLOOR
+,64,COVERED
+,65,"FAUX WOOD TILE"
+,,
+RoomsBonusRoomFlag,,
+,RoomsBonusRoomFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Bonus Room"
+,,
+RoomsBreakfastNookFlag,,
+,RoomsBreakfastNookFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Breakfast Nook"
+,,
+RoomsCellarFlag,,
+,RoomsCellarFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Cellar"
+,,
+RoomsCellarWineFlag,,
+,RoomsCellarWineFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Wine Cellar"
+,,
+RoomsExerciseFlag,,
+,RoomsExerciseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Exercise Room"
+,,
+RoomsFamilyCode,,
+,RoomsFamilyCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Family Room"
+,,
+RoomsGameFlag,,
+,RoomsGameFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Game Room"
+,,
+RoomsGreatFlag,,
+,RoomsGreatFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Great Room"
+,,
+RoomsHobbyFlag,,
+,RoomsHobbyFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Hobby Room"
+,,
+RoomsLaundryFlag,,
+,RoomsLaundryFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Laundry Room"
+,,
+RoomsMediaFlag,,
+,RoomsMediaFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Media Room"
+,,
+RoomsMudFlag,,
+,RoomsMudFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Mud Room"
+,,
+RoomsOfficeFlag,,
+,RoomsOfficeFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Office "
+,,
+RoomsSafeRoomFlag,,
+,RoomsSafeRoomFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Safe Room"
+,,
+RoomsSittingFlag,,
+,RoomsSittingFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Sitting Room"
+,,
+RoomsStormShelter,,
+,RoomsStormShelter,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Storm Shelter"
+,,
+RoomsStudyFlag,,
+,RoomsStudyFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Study"
+,,
+RoomsSunroomFlag,,
+,RoomsSunroomFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Sun Room"
+,,
+RoomsUtilityCode,,
+,RoomsUtilityCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Utility Room"
+,,
+Fireplace,,
+,Fireplace,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,YES
+,2,SINGLE
+,3,BACKED
+,4,STACKED
+,5,CUSTOM
+,6,"GLASS LOG"
+,7,PREFAB
+,8,"FLUE ONLY"
+,9,"SEE THRU"
+,10,"WOOD STOVE"
+,11,ELECTRIC
+,12,"RAISED HEARTH"
+,13,MASONRY
+,14,HEATLTR/CIRCLE
+,15,"CEILING HI BRICK"
+,16,"1 STORY BRICK"
+,17,"2 STORY BRICK"
+,18,"2 STORY"
+,19,DOUBLE
+,,
+AccessabilityElevatorFlag,,
+,AccessabilityElevatorFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Elevator "
+,,
+AccessabilityHandicapFlag,,
+,AccessabilityHandicapFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of Handicapped Accessibility Features Such As Ramps, Wide Doorways, etc."
+,,
+EscalatorFlag,,
+,EscalatorFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,1,"Indicates the presence of an Escalator "
+,,
+CentralVacuumFlag,,
+,CentralVacuumFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Central Vacuum System"
+,,
+ContentIntercomFlag,,
+,ContentIntercomFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Central Intercom System"
+,,
+ContentSoundSystemFlag,,
+,ContentSoundSystemFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Installed Sound System"
+,,
+WetBarFlag,,
+,WetBarFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Wet Bar"
+,,
+SecurityAlarmFlag,,
+,SecurityAlarmFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Security Alarm"
+,,
+StructureStyle,,
+,StructureStyle,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,CONVENTIONAL
+,2,MODERN
+,3,RUSTIC
+,4,SPANISH
+,5,ENGLISH
+,6,FRENCH
+,7,COLONIAL
+,8,CONTEMPORARY
+,9,MOUNTAIN
+,10,A-FRAME
+,11,RANCH
+,12,OTHER
+,13,BUNGALOW
+,14,"CAPE COD"
+,15,"DAYLITE BASEMENT"
+,16,"SPLIT ENTRY"
+,17,"SPLIT LEVEL"
+,18,VICTORIAN
+,19,"MOBILE HOME"
+,20,"SINGLE STORY"
+,21,"2 STORY PLUS"
+,22,"1.5 STORY"
+,23,"MOBILE HOME 24-FEET WIDE"
+,24,"MOBILE HOME 28-FEET WIDE"
+,25,UNFINISHED
+,26,FINISHED
+,27,RAMBLER
+,28,"1.5 STORY FINISHED"
+,29,"1.5 STORY UNFINISHED"
+,30,DOME
+,31,"DUPLEX SINGLE"
+,32,"DUPLEX DOUBLE"
+,33,TRIPLEX
+,34,QUADRAPLEX
+,35,COMMERCIAL
+,36,TOWNHOUSE
+,37,MANSION
+,38,CABIN
+,39,"4 GABLE"
+,40,"SINGLE EAVE"
+,41,"EAVES ON 2 SIDES"
+,42,"EAVES ON 4 SIDES"
+,43,"1 STORY WITH BASEMENT"
+,44,"4 MINIMAL EAVES"
+,45,COTTAGE
+,47,MANUFACTURED
+,48,"NO EAVES"
+,49,"NEW TRADITION"
+,50,TRADITIONAL
+,51,GARRISON
+,52,TUDOR
+,53,"ROW END OR ROW MIDDLE"
+,54,DECKER
+,55,STACK
+,56,"OLD STYLE"
+,57,GAMBREL
+,58,SEMI-DETACHED
+,59,ANTIQUE
+,60,EUROPEAN
+,61,REVIVAL
+,62,SUBURBAN
+,63,"MIXED BUILDINGS"
+,64,"DUTCH COLONIAL"
+,65,"FREE STANDING"
+,66,"LOW RISE"
+,67,"MID RISE"
+,68,"HIGH RISE"
+,69,CONDO/APARTMENT
+,70,HOMESTEAD
+,71,"2.5 STORY"
+,72,"3 STORY"
+,73,"NEW CONSTRUCTION"
+,74,"MULTI-UNIT BUILDING"
+,75,"FAMILY FLAT"
+,76,"TWO FAMILY"
+,77,FEDERALIST
+,78,"COTTAGE HOUSE"
+,79,STUDIO
+,80,LOFT
+,81,PENTHOUSE
+,82,MODULAR
+,83,"SALT BOX"
+,84,"POST AND BEAM"
+,85,CHALET
+,86,"CUSTOM DESIGN"
+,87,"FARM HOUSE"
+,88,"GARAGE APARTMENT"
+,89,"TLOG HOME"
+,90,MEDITERRANEAN
+,91,SOUTHWESTERN
+,103,"RAISED RANCH"
+,110,GEORGIAN
+,125,"SPLIT FOYER"
+,126,BI-LEVEL
+,150,HISTORICAL
+,151,MOBILE/MANUFACTURED
+,152,"TINY HOUSE"
+,,
+Exterior1Code,,
+,Exterior1Code,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0A,UNKNOWN
+,10A,ASBESTOS
+,10B,"EIFS / SYNTHETIC STUCCO"
+,11A,PLYWOOD
+,11B,"FIBER CEMENT SIDING (HARDI-BOARD/HARDI-PLANK)"
+,12B,"CONCRETE TILE"
+,12C,"BRICK VENEER"
+,13A,"STONE VENEER"
+,13B,"CLAY TILE"
+,14A,SHAKE
+,14B,"CERAMIC TILE"
+,15B,"SIDING (NOT SPECIFIED)"
+,15I,LOGS
+,16A,"PROTECTIVE (TREATMENT)"
+,17A,VINYL
+,18V,SHINGLES
+,19A,MARBLECRETE
+,1L,STUCCO
+,20H,GLASS
+,21A,NONE
+,22A,CHANNEL
+,23A,"TONG & GROOVE"
+,24E,COMPOSITION/COMPOSITE
+,25A,RUSTIC
+,26A,"BAT & BOARD"
+,27A,MASONITE
+,28A,RIBBED
+,29A,"OTHER (NOT CLASSIFIED)"
+,2R,SIDING
+,30A,"RIBBED ALUMINUM"
+,31A,"ALUMINUM LAP"
+,32A,"FRAME BRICK"
+,33A,"8 INCH PAINT"
+,34K,STONE
+,35T,ADOBE
+,36A,"STEEL PANEL"
+,37A,PRE-CAST
+,38A,"STRUT FRAME"
+,39A,COMB
+,3B,BRICK
+,40A,CURTAIN
+,41A,"WOOD/STEEL STUD"
+,42A,"SINGLE WALL"
+,43A,"FARM SINGLE"
+,44A,BUTTRESSED
+,45A,"ASPHT SHINGLE"
+,46A,"HARDWOOD SIDING"
+,47P,"WOOD SHINGLE"
+,48D,BLOCK
+,49A,"2X2 FRAME"
+,4Y,"BRICK/STONE (BRICK AND/OR STONE)"
+,50A,"2X3 FRAME"
+,51A,"2X4 FRAME"
+,52A,"2X6 FRAME"
+,53A,MODULAR
+,54A,POLE
+,55A,"BAKED ENAMEL"
+,56A,CEDAR
+,57A,PAPER
+,58A,"CINDER BLOCK"
+,59A,DIAGONAL
+,5G,"CONCRETE BLOCK"
+,60A,HORIZONTAL
+,61A,VERTICAL
+,62A,DROP
+,63A,"LOG 1/2 ROUND"
+,64A,LAP
+,65A,PANEL
+,66A,T111
+,67A,FRAME/STUCCO
+,68A,MASONRY/STUCCO
+,69A,"ALUMINUM SIDING"
+,6A,"SLUMP BLOCK"
+,70A,"BOARD & BATTEN"
+,71A,"FRAME SIDING"
+,72A,"FRAME/SHINGLE SIDING"
+,73A,"WOOD FRAME/SIDING"
+,74A,BRICK/WOOD
+,75A,"BRICK FRAME/STONE"
+,76A,FRAME/MASONRY
+,77A,FRAME/STONE
+,78A,"STONE/WOOD FRAME"
+,79A,BLOCK/MASONRY
+,7Q,WOOD
+,80A,"CONCRETE BLOCK/STUCCO"
+,81F,CONCRETE
+,82A,"CONCRETE/CINDER BLOCK"
+,83N,"PRECAST CONCRETE PANEL"
+,84A,FRAME/WOOD
+,85A,"PREFAB WOOD"
+,86A,"WOOD FRAME"
+,87A,FRAME/ALUMINUM
+,88A,"METAL SIDING"
+,89A,"ASBESTOS FRAME"
+,8A,"BEVEL (FINISHING STYLE)"
+,90A,FRAME/MASONRY/VENEER
+,91A,ALUMINUM/VINYL
+,92A,FRAME/VINYL
+,98X,COMBINATION
+,99A,"WOOD SIDING"
+,9J,METAL
+,,
+RoofMaterial,,
+,RoofMaterial,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,"UNKNOWN OR NOT PROVIDED"
+,102,"Wood Shingle"
+,103,Shake
+,104,Tile
+,105,"Composition Shingle"
+,106,"Roll Composition (rolled Mineral Roof)"
+,107,Gravel
+,108,"Builtup (layered Asphalt)"
+,109,Asphalt
+,110,Slate
+,111,Aluminum
+,112,Metal
+,113,Enamel
+,114,"Other (not Classified)"
+,115,Asbestos
+,116,"Roll Paper (rolled Smooth Roof)"
+,117,"Bi Metal (two-ply)"
+,118,"Heavy Composition Shingle"
+,119,"Light Composition Shingle"
+,120,"Average Composition Shingle"
+,121,Fiberglass
+,122,Galvanized
+,123,"Medium Shake"
+,124,"Bar Tile (Spanish Style)"
+,125,"Clay Tile"
+,126,"Synthetic Tile"
+,127,"Wood Shake/shingle"
+,128,"Concrete Tile"
+,129,Rubber/elastomeric
+,130,"Slate Tile"
+,131,"Wood                       "
+,132,"Hardwood             "
+,133,"Wood.Wood On Steel           "
+,134,"Wood                         "
+,135,"Flat.Wood Shake/Shingle     "
+,136,"Gable.Wood Shake/Shingle  "
+,137,"Hip.Wood Shake             "
+,138,"Hip.Wood Shake/Shingle     "
+,139,"Gambrel.Wood Shake/Shingle   "
+,140,"Wood Shake                 "
+,141,"Cedar Shake              "
+,142,"Wood Shake/Shingle.Wood Joist"
+,143,"Flat.Tile                   "
+,144,"Gable.Tile                "
+,145,"Hip.Tile                   "
+,146,"Mansard.Tile                 "
+,147,"Shed.Tile              "
+,148,"Gambrel.Tile                 "
+,149,"Cement Tile              "
+,150,"Ceramic/Glazed Tile      "
+,151,"Glazed Tile          "
+,152,"A-Frame.Composition Shingle   "
+,153,"Flat.Composition Shingle    "
+,154,"Gable.Composition Shingle   "
+,155,"Hip.Composition Shingle    "
+,156,"Mansard.Composition Shingle  "
+,157,"Composition               "
+,158,"Shingle                    "
+,159,"Composition Shingle/Metal    "
+,160,"Compostion Shingle           "
+,161,"Flat.Composition Roll       "
+,162,"Gable.Composition Roll      "
+,163,"Hip.Composition Roll       "
+,164,"Mansard.Composition Roll     "
+,165,"Gambrel.Composition Roll  "
+,166,"Composition                  "
+,167,"Flat.Tar & Gravel           "
+,168,"Gable.Tar & Gravel        "
+,169,"Hip.Tar & Gravel           "
+,170,"Shed.Tar & Gravel      "
+,171,"Gambrel.Tar & Gravel      "
+,172,"Tar & Gravel               "
+,173,"Crushed Rock         "
+,174,"Gravel & Rock        "
+,175,"Rock                     "
+,176,"Rock & Gravel                 "
+,177,"Stone/Rock                    "
+,178,"Stone/Pebble                  "
+,179,"Stone                         "
+,180,"Roll Tar & Gravel             "
+,181,"Flat.Built Up.Wood          "
+,182,"Built Up.Wood Joist        "
+,183,"Built Up Composition         "
+,184,"Built Up Gypsum              "
+,185,"Built Up Metal           "
+,186,"Built Up Rock            "
+,187,"Built Up Tar & Gravel    "
+,188,"Built Up Wood            "
+,189,"Built-Up Metal/Gypsum    "
+,190,"Built Up Composition/Tar & Gravel"
+,191,"Asphalt Shingle              "
+,192,"Asphalt Shingle.Wood Joist "
+,193,"Asphalt Roll                 "
+,194,"Asphalt Tile                 "
+,195,"Asphalt/Composition          "
+,196,"Asphalt/Composition Shingle  "
+,197,"Flat                          "
+,198,"Flat.Slate/Slag             "
+,199,"Gable.Slate/Slag          "
+,200,"Hip.Slate/Slag             "
+,201,"Mansard.Slate/Slag           "
+,202,"Gambrel.Slate/Slag        "
+,203,"Aluminum/Shingle             "
+,204,"Flat.Metal                    "
+,205,"Flat.Copper                 "
+,206,"Gable.Metal                 "
+,207,"Gable.Steel                 "
+,208,"Gable.Copper                "
+,209,"Hip.Metal                 "
+,210,"Hip.Copper                 "
+,211,"Mansard.Metal                "
+,212,"Shed.Metal                   "
+,213,"Gambrel.Metal             "
+,214,"Gambrel.Copper/Shingle    "
+,215,"Copper                    "
+,216,"Copper/Shingle            "
+,217,"Metal Sheeting             "
+,218,"Aluminum.Steel               "
+,219,"Copper/Metal                 "
+,220,"Corrugated Iron              "
+,221,"Corrugated Metal     "
+,222,"Corrugated Steel     "
+,223,"Metal                "
+,224,"Metal Tile           "
+,225,"Metal/Shingle            "
+,226,"Metal/Tar Paper          "
+,227,"Metal/Tin                "
+,228,"Modular Metal            "
+,229,"Prefinished Metal        "
+,230,"Tin                           "
+,231,"Corrugated Metal/Roll Roofing "
+,232,"Corrugated Metal/Tarpaper      "
+,233,"Galvanized Sheet Metal.Wood Joist"
+,234,"Metal Sheeting.Steel         "
+,235,"Metal Pipe                   "
+,236,"Copper/Enamel Metal Sheeting "
+,237,"A-Frame                       "
+,238,"Barn                          "
+,239,"Canopy                        "
+,240,"Dormer                        "
+,241,"Frame                         "
+,242,"Flat.Concrete                 "
+,243,"Flat.Wood Beam                "
+,244,"Flat.Wood Truss               "
+,245,"Flat.Concrete               "
+,246,"Flat.Shingle                "
+,247,"Gable.Concrete              "
+,248,"Gable.Wood Beam             "
+,249,"Gable.Wood Joist            "
+,250,"Gable.Wood Truss            "
+,251,"Gable                       "
+,252,"Gable.Shingle               "
+,253,"Gable/Hip                 "
+,254,"Hip.Concrete              "
+,255,"Hip.Wood Beam             "
+,256,"Hip.Wood Joist            "
+,257,"Hip.Wood Truss            "
+,258,"Hip                       "
+,259,"Hip.Shingle                "
+,260,"Geodesic                   "
+,261,"Mansard.Concrete           "
+,262,"Mansard.Wood Beam            "
+,263,"Mansard.Wood Joist           "
+,264,"Mansard.Wood Truss           "
+,265,"Mansard                      "
+,266,"Mansard.Shingle              "
+,267,"Barrel                       "
+,268,"Monitor                      "
+,269,"Contemporary                 "
+,270,"Shed.Concrete                "
+,271,"Shed.Wood Beam               "
+,272,"Shed.Wood Joist              "
+,273,"Shed.Wood Truss              "
+,274,"Shed                         "
+,275,"Shed.Concrete                "
+,276,"Shed.Shingle           "
+,277,"Pitched.Concrete       "
+,278,"Pitched                "
+,279,"Pitched.Composition    "
+,280,"Pyramid                "
+,281,"Arched                 "
+,282,"Sawtooth               "
+,283,"Cathedral/Clerestory   "
+,284,"Bubble                 "
+,285,"Gambrel.Concrete       "
+,286,"Gambrel.Wood Beam         "
+,287,"Gambrel.Wood Joist        "
+,288,"Gambrel.Wood Truss        "
+,289,"Gambrel                   "
+,290,"Gambrel/Shingle           "
+,291,"Swiss Chalet/Alpine          "
+,292,"Complex/Custom               "
+,293,"Butterfly                    "
+,294,"Gambrel/Mansard              "
+,295,"Steel Joist/Mtl Deck/Slab    "
+,296,"Bar Joist/Wd Joist/Sheath    "
+,297,"Bar Joist                    "
+,298,"Concrete                     "
+,299,"Bar Joist & Wood Deck        "
+,300,"Wood Frame                     "
+,301,"Bowstring                      "
+,302,"Bar Joist/Gyp/Wd Joist/Sheath  "
+,303,"Conc Jst/Slab/Bar/Jst/Cored Pl "
+,304,"Bar Joist & Concrete Deck      "
+,305,"Bar Joist/Gypsum               "
+,306,"Flexible/Flexicore             "
+,307,"Concrete Joist/Slab            "
+,308,"Reinforced Concrete            "
+,309,"Longspan Truss                 "
+,310,"Prestress Concrete             "
+,311,"Bar Joist & Rigid Frame      "
+,312,"Steel                        "
+,313,"Truss/Joist                  "
+,314,"Stl Jst/Mtl Dck/Slab/Con Jst "
+,315,"Conc Jst/Slab/Stl Jst        "
+,316,"Wood Joist                   "
+,317,"Wood On Steel                "
+,318,"Wood Truss                   "
+,319,"Custom                    "
+,320,"Concrete                  "
+,321,"Gypsum                     "
+,322,"Cement/Composition       "
+,323,"Concrete Deck                "
+,324,"Corrugated Composition       "
+,325,"Concrete.Concrete        "
+,326,"Concrete.Steel           "
+,327,"Plastic/Urethane         "
+,328,"Precast Concrete         "
+,329,"Reinforced Concrete      "
+,330,"Bermuda/Clay Tile/Wood Shingle "
+,331,"Synthetic                      "
+,332,"Bahama/Ceramic Tile/Blt-Up T&G  "
+,333,"Shingle/Tar/Gravel/Roll Slate  "
+,334,"Bermuda/Conc Pl/Bltup T&G      "
+,335,"Gable/Shaped Wood Truss        "
+,336,"Prestressed Concrete           "
+,337,"Gable/Shaped Steel Truss       "
+,338,"Wood Hip/Gable/Wood Truss      "
+,339,"Gypsum.Steel                   "
+,340,"Shingle.Concrete             "
+,341,"Irregular.Wood Truss         "
+,342,"Irregular                    "
+,343,"Lean To                      "
+,344,"Salt Box                     "
+,345,"Dome                         "
+,346,"Flat.Asbestos                 "
+,347,"Gable.Asbestos Shingle      "
+,348,"Hip.Asbestos Shingle      "
+,349,"Mansard.Asbestos Shingle     "
+,350,"Gambrel.Asbestos Shingle  "
+,351,"Asbestos Shingle          "
+,352,"Asbestos/Wood                "
+,353,"Asbestos/Wood/Shingle        "
+,354,"Corrugated Asbestos          "
+,355,"Flat.Roll                   "
+,356,"Gable.Roll                  "
+,357,"Hip.Roll                   "
+,358,"Mansard.Roll                 "
+,359,"Shed.Roll                    "
+,360,"Gambrel/Roll              "
+,361,"Roll                       "
+,362,"Tar Paper                  "
+,363,"Roll.Metal                   "
+,364,"Roll.Wood Joist              "
+,365,"Tar Paper.Metal              "
+,366,"Fiberglass/Plastic   "
+,367,"Clay Tile/Glazed Tile    "
+,368,"Clay Tile/Slate          "
+,369,"Clay/Concrete Tile           "
+,370,"Concrete.Truss/Joist     "
+,371,"Masonite/ Cement Shake"
+,372,Urethane
+,,
+RoofConstruction,,
+,RoofConstruction,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,DORMER
+,103,MONITOR
+,107,BARN
+,108,CANOPY
+,109,FRAME
+,113,GAMBREL/MANSARD
+,115,BUTTERFLY
+,116,COMPLEX/CUSTOM
+,117,CONTEMPORARY
+,118,PITCHED
+,119,ARCHED
+,120,A-FRAME
+,121,BUBBLE
+,124,BARREL
+,125,PYRAMID
+,126,"SWISS CHALET/ALPINE"
+,127,OTHER
+,197,FLAT
+,251,GABLE
+,253,GABLE/HIP
+,258,HIP
+,265,MANSARD
+,274,SHED
+,282,SAWTOOTH
+,283,CATHEDRAL/CLERESTORY
+,289,GAMBREL
+,311,"Rigid Frm Bar Jt"
+,312,"Steel Frm/truss"
+,313,"Bowstring Truss"
+,318,"Wood Truss"
+,320,"Prestress Concrete"
+,329,"Reinforced Concrete"
+,345,"GEODESIC / DOME"
+,,
+ContentStormShutterFlag,,
+,ContentStormShutterFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of Storm Shutters on the Main Structure"
+,,
+ContentOverheadDoorFlag,,
+,ContentOverheadDoorFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Overhead Door "
+,,
+ViewDescription,,
+,ViewDescription,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,A,"FREEWAY PROXIMITY"
+,B,"WATERFRONT-BEACH (OCEAN, RIVER OR LAKE)"
+,C,"CONTAMINATION SITE"
+,D,CUL-DE-SAC
+,E,CORNER
+,H,HISTORICAL
+,I,"SCHOOL PROXIMITY"
+,P,"PROXIMITY TO AIRPORT"
+,R,"PROXIMITY TO RAILROAD"
+,S,"MAJOR STREET/THOROUGHFARE"
+,T,"HIGH TRAFFIC AREA"
+,Z,"FLOOD PLAIN/FLOOD ZONE"
+,AAA,BLUFF
+,BBB,TERRITORY
+,V01,"YES - TYPE UNKNOWN"
+,V01,"YES - TYPE UNKNOWN"
+,VAI,AIRPORT
+,VAV,AVERAGE
+,VBA,BAY
+,VBE,BEST
+,VBR,BETTER
+,VCA,CANAL
+,VCI,CITY
+,VCL,CREEK/LAKE
+,VCN,CANYON
+,VCP,"CONSERVATION / PROTECTED AREA"
+,VCV,CANYON/VALLEY
+,VEX,EXCELLENT
+,VFA,FAIR
+,VGC,"GOLF COURSE"
+,VGO,GOOD
+,VGP,GREENBELT/PARK
+,VGU,GULF
+,VHM,HILLS/MOUNTAINS
+,VHV,HILL/VALLEY
+,VIN,INFERIOR
+,VIT,"INLAND WATERWAY"
+,VIW,"INTERCOASTAL WATERWAY"
+,VLA,LAKE
+,VLG,LAGOON
+,VLP,LAKE/POND
+,VMN,MOUNTAIN
+,VMO,MOUNTAIN/OCEAN
+,VOB,OBSTRUCTED
+,VOC,OCEAN
+,VPA,PARK
+,VPD,POND
+,VPG,PARKING
+,VPI,PRIME
+,VPL,POOL
+,VPM,PREMIUM
+,VPR,POOR
+,VRC,RECREATIONAL
+,VRD,ROAD
+,VRR,RIVER
+,VSD,STANDARD
+,VSN,SUBURBAN
+,VSR,SUPERIOR
+,VST,STREET
+,VTY,TYPICAL
+,VWD,WOODLAND
+,VWR,WATER
+,,
+PorchCode,,
+,PorchCode,Description
+,NULL,UNKOWN
+,P00,PORCH
+,P0Y,"GLASS PORCH"
+,P10,"FINISHED/SCREENED PORCH"
+,PC0,"COVERED PORCH"
+,PE0,"ENCLOSED PORCH"
+,PO0,"OPEN PORCH"
+,PX0,"ENCLOSED/CHATTAHOOCHEE PORCH"
+,,
+DeckFlag,,
+,DeckFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Deck"
+,,
+FeatureBalconyFlag,,
+,FeatureBalconyFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Balcony"
+,,
+BreezewayFlag,,
+,BreezewayFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Breezeway"
+,,
+ParkingRVParkingFlag,,
+,ParkingRVParkingFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a RV Parking Space/Surface"
+,,
+DrivewayMaterial,,
+,DrivewayMaterial,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"D   ",DRIVEWAY
+,"DA  ","DRIVEWAY ASPHALT"
+,"DB  ","DRIVEWAY BOMANITE"
+,"DC  ","DRIVEWAY CHAT"
+,"DK  ","DRIVEWAY BRICK"
+,"DO  ","DRIVEWAY CONCRETE"
+,"DP  ","DRIVEWAY PAVER"
+,"DR  ","DRIVEWAY GRAVEL"
+,"DT  ","DRIVEWAY TILE"
+,,
+Pool,,
+,Pool,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,PUBLIC/MUNICIPAL/COMMERCIAL
+,110,"ABOVE-GROUND POOL"
+,120,"IN-GROUND POOL"
+,121,"IN-GROUND VINYL POOL"
+,130,"INDOOR POOL"
+,210,"POOL, GUNITE"
+,220,"POOL, FIBERGLASS"
+,230,"POOL, CONCRETE"
+,241,"POOL, PLASTIC/VINYL LINED"
+,401,"POOL (UNSPECIFIED), HEATED"
+,402,"POOL, SOLAR HEATED"
+,502,"POOL W/HOT TUB/SPA"
+,610,"POOL (UNSPECIFIED), ENCLOSED"
+,904,"SPA/HOT TUB (ONLY)"
+,999,"TYPE NOT SPECIFIED"
+,,
+ContentSaunaFlag,,
+,ContentSaunaFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Sauna Room"
+,,
+TopographyCode,,
+,TopographyCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,101,"Gentle Slope        "
+,102,"Level               "
+,103,"Rolling             "
+,104,"Steep Side          "
+,105,"Low/Wet             "
+,106,"Combo               "
+,107,"Broken              "
+,108,"Low                 "
+,109,"High                "
+,110,"Wet                "
+,111,"Steep              "
+,112,"Steep/Low          "
+,113,"Steep/Wet          "
+,114,"Underwater         "
+,115,"Other              "
+,116,"Below Road/Slope   "
+,117,"Above Road/Slope   "
+,118,"Above Road/Steep   "
+,119,"Below Road/Steep   "
+,120,"Partially Developed"
+,121,"Needs Development  "
+,122,Rocky
+,123,Marsh
+,124,"Mountain "
+,125,Wooded
+,126,Brushy
+,A,Unknown
+,B,Unknown
+,C,Unknown
+,D,Unknown
+,F,Unknown
+,,
+FenceCode,,
+,FenceCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,"F   ",FENCE
+,"FB  ","BARBED WIRE FENCE"
+,"FC  ","CHAIN LINK FENCE"
+,"FH  ","HURRICANE FENCE"
+,"FI  ","WROUGHT IRON OR IRON FENCE"
+,"FK  ","BRICK FENCE/WALL"
+,"FL  ","CONCRETE BLOCK FENCE/WALL"
+,"FM  ","METAL FENCE"
+,"FP  ","PICKET FENCE"
+,"FR  ","RAIL FENCE"
+,"FS  ","STOCKADE FENCE"
+,"FT  ","STONE FENCE/WALL"
+,"FV  ","VINYL FENCE"
+,"FW  ","WOOD FENCE"
+,"FX  ",COMBO
+,FY,GRAPESTAKE
+,FZ,"SOLID BOARD"
+,XX,OTHER
+,,
+CourtyardFlag,,
+,CourtyardFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Courtyard"
+,,
+ArborPergolaFlag,,
+,ArborPergolaFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Pergola"
+,,
+SprinklersFlag,,
+,SprinklersFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Installed Lawn/Plantings Watering System"
+,,
+GolfCourseGreenFlag,,
+,GolfCourseGreenFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Practice Green"
+,,
+TennisCourtFlag,,
+,TennisCourtFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Tennis Court"
+,,
+SportsCourtFlag,,
+,SportsCourtFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Sport/Basketball Court"
+,,
+ArenaFlag,,
+,ArenaFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Equestrian Arena"
+,,
+WaterFeatureFlag,,
+,WaterFeatureFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Water Feature Such as a Fountain"
+,,
+PondFlag,,
+,PondFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Pond, Including a Koi Pond"
+,,
+BoatLiftFlag,,
+,BoatLiftFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Boat Lift"
+,,
+BathHouseFlag,,
+,BathHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Bath House"
+,,
+BoatAccessFlag,,
+,BoatAccessFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Boat Access/Ramp"
+,,
+BoatHouseFlag,,
+,BoatHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Boat house"
+,,
+CabinFlag,,
+,CabinFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Cabin/Rustic Dwelling"
+,,
+CanopyFlag,,
+,CanopyFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Canopy Area"
+,,
+GazeboFlag,,
+,GazeboFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Gazebo"
+,,
+GraineryFlag,,
+,GraineryFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Grainery"
+,,
+GreenHouseFlag,,
+,GreenHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Greenhouse"
+,,
+GuestHouseFlag,,
+,GuestHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Guest House"
+,,
+KennelFlag,,
+,KennelFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Kennel/Animal Shelter"
+,,
+LeanToFlag,,
+,LeanToFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Lean-To"
+,,
+LoadingPlatformFlag,,
+,LoadingPlatformFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Loading Platform/Dock"
+,,
+MilkHouseFlag,,
+,MilkHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Milk House"
+,,
+OutdoorKitchenFireplaceFlag,,
+,OutdoorKitchenFireplaceFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of an Outdoor Kitchen/Brick Bar-B-Que "
+,,
+PoolHouseFlag,,
+,PoolHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Pool House"
+,,
+PoultryHouseFlag,,
+,PoultryHouseFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Poultry House"
+,,
+QuonsetFlag,,
+,QuonsetFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Quonset Structure/Hut"
+,,
+SiloFlag,,
+,SiloFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Silo"
+,,
+StableFlag,,
+,StableFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Stables"
+,,
+StorageBuildingFlag,,
+,StorageBuildingFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Storage Building"
+,,
+PoleStructureFlag,,
+,PoleStructureFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Pole Building"
+,,
+ShedCode,,
+,ShedCode,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,,Unknown
+,Y,"There is a shed on the property"
+,"Numeric Value (not 0)","The number of sheds on the property."
+,,
+UtilityBuildingFlag,,
+,UtilityBuildingFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"The property has a utility (multi-purpose working building) building on it"
+,,
+CommunityRecRoomFlag,,
+,CommunityRecRoomFlag,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates the presence of a Community Use Building"
+,,
+ParcelShellRecord,,
+,ParcelShellRecord,Description
+,NULL,"UNKNOWN OR NOT PROVIDED"
+,0,UNKNOWN
+,1,"Indicates that the record is a Shell Record Created Using the Contents of the Most Recent Sale"
